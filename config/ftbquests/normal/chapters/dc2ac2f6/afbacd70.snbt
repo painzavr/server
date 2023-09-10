@@ -1,0 +1,35 @@
+{
+	title: "Концерт Кишлака тут?",
+	icon: "minecraft:dragon_egg",
+	x: -11.5d,
+	y: -6.5d,
+	shape: "square",
+	text: [
+		"Странный мир пропитаный мраком или пустотной энергией"
+	],
+	dependencies: [
+		"880ad552"
+	],
+	tasks: [{
+		uid: "df203be4",
+		type: "dimension",
+		title: "Посетите Энд",
+		dim: 1
+	},
+	{
+		uid: "05327d40",
+		type: "xp",
+		value: 50L,
+		points: false
+	}],
+	rewards: [{
+		uid: "bdd58fad",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c9fdf131",
+		type: "random",
+		table: 2
+	}]
+}

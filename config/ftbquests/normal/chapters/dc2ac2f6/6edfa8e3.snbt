@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: 9.5d,
+	text: [
+		"Ботинки которые делают ноги более сильными и менее затратными к возможностям носителя"
+	],
+	dependencies: [
+		"5126b0de"
+	],
+	tasks: [{
+		uid: "dec37c0a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4800b7a3",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "5b17219c",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 25
+	},
+	{
+		uid: "1f282a1b",
+		type: "random",
+		table: 1
+	}]
+}

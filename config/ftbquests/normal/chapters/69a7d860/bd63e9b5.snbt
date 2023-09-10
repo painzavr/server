@@ -1,0 +1,41 @@
+{
+	title: "Биотопливный генератор",
+	x: 7.107142857142861d,
+	y: 5.898809523809518d,
+	text: [
+		"Если переделать еду в жижу можно получить достаточно плотный топливный материал что будет давать энергию во время сгорания"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "cccffb54",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27ee02c2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "5bfb068f",
+		type: "item",
+		item: "mekanism:biofuel",
+		count: 25
+	},
+	{
+		uid: "360c0717",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "2954701e",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 5
+	}]
+}

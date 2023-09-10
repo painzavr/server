@@ -1,0 +1,30 @@
+{
+	title: "Скатертью дорога",
+	x: -2.5d,
+	y: 11.0d,
+	text: [
+		"Брусчатка которая даёт прошедшему по ней небольшое ускорение и ловкость поможет если есть проблемы с передвижением"
+	],
+	dependencies: [
+		"6edfa8e3"
+	],
+	tasks: [{
+		uid: "e439dd00",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "bd08daeb",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "681f2c12",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2",
+		count: 5
+	}]
+}

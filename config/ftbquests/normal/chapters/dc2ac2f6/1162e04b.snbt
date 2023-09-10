@@ -1,0 +1,63 @@
+{
+	title: "Спокойной ночи!",
+	icon: "minecraft:bed",
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"После каждой битвы полагается и отдых"
+	],
+	dependencies: [
+		"23e69b57",
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "a499c7aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "wool",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any wool"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "bd29995f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "27ca12b0",
+		type: "stat",
+		icon: "minecraft:bed 1 14",
+		stat: "stat.sleepInBed",
+		value: 1
+	}],
+	rewards: [{
+		uid: "244adff6",
+		type: "xp",
+		xp: 15
+	}]
+}

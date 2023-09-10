@@ -1,0 +1,52 @@
+{
+	title: "Ученик алхимии",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"В этом разделе ты научишься создавать жизнь и перенаправлять вис энергию в создание большего спектра аспектов мира сего"
+	],
+	dependencies: [
+		"128770fd"
+	],
+	tasks: [{
+		uid: "e20d491c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "1e6b9695",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "victus"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "aca3ec5d",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "tenebrae"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "0b2412d1",
+		type: "item",
+		item: "thaumcraft:filter",
+		count: 2
+	}]
+}

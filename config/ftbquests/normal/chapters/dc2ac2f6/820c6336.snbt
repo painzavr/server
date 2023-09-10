@@ -1,0 +1,44 @@
+{
+	title: "Сдвинь и притяни",
+	x: -3.0d,
+	y: 3.5d,
+	text: [
+		"Забавная получилась штуковина, а ведь ещё столько всего таится в недрах этого чудесного мира"
+	],
+	dependencies: [
+		"243f9cb3",
+		"68cda528"
+	],
+	tasks: [{
+		uid: "bddef7c1",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}],
+		count: 3L
+	},
+	{
+		uid: "6f59bb5b",
+		type: "item",
+		items: [{
+			item: "minecraft:sticky_piston"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f98dda25",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "31b86e43",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8c588f70",
+		type: "item",
+		item: "ic2:crafting 1 1",
+		count: 5
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Да будет свет!",
+	x: 5.398639455782302d,
+	y: 15.228443877551008d,
+	text: [
+		"Для передачи энергии нам потребуються сделать проводку. Логично."
+	],
+	dependencies: [
+		"baa9d650"
+	],
+	tasks: [{
+		uid: "a555c833",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8f3333eb",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "e0bc07bc",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 4
+	}]
+}

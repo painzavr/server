@@ -1,0 +1,75 @@
+{
+	title: "Скафандр атомного инженера",
+	x: -16.5d,
+	y: -5.5d,
+	text: [
+		"Без даного оборудования невозможно изучение уранового исочника энергии. Радиация является очень опасной переменной на пути к абсолютному источнику энергии"
+	],
+	dependencies: [
+		"e7de4f54"
+	],
+	tasks: [{
+		uid: "e3e0c349",
+		type: "item",
+		items: [{
+			item: "ic2:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c2815c0",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ce36bdb",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "076c04d2",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "125fe297",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "7fa6e1ba",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a06b9256",
+		type: "item",
+		item: "minecraft:wool",
+		count: 10
+	},
+	{
+		uid: "5042c674",
+		type: "item",
+		item: "ic2:nuclear 1 2",
+		count: 5
+	},
+	{
+		uid: "52c6e1aa",
+		type: "item",
+		item: "ic2:plate 1 14",
+		count: 5
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	x: 18.17857142857143d,
+	y: 2.6785714285714377d,
+	text: [
+		"Пора соткать шёлк который будет лучше любой синтетики в мире"
+	],
+	dependencies: [
+		"0b83356e"
+	],
+	tasks: [{
+		uid: "f829c3c2",
+		type: "item",
+		items: [{
+			item: "atum:spinning_wheel"
+		}]
+	},
+	{
+		uid: "6dfaa092",
+		type: "item",
+		items: [{
+			item: "atum:linen_thread"
+		}],
+		count: 5L
+	},
+	{
+		uid: "3a032625",
+		type: "item",
+		items: [{
+			item: "atum:linen_cloth"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "15fba9aa",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0c3df91a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f4d4ac20",
+		type: "item",
+		item: "atum:flax_seeds",
+		count: 5
+	},
+	{
+		uid: "6dbda346",
+		type: "item",
+		item: "atum:emmer_seeds",
+		count: 5
+	}]
+}

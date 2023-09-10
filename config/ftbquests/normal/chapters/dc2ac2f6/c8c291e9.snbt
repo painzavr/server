@@ -1,0 +1,42 @@
+{
+	title: "Очки отображающие суть",
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"Нету нужды возится с призмой если можно соеденить две в одну и носить как очки"
+	],
+	dependencies: [
+		"5a7775f3",
+		"128770fd"
+	],
+	tasks: [{
+		uid: "cc8e5ee0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec93767d",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "f43e984a",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 10
+	},
+	{
+		uid: "b33e5975",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	},
+	{
+		uid: "f1838f81",
+		type: "item",
+		item: "thaumcraft:thaumometer"
+	}]
+}

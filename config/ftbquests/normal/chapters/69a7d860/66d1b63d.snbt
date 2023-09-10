@@ -1,0 +1,30 @@
+{
+	title: "Бронзовый век II",
+	x: -10.351360544217684d,
+	y: 12.430824829931971d,
+	text: [
+		"Соединяя два метала можно получить сплав который возьмёт лучшее от обоих"
+	],
+	dependencies: [
+		"354cfb88",
+		"135dff78"
+	],
+	tasks: [{
+		uid: "2714407e",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "f668e00e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "77846875",
+		type: "item",
+		item: "enderio:item_basic_capacitor",
+		count: 5
+	}]
+}

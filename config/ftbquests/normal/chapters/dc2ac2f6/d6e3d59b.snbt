@@ -1,0 +1,30 @@
+{
+	title: "Главное в лесу...",
+	x: 1.0d,
+	y: -4.5d,
+	text: [
+		"В лесу никуда только без трёх вещей: пила-струна, пылесос и топор"
+	],
+	dependencies: [
+		"23e69b57"
+	],
+	tasks: [{
+		uid: "4c627bf4",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c50d07ef",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "3c966f5d",
+		type: "random",
+		table: 0
+	}]
+}

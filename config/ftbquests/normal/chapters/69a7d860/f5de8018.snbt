@@ -1,0 +1,47 @@
+{
+	title: "Надолго ли?",
+	icon: "draconicevolution:chaos_shard",
+	x: 14.5d,
+	y: 5.0d,
+	text: [
+		"Айфон, мак нахуй, а и ще 4 сыра"
+	],
+	dependencies: [
+		"4bbd733e"
+	],
+	tasks: [{
+		uid: "5b7b32e9",
+		type: "kill",
+		title: "Убей Дракона Хаоса",
+		icon: "draconicevolution:chaotic_core",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "db7ca919",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "a0c2bd54",
+		type: "item",
+		item: "ic2:crafting",
+		count: 10
+	},
+	{
+		uid: "bdffc48e",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "80d9cb7c",
+		type: "item",
+		item: "draconicevolution:chaos_shard"
+	},
+	{
+		uid: "18021828",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 5
+	}]
+}

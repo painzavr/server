@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Ледяной дракон",
+	x: 12.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f8fc8db9",
+		type: "kill",
+		title: "Убей ледяного дракона",
+		icon: "iceandfire:dragon_skull 1 1",
+		entity: "iceandfire:icedragon",
+		value: 40L
+	}],
+	rewards: [{
+		uid: "16f77814",
+		type: "random",
+		auto: "enabled",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	dependencies: [
+		"81418d4d"
+	],
+	tasks: [{
+		uid: "9d68cb2f",
+		type: "item",
+		items: [{
+			id: "ic2:electric_treetap",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07258d12",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "527737f1",
+		type: "random",
+		table: 0
+	}]
+}

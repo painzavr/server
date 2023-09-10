@@ -1,0 +1,44 @@
+{
+	title: "Ритуал омывания",
+	icon: "thaumcraft:sanity_soap",
+	x: 2.5d,
+	y: 11.0d,
+	text: [
+		"Пора завязывать с этим искажением. Мыло поможет тебе с этим. Чтобы очистить область от искажения просто засуть воду в ванную и добавь соли, а после сам стань в воду и помойся мылом"
+	],
+	dependencies: [
+		"9895ad5c"
+	],
+	tasks: [{
+		uid: "7cb79320",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_soap"
+		}]
+	},
+	{
+		uid: "6cc1fc26",
+		type: "item",
+		items: [{
+			item: "thaumcraft:spa"
+		}]
+	},
+	{
+		uid: "d484a7f3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "9c1da245",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "015237e7",
+		type: "item",
+		item: "thaumcraft:fabric",
+		count: 15
+	}]
+}

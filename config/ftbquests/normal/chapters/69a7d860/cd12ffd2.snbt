@@ -1,0 +1,35 @@
+{
+	title: "Обновился - зарядился",
+	x: 2.0d,
+	y: -9.0d,
+	text: [
+		"Каждая новая ступень позволит Вам усилить роботу генератора, увеличит хранилище энергоячейки"
+	],
+	dependencies: [
+		"0b7db09b"
+	],
+	tasks: [{
+		uid: "59b990e5",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "c115ae2a",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "e022b4b1",
+		type: "item",
+		item: "thermalfoundation:material 1 66",
+		count: 10
+	},
+	{
+		uid: "413dd368",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 10
+	}]
+}

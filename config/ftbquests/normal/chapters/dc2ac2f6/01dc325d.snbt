@@ -1,0 +1,89 @@
+{
+	title: "Взнос за вынос",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"Занеси мне этих ресурсов и я дам тебе возможность проявить себя"
+	],
+	dependencies: [
+		"20775de2",
+		"c4d10f5e"
+	],
+	tasks: [{
+		uid: "a4b0953d",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 25L,
+		consume_items: true
+	},
+	{
+		uid: "18195fb5",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "ac4d0f44",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 54L,
+		consume_items: true
+	},
+	{
+		uid: "f272ebd0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "530ef869",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "73f4ab61",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumcraft:cultistleader"
+				}
+			}
+		}
+	},
+	{
+		uid: "1967a82c",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumcraft:eldritchgolem"
+				}
+			}
+		}
+	},
+	{
+		uid: "2df4bfad",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumcraft:eldritchwarden"
+				}
+			}
+		}
+	}]
+}

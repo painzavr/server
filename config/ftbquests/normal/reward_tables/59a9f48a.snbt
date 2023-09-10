@@ -1,0 +1,438 @@
+{
+	title: "Редкие награды",
+	icon: "minecraft:iron_ore",
+	loot_size: 1,
+	rewards: [{
+		item: "bloodmagic:incense_altar"
+	},
+	{
+		item: "betternether:cincinnasite_pickaxe"
+	},
+	{
+		item: "ic2:misc_resource 1 2"
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 10
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: "thermalfoundation:ore 1 5",
+		count: 5
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 3
+	},
+	{
+		item: "ic2:ingot 1 1",
+		count: 15
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 2",
+		count: 2
+	},
+	{
+		item: "thaumcraft:jar_normal",
+		count: 15
+	},
+	{
+		item: "appliedenergistics2:material 1 52",
+		count: 10
+	},
+	{
+		item: "thermalfoundation:material 1 892",
+		count: 25
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 15
+	},
+	{
+		item: "minecraft:ender_chest"
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 16
+	},
+	{
+		item: "draconicevolution:draconium_ore 1 2",
+		count: 10
+	},
+	{
+		item: "minecraft:emerald_ore",
+		count: 15
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 2
+	},
+	{
+		item: "ic2:crafting 1 1",
+		count: 5
+	},
+	{
+		item: "ic2:crafting",
+		count: 15
+	},
+	{
+		item: "minecraft:diamond_ore",
+		count: 3
+	},
+	{
+		item: "thaumcraft:ingot",
+		count: 15
+	},
+	{
+		item: {
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 1811,
+					HarvestLevel: 4,
+					Attack: 6.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 1811,
+					HarvestLevel: 4,
+					Attack: 6.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"knightmetal",
+						"knightmetal",
+						"knightmetal"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "twilit",
+					color: -3873106,
+					level: 1
+				},
+				{
+					identifier: "stalwart",
+					color: -3873106,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"twilit",
+					"stalwart",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "mekanismtools:steelsword"
+	},
+	{
+		item: "ic2:dust 1 5",
+		count: 5
+	},
+	{
+		item: "thermalfoundation:material 1 1024",
+		count: 5
+	},
+	{
+		item: "iceandfire:witherbone",
+		count: 3
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		count: 15
+	},
+	{
+		item: "backpack:backpack 1 101"
+	},
+	{
+		item: "ic2:te 1 8",
+		count: 5
+	},
+	{
+		item: "thaumcraft:infusion_matrix"
+	},
+	{
+		item: "thaumcraft:vis_resonator"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		},
+		count: 8
+	},
+	{
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1600
+			},
+			Damage: 1200s
+		},
+		count: 15
+	},
+	{
+		item: "mysticalagriculture:sky_stone_essence",
+		count: 15
+	},
+	{
+		item: "ic2:misc_resource 1 2"
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "cyclicmagic:slingshot_weapon",
+			tag: {}
+		}
+	},
+	{
+		item: "iceandfire:myrmex_jungle_pickaxe"
+	},
+	{
+		item: "ic2:sapling",
+		count: 2
+	},
+	{
+		item: "thermaldynamics:servo 1 1",
+		count: 3
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 5
+	},
+	{
+		item: "minecraft:tnt",
+		count: 15
+	},
+	{
+		item: {
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 60,
+				Mate: {
+					Chromosomes: [{
+						UID1: "forestry.speciesVengeful",
+						UID0: "forestry.speciesVengeful",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedNormal",
+						UID0: "forestry.speedNormal",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLonger",
+						UID0: "forestry.lifespanLonger",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryLargest",
+						UID0: "forestry.territoryLargest",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectRadioactive",
+						UID0: "forestry.effectRadioactive",
+						Slot: 12b
+					}]
+				},
+				Health: 60,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "forestry.speciesVengeful",
+						UID0: "forestry.speciesVengeful",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedNormal",
+						UID0: "forestry.speedNormal",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLonger",
+						UID0: "forestry.lifespanLonger",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryLargest",
+						UID0: "forestry.territoryLargest",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectRadioactive",
+						UID0: "forestry.effectRadioactive",
+						Slot: 12b
+					}]
+				}
+			}
+		}
+	},
+	{
+		item: "twilightforest:fiery_ingot",
+		count: 5
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 14
+	},
+	{
+		item: "botania:manaresource",
+		count: 5
+	},
+	{
+		item: "thermalfoundation:tool.shield_platinum"
+	},
+	{
+		item: "xreliquary:mob_ingredient 1 1",
+		count: 4
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:wither2+"
+			}
+		},
+		count: 15
+	},
+	{
+		item: {
+			id: "thermalinnovation:quiver",
+			tag: {},
+			Damage: 2s
+		}
+	},
+	{
+		xp_levels: 15,
+		type: "xp_levels"
+	},
+	{
+		item: "iceandfire:deathworm_gauntlet_yellow"
+	},
+	{
+		item: "minecraft:cactus",
+		count: 15
+	},
+	{
+		item: "thermalfoundation:ore 1 6",
+		count: 2
+	}]
+}

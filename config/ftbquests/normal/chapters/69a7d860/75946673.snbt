@@ -1,0 +1,58 @@
+{
+	title: "Добро пожаловать!!!",
+	icon: "thermalfoundation:material 1 22",
+	x: 0.0d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"В этом разделе Вы познакомитесь с азами и углубитесь в природу механизмов. Ощутите себя инженером которых и не видел мир"
+	],
+	dependencies: [
+		"0c8319b0"
+	],
+	tasks: [{
+		uid: "fb79e0a7",
+		type: "checkmark",
+		icon: "ic2:crafting 1 38"
+	}],
+	rewards: [{
+		uid: "7b03212e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "694cda8c",
+		type: "item",
+		item: "ic2:ingot 1 2",
+		count: 15
+	},
+	{
+		uid: "ba1f2435",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 15
+	},
+	{
+		uid: "e6cd77f5",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 15
+	},
+	{
+		uid: "653484b2",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 15
+	},
+	{
+		uid: "6c96ead9",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 15
+	},
+	{
+		uid: "151fadbe",
+		type: "item",
+		item: "avaritia:singularity"
+	}]
+}

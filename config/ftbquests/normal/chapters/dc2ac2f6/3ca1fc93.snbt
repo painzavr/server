@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Скелет",
+	x: 4.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ab0a71ec",
+		type: "kill",
+		title: "Убей скелета",
+		icon: "minecraft:skull",
+		entity: "minecraft:skeleton",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "5ebcfc5e",
+		type: "random",
+		auto: "enabled",
+		table: 0
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 6.571428571428569d,
+	y: 1.3869047619047734d,
+	dependencies: [
+		"8164b140",
+		"8645f257"
+	],
+	tasks: [{
+		uid: "1595ae72",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "699bc095",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "68fe9e12",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4e78ae25",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 10
+	}]
+}

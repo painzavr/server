@@ -1,0 +1,29 @@
+{
+	title: "Пусть он копает",
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"Автоматический бур который копает в зависимости от того какая кирка лежит внутри. Также зачарования работают на бур"
+	],
+	dependencies: [
+		"de324b8c",
+		"ca27233c"
+	],
+	tasks: [{
+		uid: "01a33187",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "33732283",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "ea407dcc",
+		type: "random",
+		table: 1
+	}]
+}

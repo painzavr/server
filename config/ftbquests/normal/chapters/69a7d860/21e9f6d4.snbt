@@ -1,0 +1,34 @@
+{
+	title: "Знания древних",
+	x: -6.17278911564626d,
+	y: 10.395110544217694d,
+	text: [
+		"Накладывать заклинания стало вразы проще!"
+	],
+	dependencies: [
+		"4ff70cc5"
+	],
+	tasks: [{
+		uid: "d9c8ed90",
+		type: "item",
+		items: [{
+			item: "enderio:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "cb5a5bc8",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "15d12b04",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		uid: "8b1da651",
+		type: "item",
+		item: "minecraft:writable_book"
+	}]
+}

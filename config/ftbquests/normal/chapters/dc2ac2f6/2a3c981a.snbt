@@ -1,0 +1,32 @@
+{
+	title: "Грибное варево",
+	x: -4.0d,
+	y: -7.5d,
+	text: [
+		"Главное не перепутать куда какой гриб"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "9d6b93bb",
+		type: "item",
+		items: [{
+			item: "minecraft:brown_mushroom"
+		}],
+		count: 10L
+	},
+	{
+		uid: "e33395c5",
+		type: "item",
+		items: [{
+			item: "minecraft:red_mushroom"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "172cc86a",
+		type: "xp",
+		xp: 40
+	}]
+}

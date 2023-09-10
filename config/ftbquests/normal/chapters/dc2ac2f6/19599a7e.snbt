@@ -1,0 +1,36 @@
+{
+	title: "Время готовки",
+	icon: "minecraft:bowl",
+	x: -4.5d,
+	y: -9.0d,
+	text: [
+		"Если соеденить несколько елементов можно насытится по полной програме"
+	],
+	dependencies: [
+		"573c24bd",
+		"2a3c981a"
+	],
+	tasks: [{
+		uid: "0d6bbcbd",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot_soup"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b009dccc",
+		type: "item",
+		items: [{
+			item: "minecraft:mushroom_stew"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf5e5bd4",
+		type: "xp",
+		xp: 25
+	}]
+}

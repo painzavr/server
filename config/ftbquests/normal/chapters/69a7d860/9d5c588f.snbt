@@ -1,0 +1,58 @@
+{
+	title: "4 сезона созревания",
+	x: 1.7319727891156305d,
+	y: 12.704634353741483d,
+	text: [
+		"5 летка за 4 года."
+	],
+	dependencies: [
+		"b2068329"
+	],
+	tasks: [{
+		uid: "22edac7b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "19537421",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "27300ec2",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 200
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "07d69c1c",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 800
+			},
+			Damage: 600s
+		},
+		count: 2
+	},
+	{
+		uid: "2a464bf3",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1400
+			},
+			Damage: 1200s
+		},
+		count: 2
+	}]
+}

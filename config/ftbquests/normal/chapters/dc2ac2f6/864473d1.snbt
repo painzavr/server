@@ -1,0 +1,30 @@
+{
+	title: "Выровнять и сгладить",
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"Хороший инструмент для выравнивания територии под постройку дома самое то"
+	],
+	dependencies: [
+		"23e69b57"
+	],
+	tasks: [{
+		uid: "db8726dc",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dde11d89",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "2b5225ea",
+		type: "random",
+		table: 0
+	}]
+}

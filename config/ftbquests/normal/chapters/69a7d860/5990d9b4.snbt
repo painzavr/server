@@ -1,0 +1,23 @@
+{
+	title: "Запределье и как его достичь",
+	x: -10.0d,
+	y: -9.5d,
+	dependencies: [
+		"fea65337"
+	],
+	tasks: [{
+		uid: "aadc66e5",
+		type: "ic2_energy",
+		value: 80000000L
+	}],
+	rewards: [{
+		uid: "9f86b0c5",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "622df1ee",
+		type: "random",
+		table: 3
+	}]
+}

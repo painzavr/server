@@ -1,0 +1,63 @@
+{
+	title: "Что-то большее",
+	x: -5.0d,
+	y: -1.5d,
+	text: [
+		"После нескольких часов в шахте железа собралось приличное количество руды которую нужно куда-то тратить"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "9cdd0ba9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9842c801",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ebf1b6b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46bd30c9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d263858",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 10
+	},
+	{
+		uid: "6f633bc3",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "dca28d39",
+		type: "random",
+		table: 1
+	}]
+}

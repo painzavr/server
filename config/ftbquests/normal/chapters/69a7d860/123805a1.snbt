@@ -1,0 +1,35 @@
+{
+	title: "Просто с воздуха",
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"Генератор на ветре делает что-то необычайно эфективное для получения энергии"
+	],
+	dependencies: [
+		"7ed92e5d",
+		"fbd8ac50"
+	],
+	tasks: [{
+		uid: "d6e79be6",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 21"
+		}]
+	}],
+	rewards: [{
+		uid: "93c404ef",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "ab46e55c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a427424a",
+		type: "item",
+		item: "ic2:crafting 1 1",
+		count: 2
+	}]
+}

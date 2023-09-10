@@ -1,0 +1,35 @@
+{
+	title: "Подели на части",
+	x: 17.35714285714286d,
+	y: -6.1785714285714235d,
+	text: [
+		"Иногда бывает полезно поделить потоки маны для балансного деления на нужное и ненужное попонение"
+	],
+	dependencies: [
+		"65b1abdf"
+	],
+	tasks: [{
+		uid: "0f6b8240",
+		type: "item",
+		items: [{
+			item: "botania:distributor"
+		}]
+	}],
+	rewards: [{
+		uid: "9fb3de23",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1caedda0",
+		type: "item",
+		item: "botania:livingrock",
+		count: 6
+	},
+	{
+		uid: "122b1a7a",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 3
+	}]
+}

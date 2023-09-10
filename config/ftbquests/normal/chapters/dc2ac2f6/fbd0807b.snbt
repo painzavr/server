@@ -1,0 +1,29 @@
+{
+	title: "Морское чудовище",
+	x: 16.940476190476218d,
+	y: -3.797619047619037d,
+	text: [
+		"Водный житель что бороздит моря и океаны и способен своей силой взлететь над водой на мгновение дать Вам созерцать его рыбное тело"
+	],
+	dependencies: [
+		"062da6d3"
+	],
+	tasks: [{
+		uid: "29043b35",
+		type: "kill",
+		title: "Убейте Левиафана",
+		icon: "iceandfire:seaserpent_skull",
+		entity: "iceandfire:seaserpent",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e68a6e0e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b88a260c",
+		type: "random",
+		table: 4
+	}]
+}

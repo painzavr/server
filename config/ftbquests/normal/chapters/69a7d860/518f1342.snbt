@@ -1,0 +1,34 @@
+{
+	title: "Ручная чёрная дыра",
+	x: -1.5d,
+	y: 4.5d,
+	text: [
+		"Полезная частица для создания чего-то большего что врятли найдёт у Вас практичное приминение вне крафта более сложного материала"
+	],
+	dependencies: [
+		"2dd002a3"
+	],
+	tasks: [{
+		uid: "ff76489b",
+		type: "item",
+		items: [{
+			item: "avaritia:endest_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "b309fc2d",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "56e6a32d",
+		type: "item",
+		item: "avaritia:endest_pearl",
+		count: 2
+	},
+	{
+		uid: "57a800d0",
+		type: "random",
+		table: 4
+	}]
+}

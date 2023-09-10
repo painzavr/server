@@ -1,0 +1,29 @@
+{
+	title: "Эра Стирлинга II",
+	x: -10.708503401360545d,
+	y: 9.645110544217715d,
+	text: [
+		"Создай свою маленькую ТЭС!"
+	],
+	dependencies: [
+		"8da70438"
+	],
+	tasks: [{
+		uid: "faa0813a",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c21602d0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dcc5798b",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 7
+	}]
+}

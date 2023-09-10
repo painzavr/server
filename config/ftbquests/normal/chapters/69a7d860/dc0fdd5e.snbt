@@ -1,0 +1,29 @@
+{
+	title: "Начало автоматизации",
+	x: 1.8867346938775285d,
+	y: 16.78796768707482d,
+	text: [
+		"С помощью этих машин мы можем автоматизировать произвоство многих вещей."
+	],
+	dependencies: [
+		"a9aee2ca"
+	],
+	tasks: [{
+		uid: "350db37c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}],
+	rewards: [{
+		uid: "c5e66d2a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "659246f9",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 15
+	}]
+}

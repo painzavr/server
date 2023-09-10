@@ -1,0 +1,35 @@
+{
+	title: "Добро пожаловать",
+	icon: "minecraft:grass",
+	x: 4.0d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"Вы попали в Ваш новый мир, мои поздравления! Вам предстоит ещё много работы так что за дело!"
+	],
+	tasks: [{
+		uid: "657ccc19",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "71fcad60",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "53fd687b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a28efeb7",
+		type: "item",
+		item: "ftbquests:book"
+	},
+	{
+		uid: "96135728",
+		type: "item",
+		item: "waystones:waystone"
+	}]
+}

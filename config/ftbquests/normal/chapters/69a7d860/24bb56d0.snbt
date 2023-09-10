@@ -1,0 +1,25 @@
+{
+	x: -2.7261904761904816d,
+	y: 7.547619047619051d,
+	dependencies: [
+		"2fcdfb5e"
+	],
+	tasks: [{
+		uid: "7cb13005",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "341c1358",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "04310ffc",
+		type: "item",
+		item: "avaritia:singularity 1 13",
+		count: 2
+	}]
+}

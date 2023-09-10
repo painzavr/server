@@ -1,0 +1,34 @@
+{
+	title: "Первый шаг",
+	x: -3.5d,
+	y: -0.5d,
+	text: [
+		"Первая EU энергия что позволит Вам запитать начальные механизмы вроде дробителя"
+	],
+	dependencies: [
+		"ec2e2f9d"
+	],
+	tasks: [{
+		uid: "e29786f4",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "a42da1c2",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "b2339369",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "086662ad",
+		type: "item",
+		item: "ic2:crafting",
+		count: 14
+	}]
+}

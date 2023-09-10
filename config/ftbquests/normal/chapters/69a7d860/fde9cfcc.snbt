@@ -1,0 +1,34 @@
+{
+	title: "Вся мощь в одном слитке",
+	x: -2.666666666666657d,
+	y: 8.821428571428584d,
+	text: [
+		"Немыслимо большое давление ощущается внутри слитка, а что уже говорить о предметах которые можно отковать при помощи этого метала"
+	],
+	dependencies: [
+		"e641856f"
+	],
+	tasks: [{
+		uid: "734f0158",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "e3dcd464",
+		type: "xp_levels",
+		xp_levels: 150
+	},
+	{
+		uid: "2ac23b34",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 24
+	},
+	{
+		uid: "8c62e876",
+		type: "random",
+		table: 3
+	}]
+}

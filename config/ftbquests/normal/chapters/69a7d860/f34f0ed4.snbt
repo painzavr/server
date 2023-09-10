@@ -1,0 +1,34 @@
+{
+	title: "Мясное наслаждение",
+	x: -0.5d,
+	y: 7.5d,
+	text: [
+		"Ещё одна вещь что выглядит вроде бы сьедобной но лучше не есть этого"
+	],
+	dependencies: [
+		"9166af54"
+	],
+	tasks: [{
+		uid: "0d6d72f4",
+		type: "item",
+		items: [{
+			item: "avaritia:cosmic_meatballs"
+		}]
+	}],
+	rewards: [{
+		uid: "4d579540",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "a93f396a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "65eb4876",
+		type: "item",
+		item: "avaritia:cosmic_meatballs",
+		count: 2
+	}]
+}

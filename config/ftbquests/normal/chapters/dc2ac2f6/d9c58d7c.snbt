@@ -1,0 +1,28 @@
+{
+	title: "Душная кузница",
+	x: -12.0d,
+	y: 8.5d,
+	text: [
+		"Начальный верстак что поможет Вам создавать разные по важности вещи от простых безделушек до совершенно сильных предметов"
+	],
+	dependencies: [
+		"d35053b6"
+	],
+	tasks: [{
+		uid: "789aee04",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "e917cd98",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7505ec10",
+		type: "random",
+		table: 1
+	}]
+}

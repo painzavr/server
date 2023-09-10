@@ -1,0 +1,66 @@
+{
+	title: "Реактор хаоса",
+	x: 15.0d,
+	y: 2.0d,
+	text: [
+		"Реактор способен расколоть пол мира при перегреве. Выхлоп от него поражает воображение, а страх перед взрывом заставляет трепетать сердце"
+	],
+	dependencies: [
+		"cb0812c5",
+		"f5de8018"
+	],
+	tasks: [{
+		uid: "a057c295",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	},
+	{
+		uid: "27a27d8a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component"
+		}],
+		count: 4L
+	},
+	{
+		uid: "147d3b81",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component 1 1"
+		}]
+	},
+	{
+		uid: "7939490b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 8L
+	},
+	{
+		uid: "69f9d9a0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:flow_gate"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a27f26c0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ecc5095b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f4692db4",
+		type: "item",
+		item: "draconicevolution:draconic_ingot",
+		count: 15
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -12.0d,
+	y: 12.5d,
+	dependencies: [
+		"a9fec197",
+		"39fd1452"
+	],
+	tasks: [{
+		uid: "d5aacd41",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d44b1bc1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "87046864",
+		type: "random",
+		table: 2
+	}]
+}

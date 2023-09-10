@@ -1,0 +1,56 @@
+{
+	title: "Пора пресовать",
+	x: -2.0d,
+	y: 6.0d,
+	text: [
+		"Давление в несколько тысяч атмосфер не может не сжать какихто 400 условных блоков железа"
+	],
+	dependencies: [
+		"9166af54",
+		"f34f0ed4",
+		"8b340c00",
+		"40997a7c",
+		"518f1342"
+	],
+	tasks: [{
+		uid: "9f6c5981",
+		type: "item",
+		items: [{
+			item: "avaritia:neutronium_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "95e0e968",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "dc6dc257",
+		type: "item",
+		item: "avaritia:neutron_collector"
+	},
+	{
+		uid: "102e9901",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 7
+	},
+	{
+		uid: "cb587d52",
+		type: "item",
+		item: "avaritia:ultimate_stew",
+		count: 3
+	},
+	{
+		uid: "412cd894",
+		type: "item",
+		item: "avaritia:endest_pearl",
+		count: 3
+	},
+	{
+		uid: "2da69ca7",
+		type: "item",
+		item: "avaritia:cosmic_meatballs",
+		count: 3
+	}]
+}

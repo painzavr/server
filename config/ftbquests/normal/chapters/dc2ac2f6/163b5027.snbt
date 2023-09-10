@@ -1,0 +1,85 @@
+{
+	title: "Сила и серце природы",
+	x: 26.5d,
+	y: 6.0d,
+	text: [
+		"Доспехи что являються полной противоположностью доспехам огня но не будем смортеть наперед, ибо там..."
+	],
+	dependencies: [
+		"39cca214"
+	],
+	tasks: [{
+		uid: "483a30e6",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ade4d2b",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9eac965f",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_leggings",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27b738b7",
+		type: "item",
+		items: [{
+			id: "twilightforest:yeti_boots",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				},
+				{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58e17c81",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "41d79a45",
+		type: "random",
+		table: 2
+	}]
+}

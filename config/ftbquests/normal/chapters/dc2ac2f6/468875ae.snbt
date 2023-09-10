@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Свинозомби",
+	x: 7.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "23dfbb55",
+		type: "kill",
+		title: "Убей свинозомби",
+		icon: "minecraft:gold_nugget",
+		entity: "minecraft:zombie_pigman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "07f9fe65",
+		type: "random",
+		auto: "enabled",
+		table: 1
+	}]
+}

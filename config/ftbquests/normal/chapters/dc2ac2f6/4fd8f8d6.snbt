@@ -1,0 +1,24 @@
+{
+	title: "Заечье лакомство",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		"Любимое лакомство для ушастых животных может пригодится и для выжывальщика"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "ba26d690",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d8717667",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -8.5d,
+	y: 4.5d,
+	dependencies: [
+		"81418d4d"
+	],
+	tasks: [{
+		uid: "b79a5b26",
+		type: "item",
+		items: [{
+			id: "ic2:electric_hoe",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07ae1c00",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "c454a9d3",
+		type: "random",
+		table: 0
+	}]
+}

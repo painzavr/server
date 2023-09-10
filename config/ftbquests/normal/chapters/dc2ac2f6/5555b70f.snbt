@@ -1,0 +1,32 @@
+{
+	x: 30.5d,
+	y: 5.5d,
+	dependencies: [
+		"b6521faa",
+		"8f30f4cb"
+	],
+	tasks: [{
+		uid: "82bc379b",
+		type: "kill",
+		title: "Убейте Гидру",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a6c37f51",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8486644c",
+		type: "item",
+		item: "twilightforest:fiery_blood",
+		count: 15
+	},
+	{
+		uid: "dcc61d48",
+		type: "random",
+		table: 4
+	}]
+}

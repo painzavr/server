@@ -1,0 +1,35 @@
+{
+	title: "Слитки драконов",
+	x: 12.892857142857139d,
+	y: -0.8928571428571317d,
+	text: [
+		"Слитки что были откованы в кузнице под действием дыхания дракона"
+	],
+	dependencies: [
+		"c07543dd"
+	],
+	tasks: [{
+		uid: "cb996efb",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_ingot"
+		}]
+	},
+	{
+		uid: "25e7ed8b",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "18f79cec",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a38863ea",
+		type: "random",
+		table: 3
+	}]
+}

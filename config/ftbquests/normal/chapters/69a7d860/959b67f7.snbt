@@ -1,0 +1,28 @@
+{
+	title: "Улучшение механизма III",
+	x: -6.529931972789107d,
+	y: 14.323681972789103d,
+	text: [
+		"Теперь механизм будет работать быстрее"
+	],
+	dependencies: [
+		"bb2c9d28"
+	],
+	tasks: [{
+		uid: "a4725c83",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "4c1fcfb4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3c917581",
+		type: "random",
+		table: 1
+	}]
+}

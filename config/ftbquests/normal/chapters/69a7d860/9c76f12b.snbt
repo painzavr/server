@@ -1,0 +1,41 @@
+{
+	title: "Путь из обезьяны в человека",
+	x: 2.5d,
+	y: 10.5d,
+	text: [
+		"Босс...Я устал.. Я очень сильно устал."
+	],
+	dependencies: [
+		"15eb6923"
+	],
+	tasks: [{
+		uid: "ec8ebe2b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "b88d1e33",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}],
+	rewards: [{
+		uid: "43afeff4",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "350d0091",
+		type: "item",
+		item: "xreliquary:glowing_water"
+	},
+	{
+		uid: "292d84b3",
+		type: "item",
+		item: "minecraft:bread",
+		count: 2
+	}]
+}

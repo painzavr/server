@@ -1,0 +1,82 @@
+{
+	title: "А что если...",
+	icon: "minecraft:end_portal_frame",
+	x: -10.0d,
+	y: -5.5d,
+	text: [
+		"При составлении жемчуга эндера и пыли свежособраного всполохового стержня изневерглась странная пульсация может это знак?"
+	],
+	dependencies: [
+		"4674a0a4",
+		"ccf35280",
+		"83a9a66c",
+		"49c213c7",
+		"a64acd92",
+		"4d6f1243",
+		"f0c31a0e",
+		"f9a4e109"
+	],
+	tasks: [{
+		uid: "7e922397",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 12L
+	},
+	{
+		uid: "8c9f93d9",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "77f6dd41",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "45472386",
+		type: "kill",
+		title: "Убей Эндермена",
+		icon: "minecraft:iron_sword",
+		entity: "minecraft:enderman",
+		value: 32L
+	},
+	{
+		uid: "5db91c13",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "5c71e0d7",
+		type: "xp",
+		value: 50L,
+		points: false
+	}],
+	rewards: [{
+		uid: "846b9888",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "31c1b01f",
+		type: "item",
+		item: "minecraft:end_portal_frame",
+		count: 12
+	},
+	{
+		uid: "696e4b9f",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Делитель жидкостей",
+	x: 3.095238095238088d,
+	y: 6.577380952380949d,
+	text: [
+		"Делит жидкости на составляющие, что потом в виде газов можно поместить в балоны"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "c08faade",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53903ca6",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c982174f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "630092eb",
+		type: "item",
+		item: "mekanism:electrolyticcore"
+	},
+	{
+		uid: "d1d0449f",
+		type: "random",
+		table: 0
+	}]
+}

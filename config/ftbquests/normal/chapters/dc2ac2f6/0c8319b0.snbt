@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: 3.5d,
+	text: [
+		"Пора поглубже изучить технологии этого мира",
+		"Чтобы перейти к техническим модам нужно закончить этот квест"
+	],
+	dependencies: [
+		"243f9cb3",
+		"820c6336",
+		"f41de86e"
+	],
+	tasks: [{
+		uid: "d5c81fb4",
+		type: "checkmark",
+		title: "Неужели это конец?",
+		icon: "minecraft:repeater"
+	}],
+	rewards: [{
+		uid: "9a920d58",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6797abb5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5b775f26",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 25
+	}]
+}

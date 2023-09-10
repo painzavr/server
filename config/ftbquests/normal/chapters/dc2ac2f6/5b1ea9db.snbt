@@ -1,0 +1,26 @@
+{
+	title: "Иследователь мира",
+	x: 24.5d,
+	y: 0.0d,
+	dependencies: [
+		"5355e882"
+	],
+	tasks: [{
+		uid: "23324e88",
+		type: "stat",
+		title: "Пробежи блоков",
+		icon: "thaumcraft:traveller_boots",
+		stat: "stat.sprintOneCm",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "5885960b",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "26243819",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Руны...",
+	x: 24.89285714285714d,
+	y: -6.940476190476183d,
+	text: [
+		"Рунические знаки имеют свою энергетику что позволит использовать их так как Вам захочется"
+	],
+	dependencies: [
+		"68e717c1"
+	],
+	tasks: [{
+		uid: "3e3ddf68",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "55e09550",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b3f5e223",
+		type: "item",
+		item: "botania:livingrock",
+		count: 5
+	}]
+}

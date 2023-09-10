@@ -1,0 +1,35 @@
+{
+	title: "Путешевствие началось",
+	x: 18.5d,
+	y: 0.5d,
+	text: [
+		"Постройте портал в Атум и бросьте этого жука прямиком в воду"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "bbc2d96e",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22935173",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ecd0df04",
+		type: "item",
+		item: "atum:date"
+	},
+	{
+		uid: "f48cdbe8",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Она тебе всёравно не понадобиться",
+	x: -12.5d,
+	y: 7.0d,
+	text: [
+		"Многие живут и без неё"
+	],
+	dependencies: [
+		"6d9e00f7"
+	],
+	tasks: [{
+		uid: "d687c266",
+		type: "item",
+		items: [{
+			item: "enderio:item_soul_vial"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "29efa257",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "df4bc803",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "865d3f93",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 8
+	}]
+}

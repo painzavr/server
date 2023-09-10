@@ -1,0 +1,34 @@
+{
+	title: "Идеальный баланс",
+	x: -9.0d,
+	y: 6.0d,
+	text: [
+		"Совершенный материал преминений его огромное множество какое именно выберете именно Вы?"
+	],
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "81a72503",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "9997b0ad",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ed94e920",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		uid: "9b940e03",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Без энергии никуда",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Как и в любом техническом моде Вам будет необходима энергия, но вы сможете запитать эти механизмы и при помощи других модов"
+	],
+	dependencies: [
+		"8d58dc52"
+	],
+	tasks: [{
+		uid: "01aff899",
+		type: "item",
+		items: [{
+			item: "draconicevolution:generator"
+		}]
+	}],
+	rewards: [{
+		uid: "0842f561",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "994843e1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "96668426",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 3
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Повелитель змей",
+	x: 26.5d,
+	y: 2.0d,
+	text: [
+		"Первый босс мира Твайлайт Фореста является огромная змея по имени Нага. Её дом по праву считается закрытая область огороженая кирпичным забором"
+	],
+	dependencies: [
+		"66fea394"
+	],
+	tasks: [{
+		uid: "7832988b",
+		type: "kill",
+		title: "Убейте Нагу",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "48705782",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2ed7812f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0c59b07c",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 12
+	}]
+}

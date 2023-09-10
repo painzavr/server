@@ -1,0 +1,23 @@
+{
+	title: "Ужин для троих",
+	x: 1.0d,
+	y: -11.0d,
+	text: [
+		"Животные прекрасный способ добыть еду не так ли?"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "f6fd14b0",
+		type: "stat",
+		icon: "minecraft:egg",
+		stat: "stat.animalsBred",
+		value: 5
+	}],
+	rewards: [{
+		uid: "29190cc6",
+		type: "xp",
+		xp: 20
+	}]
+}

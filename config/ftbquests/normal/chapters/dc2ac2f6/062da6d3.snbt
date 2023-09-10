@@ -1,0 +1,45 @@
+{
+	title: "В поисках драконов",
+	x: 17.75d,
+	y: -1.9880952380952266d,
+	text: [
+		"Древние останки драконов всё ещё лежат на поверхности мира сего, а значит дают шанс получше узнать природу этих существ"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "1a98cf50",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}],
+		count: 15L
+	},
+	{
+		uid: "b5ba9a0a",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_skull"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa1f5998",
+		type: "item",
+		items: [{
+			item: "iceandfire:manuscript"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "4fafd5f6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f87b801b",
+		type: "random",
+		table: 0
+	}]
+}

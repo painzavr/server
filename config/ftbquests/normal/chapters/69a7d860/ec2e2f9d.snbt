@@ -1,0 +1,64 @@
+{
+	title: "IC 2: Начало",
+	icon: "ic2:crafting 1 38",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"В моде про механизмы никак без инструментов что позволят Вам создавать различные пластины и провода"
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "256587a4",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b36b2920",
+		type: "item",
+		items: [{
+			item: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "402dd919",
+		type: "item",
+		items: [{
+			item: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99f564e0",
+		type: "item",
+		items: [{
+			item: "ic2:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4bd4dbf8",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "b4866ee9",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "09f3fa33",
+		type: "item",
+		item: "ic2:sapling",
+		count: 5
+	}]
+}

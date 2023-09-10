@@ -1,0 +1,29 @@
+{
+	title: "Призрачное сражение",
+	x: 30.5d,
+	y: 7.0d,
+	text: [
+		"Останки былых властвователей мира захоронены в гробнице рыцарского легиона, прихватите с собой пару трофеев и быть может Вам выпадет шанс победить даных реликтов"
+	],
+	dependencies: [
+		"5b8bc843"
+	],
+	tasks: [{
+		uid: "884b0ea5",
+		type: "kill",
+		title: "Убей Призрак рыцаря",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fc402606",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "995801d4",
+		type: "random",
+		table: 2
+	}]
+}

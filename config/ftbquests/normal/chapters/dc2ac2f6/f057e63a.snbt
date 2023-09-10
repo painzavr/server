@@ -1,0 +1,55 @@
+{
+	title: "Самогон местного разлива",
+	x: 3.0d,
+	y: 8.0d,
+	text: [
+		"Отплавить несколько предметов в эсенцию звучит как прекрасная идея"
+	],
+	dependencies: [
+		"5a7775f3"
+	],
+	tasks: [{
+		uid: "70fe89c8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	},
+	{
+		uid: "274fc4a5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "7a52621f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "e5cde23a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "229d92e4",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 15
+	},
+	{
+		uid: "b7e1c1b3",
+		type: "item",
+		item: "thaumcraft:nitor_red",
+		count: 2
+	},
+	{
+		uid: "5b0f9527",
+		type: "item",
+		item: "thaumcraft:alembic",
+		count: 3
+	}]
+}

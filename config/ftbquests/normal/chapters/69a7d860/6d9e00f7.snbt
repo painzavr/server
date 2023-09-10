@@ -1,0 +1,52 @@
+{
+	title: "Откуда ОНИ берутся?",
+	x: -10.815646258503406d,
+	y: 7.645110544217701d,
+	text: [
+		"Рассадник монстров? Это в будущем может нам пригодиться, что может быть лучше личной армии монстров?"
+	],
+	dependencies: [
+		"4ff70cc5"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "c82d7b76",
+		type: "item",
+		items: [{
+			id: "enderio:item_broken_spawner",
+			tag: {
+				entityId: "minecraft:zombie"
+			}
+		}]
+	},
+	{
+		uid: "becc0299",
+		type: "item",
+		items: [{
+			id: "enderio:item_broken_spawner",
+			tag: {
+				entityId: "minecraft:skeleton"
+			}
+		}]
+	},
+	{
+		uid: "9cf8b98b",
+		type: "item",
+		items: [{
+			id: "enderio:item_broken_spawner",
+			tag: {
+				entityId: "minecraft:cave_spider"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "59ce275f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c553b79b",
+		type: "random",
+		table: 1
+	}]
+}

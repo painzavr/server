@@ -1,0 +1,31 @@
+{
+	title: "Камень небес",
+	x: 3.303401360544214d,
+	y: 11.752253401360527d,
+	text: [
+		"Из этого камня что-то точно можно сделать. Но что ?"
+	],
+	dependencies: [
+		"9c76f12b"
+	],
+	tasks: [{
+		uid: "c0d637b6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 16L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "7004c1a5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fc9697fb",
+		type: "item",
+		item: "appliedenergistics2:sky_stone_block",
+		count: 15
+	}]
+}

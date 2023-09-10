@@ -1,0 +1,58 @@
+{
+	title: "Эгида солнечного пламени",
+	x: 27.5d,
+	y: 5.0d,
+	text: [
+		"Полная защита носителя и дополнительный урон нападавшему. Лучше не шутить с такими доспехами"
+	],
+	dependencies: [
+		"5b8bc843",
+		"5555b70f"
+	],
+	tasks: [{
+		uid: "d085c77d",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c24c942b",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f599355a",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "effa49b5",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91ce240d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0559202d",
+		type: "random",
+		table: 1
+	}]
+}

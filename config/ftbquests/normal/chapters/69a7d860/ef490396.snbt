@@ -1,0 +1,36 @@
+{
+	title: "Плотно",
+	x: -1.9704081632653327d,
+	y: 16.109396258503388d,
+	text: [
+		"с новым МЭ контролером мы можем работать с большим количеством потоков и наших устройств"
+	],
+	dependencies: [
+		"a9aee2ca"
+	],
+	tasks: [{
+		uid: "b7d1d8e3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "b347cab6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9f75c1a4",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 5
+	},
+	{
+		uid: "49e04018",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 5
+	}]
+}

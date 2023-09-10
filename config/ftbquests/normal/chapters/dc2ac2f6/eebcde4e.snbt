@@ -1,0 +1,31 @@
+{
+	title: "Куда не глянь",
+	x: 3.5d,
+	y: 5.0d,
+	text: [
+		"В последствии у Вас появится ещё очень много линз, а куда их ложить? "
+	],
+	dependencies: [
+		"3c9d44ee"
+	],
+	tasks: [{
+		uid: "19154777",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ede9b6b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4d51291b",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 15
+	}]
+}

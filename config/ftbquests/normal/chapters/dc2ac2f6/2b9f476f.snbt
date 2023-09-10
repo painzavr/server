@@ -1,0 +1,46 @@
+{
+	title: "Древесные рога",
+	x: 19.89285714285714d,
+	y: -5.083333333333336d,
+	text: [
+		"Рога что позволяют ломать снег, листву и коечто ещё"
+	],
+	dependencies: [
+		"b36f90df"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "bc6312e6",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db5732b5",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2b9684d",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65f644b8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b103fbea",
+		type: "item",
+		item: "botania:manaresource 1 2"
+	}]
+}

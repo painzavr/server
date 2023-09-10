@@ -1,0 +1,34 @@
+{
+	title: "Резонирующая пружина ротора",
+	x: 8.0d,
+	y: -6.0d,
+	text: [
+		"После установки пружины которая сможет выдержать нагрузки никелевой головки Вы наконец-то получили лучший бур из своей категории"
+	],
+	dependencies: [
+		"7387f68e"
+	],
+	tasks: [{
+		uid: "63b793e4",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "876699e5",
+		type: "xp_levels",
+		xp_levels: 25
+	},
+	{
+		uid: "084f718c",
+		type: "random",
+		table: 3
+	}]
+}

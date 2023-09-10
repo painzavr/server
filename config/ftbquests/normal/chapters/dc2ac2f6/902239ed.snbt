@@ -1,0 +1,30 @@
+{
+	title: "Подробим немного",
+	x: 29.583333333333357d,
+	y: -1.5d,
+	text: [
+		"Чтобы лучше смешать ингридиенты во многих крафтах нужно совмещать пыль лепестков которую просто руками не перемолоть"
+	],
+	dependencies: [
+		"b45a9ceb"
+	],
+	tasks: [{
+		uid: "648f5c00",
+		type: "item",
+		items: [{
+			item: "botania:pestleandmortar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1de38bc7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "5f2aae86",
+		type: "random",
+		table: 0
+	}]
+}

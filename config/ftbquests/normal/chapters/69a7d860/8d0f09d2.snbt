@@ -1,0 +1,41 @@
+{
+	title: "Лови потоки",
+	x: 7.0d,
+	y: 4.910714285714292d,
+	text: [
+		"Ветряная энергия является ещё одним конкурентом для солнечного метода получния энергии"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "8f1f6cf7",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eba9e806",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8767175c",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 5
+	},
+	{
+		uid: "24e057bc",
+		type: "item",
+		item: "mekanism:oreblock",
+		count: 5
+	},
+	{
+		uid: "ce1c8ecb",
+		type: "random",
+		table: 0
+	}]
+}

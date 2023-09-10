@@ -1,0 +1,55 @@
+{
+	title: "Путь в потустороннее",
+	icon: "thaumcraft:curio 1 6",
+	x: 0.5d,
+	y: 8.0d,
+	text: [
+		"Эти действия помогут Вам открыть потусторонние знания"
+	],
+	dependencies: [
+		"5a7775f3"
+	],
+	tasks: [{
+		uid: "b76c72fc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:brain"
+		}],
+		count: 32L
+	},
+	{
+		uid: "2e4847e8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	},
+	{
+		uid: "f9690f95",
+		type: "kill",
+		title: "Убей маленький багровый портал",
+		entity: "thaumcraft:cultistportallesser",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c46946d0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d296b2bc",
+		type: "item",
+		item: "minecraft:piston"
+	},
+	{
+		uid: "fcda415b",
+		type: "item",
+		item: "thaumcraft:plate 1 2",
+		count: 6
+	},
+	{
+		uid: "c23acbc4",
+		type: "item",
+		item: "thaumcraft:mechanism_simple"
+	}]
+}

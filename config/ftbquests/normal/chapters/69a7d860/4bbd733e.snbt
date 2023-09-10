@@ -1,0 +1,65 @@
+{
+	title: "На грани божественного",
+	x: 12.0d,
+	y: 5.5d,
+	dependencies: [
+		"416eb855"
+	],
+	tasks: [{
+		uid: "77e51d66",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "404479be",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e3bc0f5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76d94d7f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6979bdd0",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "c6b14871",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "dc2ba2b1",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "86f830ac",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 3
+	}]
+}

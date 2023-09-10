@@ -1,0 +1,231 @@
+{
+	title: "Обычные награды",
+	icon: "minecraft:coal_ore",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:cobblestone",
+		count: 32
+	},
+	{
+		item: "minecraft:planks",
+		count: 32
+	},
+	{
+		item: "minecraft:coal_ore",
+		count: 20
+	},
+	{
+		item: "mekanism:oreblock",
+		count: 15
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 5
+	},
+	{
+		item: "thaumcraft:ore_amber",
+		count: 5
+	},
+	{
+		item: "ic2:ingot 1 2",
+		count: 15
+	},
+	{
+		item: "minecraft:wool",
+		count: 25
+	},
+	{
+		item: "thaumcraft:nitor_yellow",
+		count: 5
+	},
+	{
+		item: "thermalfoundation:ore_fluid",
+		count: 13
+	},
+	{
+		item: "thermalfoundation:tool.bow_copper"
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 14
+	},
+	{
+		item: "thaumcraft:nugget 1 10",
+		count: 6
+	},
+	{
+		item: "minecraft:bedrock",
+		count: 5
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: "forestry:resources",
+		count: 15
+	},
+	{
+		item: "twilightforest:maze_map_focus"
+	},
+	{
+		item: "minecraft:iron_chestplate"
+	},
+	{
+		item: "ic2:te 1 46"
+	},
+	{
+		item: "minecraft:ender_chest"
+	},
+	{
+		item: "minecraft:tnt",
+		count: 10
+	},
+	{
+		item: "ic2:glass",
+		count: 10
+	},
+	{
+		item: "thermaldynamics:duct_0",
+		count: 15
+	},
+	{
+		item: "minecraft:web",
+		count: 15
+	},
+	{
+		item: {
+			id: "xreliquary:potion",
+			tag: {
+				effects: [{
+					duration: 750,
+					potency: 1,
+					name: "minecraft:regeneration"
+				}],
+				hasPotion: 1b
+			}
+		},
+		count: 6
+	},
+	{
+		item: "twilightforest:shield_scepter"
+	},
+	{
+		item: "twilightforest:giant_pickaxe"
+	},
+	{
+		item: "minecraft:brown_mushroom",
+		count: 14
+	},
+	{
+		item: "twilightforest:block_and_chain"
+	},
+	{
+		item: "thermaldynamics:servo",
+		count: 5
+	},
+	{
+		item: "thaumcraft:quicksilver",
+		count: 15
+	},
+	{
+		item: "betternether:pig_statue_01",
+		count: 2
+	},
+	{
+		item: "ic2:te 1 3"
+	},
+	{
+		item: "iceandfire:dragonbone",
+		count: 15
+	},
+	{
+		item: "minecraft:redstone_ore",
+		count: 10
+	},
+	{
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	},
+	{
+		item: "mod_lavacow:pigboarhide",
+		count: 25
+	},
+	{
+		item: "appliedenergistics2:charger"
+	},
+	{
+		item: "harvestcraft:zeppoleitem",
+		count: 15
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 3
+	},
+	{
+		item: "brewcraft:blackholewhiskeyitem",
+		count: 5
+	},
+	{
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: "atum:iron_greatsword"
+	},
+	{
+		item: "iceandfire:hippogryph_talon",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 1"
+	},
+	{
+		item: "botania:livingwood",
+		count: 5
+	},
+	{
+		item: "ic2:ingot 1 6",
+		count: 15
+	},
+	{
+		item: "forestry:scoop"
+	},
+	{
+		item: "ic2:cutter"
+	},
+	{
+		item: "atum:limestone_sword"
+	},
+	{
+		item: "minecraft:piston",
+		count: 3
+	},
+	{
+		item: "minecraft:hopper",
+		count: 3
+	},
+	{
+		item: "minecraft:glass",
+		count: 32
+	},
+	{
+		item: "forestry:smoker"
+	},
+	{
+		item: "minecraft:diamond"
+	}]
+}

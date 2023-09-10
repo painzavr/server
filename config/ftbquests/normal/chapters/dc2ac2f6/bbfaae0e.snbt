@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Эндермен",
+	x: 9.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "04bb3586",
+		type: "kill",
+		title: "Убей эндермена",
+		icon: "minecraft:ender_pearl",
+		entity: "minecraft:enderman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "39b2da21",
+		type: "random",
+		auto: "enabled",
+		table: 2
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Как и не было",
+	x: 12.0d,
+	y: -4.0d,
+	text: [
+		"Не понравилось зачарование, а тратить попусту предмет нету желания? Тогда этот механизм Вам поможет"
+	],
+	dependencies: [
+		"2da12f12"
+	],
+	tasks: [{
+		uid: "f5a0580d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:diss_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "1a875a10",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "10ccbab4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8276ea58",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		},
+		count: 5
+	}]
+}

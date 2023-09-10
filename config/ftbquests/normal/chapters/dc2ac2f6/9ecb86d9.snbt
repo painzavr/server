@@ -1,0 +1,63 @@
+{
+	title: "На мне только шорты, панама...",
+	x: -3.5d,
+	y: -3.0d,
+	text: [
+		"Без брони не пройти игру, а это только начало не унывай юный иследователь"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "e36ff401",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a484b6b",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3562dc1",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b682a2a",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a638984",
+		type: "item",
+		item: "minecraft:leather",
+		count: 25
+	},
+	{
+		uid: "7f14f97c",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "d009f155",
+		type: "random",
+		table: 0
+	}]
+}

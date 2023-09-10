@@ -1,0 +1,26 @@
+{
+	title: "Повышаем концентрацию крови ІІ",
+	x: -13.5d,
+	y: 17.0d,
+	dependencies: [
+		"bc3f0973"
+	],
+	tasks: [{
+		uid: "bc0ef7ca",
+		type: "item",
+		items: [{
+			item: "bloodmagic:path 1 2"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "4a14ab6d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "10319960",
+		type: "random",
+		table: 0
+	}]
+}

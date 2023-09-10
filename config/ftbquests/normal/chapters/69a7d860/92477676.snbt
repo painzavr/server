@@ -1,0 +1,37 @@
+{
+	title: "Ожижитель хаоса",
+	x: 16.0d,
+	y: 3.5d,
+	text: [
+		"Механизм позволяет сделать кристалы хаоса жидкими и способными для переноса в специальном контейнере, что позволит в будущем запитать генератор на энергии хаоса что выдаст коспические цифры энергии"
+	],
+	dependencies: [
+		"f5de8018"
+	],
+	tasks: [{
+		uid: "09714e46",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaos_liquefier"
+		}]
+	},
+	{
+		uid: "e6f1c48c",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaos_container"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e839d066",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c8a535e0",
+		type: "random",
+		table: 3
+	}]
+}

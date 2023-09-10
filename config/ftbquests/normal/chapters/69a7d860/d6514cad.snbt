@@ -1,0 +1,44 @@
+{
+	title: "Ви-фи",
+	x: -3.7204081632653327d,
+	y: 18.180824829931957d,
+	text: [
+		"Дистанционный доступ к нашим хранилищам упростит все наши задачи."
+	],
+	dependencies: [
+		"560e8120"
+	],
+	tasks: [{
+		uid: "edbf0189",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "c77b522c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "887cf973",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0e466381",
+		type: "item",
+		item: "appliedenergistics2:material 1 41"
+	},
+	{
+		uid: "4d6dbe64",
+		type: "item",
+		item: "appliedenergistics2:material 1 23",
+		count: 3
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Время зажигать",
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"Нету точного определения зачем нужен этот предмет но что-то он должен зажечь"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "a317b4bf",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78520922",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "f7ff0efd",
+		type: "random",
+		table: 0
+	}]
+}

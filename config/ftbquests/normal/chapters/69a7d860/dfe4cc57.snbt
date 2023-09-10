@@ -1,0 +1,38 @@
+{
+	x: -1.6666666666666572d,
+	y: 8.011904761904773d,
+	dependencies: [
+		"fde9cfcc"
+	],
+	tasks: [{
+		uid: "70714090",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95ff4872",
+		type: "xp_levels",
+		xp_levels: 300
+	},
+	{
+		uid: "870e0709",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 10
+	},
+	{
+		uid: "789fd8e8",
+		type: "random",
+		table: 4
+	}]
+}

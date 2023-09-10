@@ -1,0 +1,32 @@
+{
+	title: "Я...Я меканик",
+	icon: "appliedenergistics2:certus_quartz_wrench",
+	x: -8.0d,
+	y: 6.5d,
+	dependencies: [
+		"734cae7d",
+		"e27ade53",
+		"11e61bfb",
+		"dd46c208"
+	],
+	tasks: [{
+		uid: "693498ac",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2710ab62",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d4bf285b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "000fcec0",
+		type: "item",
+		item: "ic2:resource 1 4",
+		count: 15
+	}]
+}

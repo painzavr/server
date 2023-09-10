@@ -1,0 +1,30 @@
+{
+	title: "Начерти свою судьбу",
+	x: -17.0d,
+	y: 9.5d,
+	text: [
+		"Алхимическая матрица или же просто начерченый круг на земле может соединать между собой компоненты "
+	],
+	dependencies: [
+		"95030a17"
+	],
+	tasks: [{
+		uid: "c0c4e1df",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6685097",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "96f11546",
+		type: "random",
+		table: 1
+	}]
+}

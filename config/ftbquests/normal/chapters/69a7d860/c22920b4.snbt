@@ -1,0 +1,77 @@
+{
+	title: "Драконовая фаза",
+	x: 11.5d,
+	y: 3.5d,
+	dependencies: [
+		"416eb855"
+	],
+	tasks: [{
+		uid: "2af67772",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a26902c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "568a25e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28bf5815",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df148ccd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "93216e57",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "99bb71e4",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "ace0efc0",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 5
+	}]
+}

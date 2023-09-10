@@ -1,0 +1,26 @@
+{
+	title: "Адепт туризма",
+	x: 22.5d,
+	y: 0.0d,
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "be26ff4b",
+		type: "stat",
+		title: "Пробежи блоков",
+		icon: "thaumcraft:traveller_boots",
+		stat: "stat.sprintOneCm",
+		value: 500000
+	}],
+	rewards: [{
+		uid: "65b91e91",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "1c01e29b",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Чародейские замыслы",
+	icon: "minecraft:enchanting_table",
+	x: -10.5d,
+	y: 5.5d,
+	text: [
+		"Пора ещё немного усилить себя и свою броню"
+	],
+	dependencies: [
+		"f5bd577d"
+	],
+	tasks: [{
+		uid: "92586af4",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	},
+	{
+		uid: "deabf199",
+		type: "item",
+		items: [{
+			item: "minecraft:bookshelf"
+		}],
+		count: 15L
+	},
+	{
+		uid: "fe76595c",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "220237a7",
+		type: "xp",
+		xp: 200
+	}]
+}

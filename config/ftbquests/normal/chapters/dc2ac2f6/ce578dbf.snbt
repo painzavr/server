@@ -1,0 +1,32 @@
+{
+	title: "Переносной сундук ",
+	x: -14.5d,
+	y: -8.5d,
+	text: [
+		"Замена рюкзаку?"
+	],
+	dependencies: [
+		"b38c0c45"
+	],
+	tasks: [{
+		uid: "d3296f64",
+		type: "item",
+		items: [{
+			item: "minecraft:shulker_shell"
+		}]
+	},
+	{
+		uid: "e462512a",
+		type: "item",
+		items: [{
+			item: "minecraft:purple_shulker_box"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95235031",
+		type: "xp",
+		xp: 50
+	}]
+}

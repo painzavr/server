@@ -1,0 +1,36 @@
+{
+	title: "Картофельный БУМ!",
+	x: -3.5d,
+	y: -6.0d,
+	text: [
+		"Картофель размножают вегетативно — небольшими клубнями. Это тебе поможет в их выращивание"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "697a80e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cropPotato",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cropPotato"
+				}
+			}
+		}],
+		count: 15L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a8b78df7",
+		type: "xp",
+		xp: 20
+	}]
+}

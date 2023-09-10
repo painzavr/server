@@ -1,0 +1,59 @@
+{
+	title: "Стальное дерево",
+	x: 23.0d,
+	y: 3.0d,
+	text: [
+		"Соеденив несколько привычных ингридиентов Вы могли получить эту масу странной формы"
+	],
+	dependencies: [
+		"1fc27e4b"
+	],
+	tasks: [{
+		uid: "966ee6ad",
+		type: "item",
+		items: [{
+			item: "twilightforest:ironwood_raw"
+		}],
+		count: 25L
+	},
+	{
+		uid: "ff065c03",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 32s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0d0ce76c",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_sword",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 19s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce2e6b15",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "de1fe003",
+		type: "random",
+		table: 1
+	}]
+}

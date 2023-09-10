@@ -1,0 +1,39 @@
+{
+	title: "Лесное управление",
+	x: 21.55952380952381d,
+	y: -4.845238095238088d,
+	text: [
+		"Сколько маны не копи настроить её подачу не получится без этого посоха"
+	],
+	dependencies: [
+		"abd966b1",
+		"9381b7c7"
+	],
+	tasks: [{
+		uid: "0e9b286d",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc27ba21",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b1d634f4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:flowerbag"
+		}
+	}]
+}

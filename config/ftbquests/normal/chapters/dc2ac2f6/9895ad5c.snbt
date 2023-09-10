@@ -1,0 +1,48 @@
+{
+	title: "Из земли",
+	x: 3.0d,
+	y: 9.5d,
+	text: [
+		"Алхимия магическим образом даёт возможность создавать предметы при помощи эссенций и совсем не подходящих вещиц"
+	],
+	dependencies: [
+		"5a7775f3"
+	],
+	tasks: [{
+		uid: "b292b71c",
+		type: "item",
+		items: [{
+			item: "minecraft:web"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "59a89786",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "399adab3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_white"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "13001fef",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "74f65b6e",
+		type: "random",
+		table: 0
+	}]
+}

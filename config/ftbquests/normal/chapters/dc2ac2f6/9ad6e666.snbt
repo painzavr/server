@@ -1,0 +1,65 @@
+{
+	title: "Одноглазый великан",
+	x: 18.321428571428598d,
+	y: -2.9880952380952266d,
+	text: [
+		"Сильное существо что пасёт овец, но самое главное это то что его убийство может быть весьма и весьма легким если выбить ему глаз"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f4be1126",
+		type: "kill",
+		icon: "iceandfire:cyclops_eye",
+		entity: "iceandfire:cyclops",
+		value: 1L
+	},
+	{
+		uid: "b3331035",
+		type: "item",
+		items: [{
+			item: "iceandfire:sheep_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3983e2ba",
+		type: "item",
+		items: [{
+			item: "iceandfire:sheep_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d4eca8a",
+		type: "item",
+		items: [{
+			item: "iceandfire:sheep_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4a50a21a",
+		type: "item",
+		items: [{
+			item: "iceandfire:sheep_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84aa68d2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "53b1ee7b",
+		type: "random",
+		table: 4
+	}]
+}

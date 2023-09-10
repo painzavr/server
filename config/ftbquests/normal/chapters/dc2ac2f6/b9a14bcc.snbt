@@ -1,0 +1,32 @@
+{
+	title: "Пороботитель душ",
+	x: -12.5d,
+	y: 7.0d,
+	text: [
+		"Зачем ненужные ловушки для душ если Вы можете получить меч который позволит Вам не только наносить приличный урон, а и впитывать энергию живых существ"
+	],
+	dependencies: [
+		"d35053b6"
+	],
+	tasks: [{
+		uid: "2e73e386",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dabf2dcc",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "683b15ab",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

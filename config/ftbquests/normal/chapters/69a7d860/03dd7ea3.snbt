@@ -1,0 +1,39 @@
+{
+	title: "Чудо-техники",
+	x: 4.7319727891156305d,
+	y: 12.08558673469387d,
+	text: [
+		"Проводя эксперименты из кристалами мы пришли к выводу что сами можем из зарядить. Слава науке"
+	],
+	dependencies: [
+		"249c3592"
+	],
+	tasks: [{
+		uid: "4699a625",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	}],
+	rewards: [{
+		uid: "c3f78c28",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "abe7cb6d",
+		type: "item",
+		item: "appliedenergistics2:material 1 7"
+	},
+	{
+		uid: "6008b59d",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		uid: "57eb876e",
+		type: "random",
+		table: 0
+	}]
+}

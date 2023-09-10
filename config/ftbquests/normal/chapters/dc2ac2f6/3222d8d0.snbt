@@ -1,0 +1,41 @@
+{
+	title: "Да осветится мир!",
+	icon: "minecraft:torch",
+	x: 3.0d,
+	y: -5.5d,
+	text: [
+		"Днем не понять того что может дать этот предмет ночью"
+	],
+	dependencies: [
+		"22460e38"
+	],
+	tasks: [{
+		uid: "55de0384",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "torch",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any torch"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b26eac25",
+		type: "xp",
+		xp: 5
+	},
+	{
+		uid: "3865f6f4",
+		type: "random",
+		table: 0
+	}]
+}

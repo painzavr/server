@@ -1,0 +1,46 @@
+{
+	title: "Огненный инструментал",
+	x: 28.5d,
+	y: 6.0d,
+	text: [
+		"Инструменты что имеют предросположенность к огню и имеют необычные свойства ещё с момента своего создания"
+	],
+	dependencies: [
+		"5b8bc843",
+		"5555b70f"
+	],
+	tasks: [{
+		uid: "8210872d",
+		type: "item",
+		items: [{
+			id: "twilightforest:fiery_sword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4bc686bf",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d8edf38",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "a460b87a",
+		type: "random",
+		table: 1
+	}]
+}

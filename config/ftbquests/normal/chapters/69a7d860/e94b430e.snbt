@@ -1,0 +1,79 @@
+{
+	title: "Схема на обычном уране",
+	x: -17.0d,
+	y: -7.0d,
+	shape: "gear",
+	text: [
+		"Материалы что будут необходимы для схемы реактора на 420 EU/тик"
+	],
+	dependencies: [
+		"c06bafaa",
+		"1515b3c4"
+	],
+	tasks: [{
+		uid: "d9342030",
+		type: "item",
+		items: [{
+			id: "ic2:overclocked_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 28L
+	},
+	{
+		uid: "9f575528",
+		type: "item",
+		items: [{
+			item: "ic2:plating"
+		}],
+		count: 7L
+	},
+	{
+		uid: "29cd3a9b",
+		type: "item",
+		items: [{
+			item: "ic2:component_heat_vent"
+		}],
+		count: 11L
+	},
+	{
+		uid: "b3b6c72b",
+		type: "item",
+		items: [{
+			id: "ic2:quad_uranium_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "59cb4855",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "ca33befd",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 32
+	},
+	{
+		uid: "f15c1075",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 15
+	},
+	{
+		uid: "9fd5adee",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e77334df",
+		type: "item",
+		item: "ic2:crafting 1 1",
+		count: 14
+	}]
+}

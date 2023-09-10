@@ -1,0 +1,50 @@
+{
+	title: "Хранитель или конвертатор?",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"Этот куб для хранения энергии способен хранить разные виды энергии только нужно знть как правильно подключить труби к этому кубу"
+	],
+	dependencies: [
+		"1e3ef806",
+		"dd905e0b"
+	],
+	tasks: [{
+		uid: "b5b8974c",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e60c163",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "b4bd7f29",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2dbb2e6f",
+		type: "item",
+		item: "ic2:ingot 1 5",
+		count: 5
+	},
+	{
+		uid: "f64c7cdd",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Знаток морей",
+	x: 28.5d,
+	y: 0.0d,
+	dependencies: [
+		"bbddb3b0"
+	],
+	tasks: [{
+		uid: "6b6be151",
+		type: "stat",
+		title: "Проплыви на лодке",
+		icon: "minecraft:boat",
+		stat: "stat.boatOneCm",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "50b3f5e8",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "a87d56c1",
+		type: "random",
+		table: 2
+	}]
+}

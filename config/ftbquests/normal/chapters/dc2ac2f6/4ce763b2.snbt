@@ -1,0 +1,42 @@
+{
+	title: "Повидавший мир",
+	icon: "ic2:mug 1 2",
+	x: 26.5d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"c537009f",
+		"5b1ea9db"
+	],
+	tasks: [{
+		uid: "6c579053",
+		type: "stat",
+		icon: "thaumcraft:traveller_boots",
+		stat: "stat.sprintOneCm",
+		value: 2000000
+	},
+	{
+		uid: "0bda013b",
+		type: "checkmark"
+	},
+	{
+		uid: "9fee6c8b",
+		type: "stat",
+		title: "Проплыви на лодке",
+		icon: "minecraft:boat",
+		stat: "stat.boatOneCm",
+		value: 2000000
+	}],
+	rewards: [{
+		uid: "2df5b749",
+		type: "xp",
+		auto: "enabled",
+		xp: 250
+	},
+	{
+		uid: "7a41f0b2",
+		type: "random",
+		auto: "enabled",
+		table: 3
+	}]
+}

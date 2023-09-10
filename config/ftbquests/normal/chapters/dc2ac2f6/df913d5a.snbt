@@ -1,0 +1,31 @@
+{
+	title: "Это у меня троит в глазах?",
+	x: 22.5d,
+	y: 7.0d,
+	text: [
+		"Лук что целит прямо в точку, а это может значить только то что уже пора идти на финального босса"
+	],
+	dependencies: [
+		"998a52ba"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fbf719fc",
+		type: "item",
+		items: [{
+			item: "twilightforest:triple_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4fdece4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8976dabb",
+		type: "random",
+		table: 2
+	}]
+}

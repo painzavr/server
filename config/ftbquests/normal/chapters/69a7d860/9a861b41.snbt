@@ -1,0 +1,40 @@
+{
+	title: "Энергия из жидкостей II",
+	x: -15.934693877551034d,
+	y: 11.657015306122439d,
+	text: [
+		"Генератор внутреннего сгорания производит RF, используя в качестве топлива жидкости "
+	],
+	dependencies: [
+		"544becef"
+	],
+	tasks: [{
+		uid: "a3b34559",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "0fe27258",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cf993c10",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 3
+	},
+	{
+		uid: "d2913fc5",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hootch",
+				Amount: 1000
+			}
+		}
+	}]
+}

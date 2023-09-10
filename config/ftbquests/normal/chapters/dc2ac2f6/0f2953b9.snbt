@@ -1,0 +1,52 @@
+{
+	title: "SS-ранг",
+	icon: {
+		id: "botania:terrapick",
+		tag: {
+			mana: 9999,
+			tipped: 1b
+		}
+	},
+	x: 21.654761904761926d,
+	y: -13.321428571428566d,
+	text: [
+		"Запитав кирку предворительно маной Вы можете повышать уровень/ранг землекрушителя "
+	],
+	dependencies: [
+		"164ca779"
+	],
+	tasks: [{
+		uid: "f98db646",
+		type: "item",
+		items: [{
+			id: "botania:terrapick",
+			tag: {
+				mana: 2147483646
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aae69747",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "187f5fb7",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 15
+	},
+	{
+		uid: "1f709ce5",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 15
+	},
+	{
+		uid: "fdcf21c1",
+		type: "random",
+		table: 4
+	}]
+}

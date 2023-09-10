@@ -1,0 +1,38 @@
+{
+	title: "Путь страданий",
+	x: -17.0d,
+	y: 1.0d,
+	text: [
+		"Путь что сложнее молекулярного преобразователя, но результат будет достигнут...Просто немного дольше"
+	],
+	dependencies: [
+		"0303851f",
+		"905f77ec"
+	],
+	tasks: [{
+		uid: "e460e3bf",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "bc599e40",
+		type: "item",
+		items: [{
+			id: "ic2:upgrade",
+			tag: {},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "1dfa9fc9",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "03480e1e",
+		type: "random",
+		table: 1
+	}]
+}

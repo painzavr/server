@@ -1,0 +1,39 @@
+{
+	title: "Странный пещаный домик",
+	icon: "minecraft:soul_sand",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"Очень необычный песок находится в Аду, стоит накопать его побольше"
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "607a42bb",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 10L
+	},
+	{
+		uid: "44ec12cd",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "39b62ebb",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 20
+	},
+	{
+		uid: "d402776b",
+		type: "xp",
+		xp: 15
+	}]
+}

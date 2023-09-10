@@ -1,0 +1,30 @@
+{
+	title: "Поймать душу",
+	x: -10.5d,
+	y: 7.5d,
+	text: [
+		"Каждая душа имеет свою энергию, именно её Вы будете тратить для создания предметов "
+	],
+	dependencies: [
+		"f5bd577d"
+	],
+	tasks: [{
+		uid: "18729b1c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8eea79a6",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "fcadf959",
+		type: "item",
+		item: "bloodmagic:monster_soul",
+		count: 5
+	}]
+}

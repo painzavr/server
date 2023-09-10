@@ -1,0 +1,89 @@
+{
+	title: "Плавь и наполняй",
+	x: -3.0d,
+	y: -7.0d,
+	text: [
+		"Один механизм конвертирует твёрдое в жидкое, а второй льет жижу в Ваши вёдра"
+	],
+	dependencies: [
+		"26c845f4",
+		"a1236cfa",
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "04bb5b49",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "38216c5d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "6e25080d",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 50
+	},
+	{
+		uid: "5208aebb",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "a4ad9e52",
+		type: "item",
+		item: "forestry:ingot_bronze",
+		count: 10
+	},
+	{
+		uid: "d3bc0031",
+		type: "item",
+		item: "ic2:ingot 1 5",
+		count: 15
+	}]
+}

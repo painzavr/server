@@ -1,0 +1,30 @@
+{
+	title: "Терраформирование",
+	x: 19.273809523809533d,
+	y: -9.130952380952365d,
+	text: [
+		"Слиток напитан невероятной энергией что способна перевернуть всё понимание об естве магии"
+	],
+	dependencies: [
+		"b36f90df",
+		"fa8fa7a6"
+	],
+	tasks: [{
+		uid: "57a169c9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "fe0682e6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8e30ad8c",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 3
+	}]
+}

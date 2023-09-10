@@ -1,0 +1,31 @@
+{
+	title: "Карманная плавильня",
+	x: 25.440476190476204d,
+	y: -2.8333333333333357d,
+	text: [
+		"Этот жезл способен плавить песок в стекло, а булыгу в камень. Такая логики работает со всему блоками"
+	],
+	dependencies: [
+		"6c1e63fd"
+	],
+	tasks: [{
+		uid: "3d4e87f3",
+		type: "item",
+		items: [{
+			item: "botania:smeltrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0c6d2ef",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "76f30ae4",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 3
+	}]
+}

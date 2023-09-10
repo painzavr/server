@@ -1,0 +1,60 @@
+{
+	title: "Ядерный реактор на RF",
+	x: 9.0d,
+	y: 7.5d,
+	dependencies: [
+		"dbdbec97"
+	],
+	tasks: [{
+		uid: "9c0751b8",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}],
+		count: 40L
+	},
+	{
+		uid: "95848b03",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	},
+	{
+		uid: "a86a9a1c",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8894123e",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1c842058",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c4bfe1f7",
+		type: "item",
+		item: "mekanism:atomicalloy",
+		count: 5
+	},
+	{
+		uid: "6d3be56a",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 15
+	},
+	{
+		uid: "c0f17a6a",
+		type: "choice",
+		table: 3
+	}]
+}

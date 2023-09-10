@@ -1,0 +1,34 @@
+{
+	title: "Высвободи наружу",
+	x: -10.5d,
+	y: 12.5d,
+	text: [
+		"Поместив внутырь камень с энергией она будет автоматически высвобеждена в атмосферу где будет накоплена"
+	],
+	dependencies: [
+		"39fd1452"
+	],
+	tasks: [{
+		uid: "fd87f1f0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "3c007cf1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "933356e7",
+		type: "item",
+		item: "minecraft:stone",
+		count: 64
+	},
+	{
+		uid: "be5f7863",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Прекрасный урожай",
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		"Пора использовать кости для пыли и получить свой первый урожай"
+	],
+	dependencies: [
+		"c2c59b87",
+		"6a40076f"
+	],
+	tasks: [{
+		uid: "e1a71430",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cropWheat",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cropWheat"
+				}
+			}
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "d67468dd",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 5L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "74e29154",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "4a9b26fe",
+		type: "random",
+		table: 0
+	}]
+}

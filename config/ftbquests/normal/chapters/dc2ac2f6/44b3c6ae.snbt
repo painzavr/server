@@ -1,0 +1,42 @@
+{
+	title: "Накорми и подними",
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		"Сундук что анологичен функции воронки, но за условием что предметы он не отдает"
+	],
+	dependencies: [
+		"c8c291e9"
+	],
+	tasks: [{
+		uid: "4a6031f3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hungry_chest"
+		}]
+	},
+	{
+		uid: "a798b06a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:levitator"
+		}]
+	}],
+	rewards: [{
+		uid: "571637a1",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "f9b05bf7",
+		type: "item",
+		item: "thaumcraft:plate 1 1",
+		count: 8
+	},
+	{
+		uid: "90b6ba06",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 1",
+		count: 3
+	}]
+}

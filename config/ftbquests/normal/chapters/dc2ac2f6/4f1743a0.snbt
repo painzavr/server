@@ -1,0 +1,31 @@
+{
+	title: "Серьезно?",
+	x: -9.5d,
+	y: 2.0d,
+	text: [
+		"Из всех способов потратить алмазы ты выбрал именно этот? Ты безумец или сумашедший богач?"
+	],
+	dependencies: [
+		"f5bd577d"
+	],
+	tasks: [{
+		uid: "42668ca3",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d5bb691",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "e5dcc315",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Убийство существа",
+	x: 13.750000000000014d,
+	y: -2.3214285714285623d,
+	text: [
+		"Победить настолько сильное существо нужно иметь либо сильную физическую подготовку или же быть счасливчиком"
+	],
+	dependencies: [
+		"5efd92cd",
+		"44adfcd2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a92eccf5",
+		type: "item",
+		items: [{
+			item: "iceandfire:fire_dragon_blood"
+		}],
+		count: 15L
+	},
+	{
+		uid: "b3d32643",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}],
+		count: 15L
+	},
+	{
+		uid: "74906064",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_red"
+		}],
+		count: 15L
+	},
+	{
+		uid: "fd81ba78",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_sapphire"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "98cddf50",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "171c5aa4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c033a825",
+		type: "item",
+		item: "iceandfire:silver_ingot",
+		count: 15
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Выкачка разломов",
+	x: 1.5d,
+	y: 9.5d,
+	text: [
+		"Поставте рядом с разломом и подождите прилично времени, узнаем что будет"
+	],
+	dependencies: [
+		"ff28b832"
+	],
+	tasks: [{
+		uid: "4ba2f3c1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_siphon"
+		}]
+	}],
+	rewards: [{
+		uid: "eda6ba03",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 17
+	},
+	{
+		uid: "f7d697e3",
+		type: "xp",
+		xp: 150
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Паук",
+	x: 6.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "133ccd81",
+		type: "kill",
+		title: "Убей паука",
+		icon: "minecraft:spider_eye",
+		entity: "minecraft:spider",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "98e3dbb5",
+		type: "random",
+		auto: "enabled",
+		table: 0
+	}]
+}

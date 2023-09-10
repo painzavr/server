@@ -1,0 +1,37 @@
+{
+	title: "Убить голыми руками",
+	icon: "minecraft:ghast_tear",
+	x: -15.5d,
+	y: -2.5d,
+	text: [
+		"Необычный способ убить такого огромного моба... Почти голыми руками..."
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "bd6f1360",
+		type: "kill",
+		title: "Убей Гаста",
+		icon: "minecraft:ghast_tear",
+		entity: "minecraft:ghast",
+		value: 1L
+	},
+	{
+		uid: "a484cbe9",
+		type: "advancement",
+		advancement: "nether/return_to_sender",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "3bdae2d7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cfa00f02",
+		type: "item",
+		item: "minecraft:ghast_tear",
+		count: 3
+	}]
+}

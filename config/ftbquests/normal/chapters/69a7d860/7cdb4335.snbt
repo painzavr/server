@@ -1,0 +1,49 @@
+{
+	title: "Конвертатор топлив",
+	x: 0.0d,
+	y: -9.0d,
+	text: [
+		"Этот механизм может превратить все что угодно в топливо. Сырую нефть к примеру оно превращает в весьма полезную вариацию угля"
+	],
+	dependencies: [
+		"a1236cfa",
+		"0b7db09b"
+	],
+	tasks: [{
+		uid: "35e99116",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				Level: 0b
+			},
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "50b8505b",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "f9b86f3d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7b0e4fb5",
+		type: "item",
+		item: "thermalfoundation:material 1 514"
+	}]
+}

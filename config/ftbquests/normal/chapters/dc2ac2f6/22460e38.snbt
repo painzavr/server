@@ -1,0 +1,40 @@
+{
+	icon: "minecraft:stick",
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"Палки вещь нужная пригодится в очень многих рецептах"
+	],
+	dependencies: [
+		"e643fd2b"
+	],
+	tasks: [{
+		uid: "e2d01543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "bd6aaced",
+		type: "xp",
+		xp: 5
+	},
+	{
+		uid: "a91e0875",
+		type: "random",
+		table: 0
+	}]
+}

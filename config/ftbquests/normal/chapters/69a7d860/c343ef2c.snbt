@@ -1,0 +1,46 @@
+{
+	title: "Всё о рыбалке",
+	x: 5.0d,
+	y: -2.5d,
+	text: [
+		"Лучше приманка - лучше добыча. Кто бы мог подумать что такая сложная вещь как рыбалка может быть настолько простой"
+	],
+	dependencies: [
+		"653cf768",
+		"2fbe4fdc"
+	],
+	tasks: [{
+		uid: "87e39d33",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:bait"
+		}],
+		count: 10L
+	},
+	{
+		uid: "baefeae9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:bait 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "4999f152",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:bait 1 2"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "c3cdf5db",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "549ac5e3",
+		type: "random",
+		table: 2
+	}]
+}

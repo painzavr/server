@@ -1,0 +1,45 @@
+{
+	title: "Эльфхейм...",
+	x: 16.464285714285737d,
+	y: -8.083333333333336d,
+	text: [
+		"Мир эльфов полон секретов и силы что стоит только попросить"
+	],
+	dependencies: [
+		"f5da5cff"
+	],
+	tasks: [{
+		uid: "fbae69d0",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0007fbef",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "e9ef5592",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "a89800af",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3a45ff85",
+		type: "item",
+		item: "botania:dreamwood",
+		count: 10
+	}]
+}

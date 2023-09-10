@@ -1,0 +1,28 @@
+{
+	title: "Высоси из Солнца всё",
+	x: -24.5d,
+	y: 4.0d,
+	text: [
+		"Эта солнечная панель настолько же дорогая на сколько и эфективная - стоит потраченых ресурсов и вермени. Пасивная добыча энергии"
+	],
+	dependencies: [
+		"12dddf90"
+	],
+	tasks: [{
+		uid: "fdef1a30",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:machines 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8cba0a3b",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "4429d0c9",
+		type: "random",
+		table: 4
+	}]
+}

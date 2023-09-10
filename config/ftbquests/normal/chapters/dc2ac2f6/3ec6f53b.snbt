@@ -1,0 +1,29 @@
+{
+	title: "Убить или быть убитым",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"Это была славная битва. С многих поверженых врагов выпали лишь куски гнилого мяса, но некоторые ещё имели живую плоть которую в этом случае невозможно пропустить"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "50b4edfe",
+		type: "kill",
+		icon: "minecraft:skull 1 2",
+		entity: "minecraft:zombie",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "edda5288",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "2937ba6b",
+		type: "item",
+		item: "minecraft:leather",
+		count: 10
+	}]
+}

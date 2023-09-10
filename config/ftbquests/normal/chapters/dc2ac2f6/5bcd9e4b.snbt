@@ -1,0 +1,29 @@
+{
+	title: "Убить огонь или сгореть заживо",
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"Летающие жаровни метающие огонь что дальше? Может огненая медуза?"
+	],
+	dependencies: [
+		"4c84f712"
+	],
+	tasks: [{
+		uid: "3304d3d3",
+		type: "kill",
+		title: "Убей Всполох",
+		entity: "minecraft:blaze",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "bed71b33",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "a65c9ab3",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 3
+	}]
+}

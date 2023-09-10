@@ -1,0 +1,35 @@
+{
+	title: "Умножитель ресурсов",
+	x: 4.285714285714278d,
+	y: 6.958333333333329d,
+	text: [
+		"Механизм делает возможным утраивание и учетверивание ресурсов рудного типа"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "d12285c6",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c864d61",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2a0a680b",
+		type: "item",
+		item: "mekanism:controlcircuit 1 1",
+		count: 4
+	},
+	{
+		uid: "4d605dd9",
+		type: "random",
+		table: 0
+	}]
+}

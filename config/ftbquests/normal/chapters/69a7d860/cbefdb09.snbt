@@ -1,0 +1,29 @@
+{
+	title: "Штази даже для завода",
+	x: 4.101020408163237d,
+	y: 18.002253401360548d,
+	text: [
+		"Легкие способ отследить чем занимается твой процесор это диспетчер процесов, но нам подойдет и монитор шаблонов."
+	],
+	dependencies: [
+		"3334d98d",
+		"78504d97"
+	],
+	tasks: [{
+		uid: "6e124cf7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "ed90f508",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6039c97f",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_4k"
+	}]
+}

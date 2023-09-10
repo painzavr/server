@@ -1,0 +1,36 @@
+{
+	title: "Личная армия",
+	x: -12.529931972789122d,
+	y: 8.395110544217701d,
+	text: [
+		"НАС ДВАДЦАТЬ ПЯТЬ ТИСЯЧ"
+	],
+	dependencies: [
+		"6d9e00f7",
+		"c0765849",
+		"5a069335"
+	],
+	tasks: [{
+		uid: "40711c35",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "4d79fc34",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6cc82749",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	},
+	{
+		uid: "ad75c538",
+		type: "random",
+		table: 0
+	}]
+}

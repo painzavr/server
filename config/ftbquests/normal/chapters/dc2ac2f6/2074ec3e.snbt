@@ -1,0 +1,52 @@
+{
+	title: "Гра`аль воды ",
+	x: 4.5d,
+	y: 10.5d,
+	text: [
+		"Бесконечный источник воды прямо у Вас под рукой, что может быть удобнее?"
+	],
+	dependencies: [
+		"9895ad5c"
+	],
+	tasks: [{
+		uid: "a11a8bfe",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "9208639b",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "e94eea08",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "permutatio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 5
+	},
+	{
+		uid: "c5ba965f",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "auram"
+				}]
+			}
+		},
+		count: 13
+	}]
+}

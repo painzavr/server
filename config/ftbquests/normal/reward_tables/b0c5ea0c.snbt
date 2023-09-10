@@ -1,0 +1,54 @@
+{
+	title: "Абсолютная награда",
+	icon: "minecraft:redstone_ore",
+	loot_size: 1,
+	rewards: [{
+		item: "advanced_solar_panels:machines 1 5",
+		count: 3
+	},
+	{
+		item: "xreliquary:alkahestry_tome 1 1001"
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 5
+	},
+	{
+		item: "thermalfoundation:ore 1 5",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:ore 1 6",
+		count: 20
+	},
+	{
+		item: "thermalfoundation:ore 1 8",
+		count: 15
+	},
+	{
+		item: "draconicevolution:draconic_block",
+		count: 4
+	},
+	{
+		item: "draconicevolution:dragon_heart",
+		count: 5
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: "ic2:misc_resource 1 1",
+		count: 15
+	},
+	{
+		item: "avaritia:ultimate_stew",
+		count: 5
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 15
+	}]
+}

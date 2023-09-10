@@ -1,0 +1,32 @@
+{
+	title: "Подготовка к судному дню",
+	x: 12.535714285714306d,
+	y: -12.071428571428584d,
+	text: [
+		"Лучше готовить не только себя но и ещё и друзей ибо самому это будет необычайно сложно"
+	],
+	dependencies: [
+		"02c30ed8"
+	],
+	tasks: [{
+		uid: "9f96db18",
+		type: "item",
+		items: [{
+			id: "extrabotany:natureorb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3fa9e88",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a0497b77",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 5
+	}]
+}

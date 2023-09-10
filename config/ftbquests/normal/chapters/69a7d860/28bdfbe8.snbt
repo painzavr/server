@@ -1,0 +1,34 @@
+{
+	title: "Иридиевая гонка",
+	x: -23.0d,
+	y: 1.0d,
+	text: [
+		"Руда что кружит голову многим людям которые знают о нём, что же сокрыто в его тайнах?"
+	],
+	dependencies: [
+		"caa9c1b4"
+	],
+	tasks: [{
+		uid: "3939f570",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "52ae766f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0f8907ad",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "29805496",
+		type: "item",
+		item: "thermalfoundation:material 1 199",
+		count: 9
+	}]
+}

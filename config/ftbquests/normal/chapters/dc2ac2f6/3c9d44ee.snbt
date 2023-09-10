@@ -1,0 +1,72 @@
+{
+	title: "Ученик ауромантии",
+	x: 1.5d,
+	y: 5.0d,
+	text: [
+		"Создание перчато поможет тебе перенаправлять вис энергию в нужном тебе русле"
+	],
+	dependencies: [
+		"5a7775f3",
+		"128770fd"
+	],
+	tasks: [{
+		uid: "cb4c61b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00ab4ef5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "509805f7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "cb3f63f2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "12c83201",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "ordo"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 25
+	},
+	{
+		uid: "649163ce",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praecantatio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 15
+	}]
+}

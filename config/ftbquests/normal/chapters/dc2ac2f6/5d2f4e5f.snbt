@@ -1,0 +1,29 @@
+{
+	title: "Время дозарядки",
+	x: 3.0d,
+	y: 6.5d,
+	text: [
+		"Наполни свои предметы чистой вис"
+	],
+	dependencies: [
+		"3c9d44ee"
+	],
+	tasks: [{
+		uid: "94e69594",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "4b79321b",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "b21ee679",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 15
+	}]
+}

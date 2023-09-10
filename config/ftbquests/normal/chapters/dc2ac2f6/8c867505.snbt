@@ -1,0 +1,30 @@
+{
+	title: "Умная броня",
+	x: -7.0d,
+	y: 14.0d,
+	text: [
+		"Обычный камень а способен сразу дать неплохую защиту"
+	],
+	dependencies: [
+		"b26207f7"
+	],
+	tasks: [{
+		uid: "452a309e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sentient_armour_gem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0648a4e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "db702d29",
+		type: "random",
+		table: 1
+	}]
+}

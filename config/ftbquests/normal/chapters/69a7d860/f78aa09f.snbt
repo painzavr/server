@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: 10.0d,
+	dependencies: [
+		"fde9cfcc"
+	],
+	tasks: [{
+		uid: "a159edb0",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ea43689",
+		type: "xp_levels",
+		xp_levels: 200
+	},
+	{
+		uid: "12f14a0e",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 5
+	},
+	{
+		uid: "1442d3e3",
+		type: "random",
+		table: 4
+	}]
+}

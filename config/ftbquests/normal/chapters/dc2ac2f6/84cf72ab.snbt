@@ -1,0 +1,61 @@
+{
+	title: "Максимализм",
+	x: -16.5d,
+	y: 8.0d,
+	text: [
+		"Эти ресурсы будут необходимые для создания максимального уровня алтаря"
+	],
+	dependencies: [
+		"95030a17"
+	],
+	tasks: [{
+		uid: "5543fe8f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 117L
+	},
+	{
+		uid: "85d51029",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}],
+		count: 4L
+	},
+	{
+		uid: "93b30979",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}],
+		count: 4L
+	},
+	{
+		uid: "99363f3c",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 24L
+	},
+	{
+		uid: "50a56d6d",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b07d643f",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "636d6b33",
+		type: "random",
+		table: 4
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "С сумкой всегда лучше",
+	icon: "backpack:backpack 1 8",
+	x: -6.0d,
+	y: -8.0d,
+	text: [
+		"В ходе этого квестового цепного создания ты сможешь получить сначала маленький рюкзак, а в последствии большую сумку"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "2ec8cd00",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 13L
+	},
+	{
+		uid: "e5737eba",
+		type: "kill",
+		title: "Убей коров",
+		icon: "minecraft:milk_bucket",
+		entity: "minecraft:cow",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "dbf85757",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "92340f06",
+		type: "item",
+		item: "backpack:tanned_leather",
+		count: 3
+	},
+	{
+		uid: "f8a3ce65",
+		type: "item",
+		item: "minecraft:string",
+		count: 4
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Кольцо отмены инерции",
+	x: 15.5d,
+	y: -0.5d,
+	text: [
+		"Сколько б Вы не летали интерция есть и будет одним из основных законов инерции или нет?"
+	],
+	dependencies: [
+		"42ccdd06",
+		"d704524b"
+	],
+	tasks: [{
+		uid: "e265ff74",
+		type: "item",
+		items: [{
+			item: "draconicadditions:inertia_cancel_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "361df670",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9ec85e5b",
+		type: "item",
+		item: "draconicevolution:wyvern_energy_core",
+		count: 4
+	}]
+}

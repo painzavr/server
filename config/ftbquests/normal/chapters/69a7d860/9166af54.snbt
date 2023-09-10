@@ -1,0 +1,34 @@
+{
+	title: "Блюдо Господа Бога",
+	x: -0.2857142857142776d,
+	y: 6.107142857142854d,
+	text: [
+		"Наверное пьянящий запах? Но не стоит это есть так как потом будете карать себя за это..."
+	],
+	dependencies: [
+		"2dd002a3"
+	],
+	tasks: [{
+		uid: "c92123ed",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
+	}],
+	rewards: [{
+		uid: "21565e44",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "76147c63",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "ee8d7663",
+		type: "item",
+		item: "avaritia:ultimate_stew",
+		count: 2
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Лучшая ступень",
+	x: 8.5d,
+	y: -4.0d,
+	dependencies: [
+		"0bae4455"
+	],
+	tasks: [{
+		uid: "8a0793f3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2edf0929",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5334fd12",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fd8985fd",
+		type: "random",
+		table: 2
+	}]
+}

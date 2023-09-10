@@ -1,0 +1,29 @@
+{
+	title: "Лабиринт Миноса",
+	x: 31.0d,
+	y: 3.5d,
+	text: [
+		"Вы могли повидать всё в этом мире: башни, подземелья, замки и т.д.. Но чтобы повидать легендарный лабиринт Миноса..."
+	],
+	dependencies: [
+		"8f30f4cb"
+	],
+	tasks: [{
+		uid: "a8c5f241",
+		type: "kill",
+		title: "Убей Гриботавра",
+		icon: "twilightforest:trophy 1 6",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6af12988",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fe61d510",
+		type: "random",
+		table: 4
+	}]
+}

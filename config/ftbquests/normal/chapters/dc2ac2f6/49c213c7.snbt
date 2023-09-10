@@ -1,0 +1,49 @@
+{
+	title: "Первый но непоследний!",
+	icon: "minecraft:nether_star",
+	x: -7.5d,
+	y: -3.0d,
+	text: [
+		"После небольшого опыта с големом была совершена попытка обьеденить песок душ и черепа скелетов из ада и получилось что-то ужасное..."
+	],
+	dependencies: [
+		"e1f84b80",
+		"33268d05"
+	],
+	tasks: [{
+		uid: "7c7e022c",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	},
+	{
+		uid: "72303482",
+		type: "kill",
+		title: "Пора убить Визара",
+		icon: "minecraft:iron_sword",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f8c7c628",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "39236901",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "d2f7487a",
+		type: "item",
+		item: {
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}
+	}]
+}

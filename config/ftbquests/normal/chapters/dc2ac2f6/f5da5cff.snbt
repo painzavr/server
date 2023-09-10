@@ -1,0 +1,30 @@
+{
+	title: "Поддержка портала",
+	x: 19.0d,
+	y: -7.5d,
+	text: [
+		"Пилоны передачи энергии что будуть питать портал в Эльфхейм"
+	],
+	dependencies: [
+		"b36f90df",
+		"37e13560"
+	],
+	tasks: [{
+		uid: "99425132",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "816b8d2f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d6eee1ff",
+		type: "item",
+		item: "botania:manaresource 1 4"
+	}]
+}

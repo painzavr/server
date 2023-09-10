@@ -1,0 +1,23 @@
+{
+	title: "Начинающий моряк",
+	x: 32.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a3127a96",
+		type: "stat",
+		title: "Проплыви на лодке",
+		icon: "minecraft:boat",
+		stat: "stat.boatOneCm",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "b396f8a6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cd3dfda6",
+		type: "random",
+		table: 0
+	}]
+}

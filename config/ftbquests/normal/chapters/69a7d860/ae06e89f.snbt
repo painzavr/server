@@ -1,0 +1,32 @@
+{
+	x: 6.80952380952381d,
+	y: 6.815476190476183d,
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "a003bef8",
+		type: "item",
+		items: [{
+			item: "mekanism:flamethrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbf8be66",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b40d4fb3",
+		type: "item",
+		item: "ic2:ingot 1 6",
+		count: 15
+	},
+	{
+		uid: "e3a8c544",
+		type: "random",
+		table: 1
+	}]
+}

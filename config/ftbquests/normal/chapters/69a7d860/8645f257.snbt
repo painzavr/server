@@ -1,0 +1,29 @@
+{
+	title: "Дробитель для сущностей",
+	x: 6.285714285714278d,
+	y: 0.2916666666666714d,
+	text: [
+		"Сколько ты не бей мобов доволен не будешь. Этот механизм будет убивать мобов с одного удара"
+	],
+	dependencies: [
+		"8164b140",
+		"f315a504"
+	],
+	tasks: [{
+		uid: "12dea23d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "f09e5ec5",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "8869070b",
+		type: "random",
+		table: 0
+	}]
+}

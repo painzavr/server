@@ -1,0 +1,36 @@
+{
+	title: "Начинающий слесарь",
+	x: 1.0d,
+	y: -3.0d,
+	text: [
+		"Дерево добыто! Осталось только переделать его в что-то более стоящие и можно играть дальше"
+	],
+	dependencies: [
+		"e643fd2b",
+		"22460e38"
+	],
+	tasks: [{
+		uid: "4daedc90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "73037d25",
+		type: "xp",
+		xp: 10
+	}]
+}

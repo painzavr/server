@@ -1,0 +1,49 @@
+{
+	title: "Озолоти мою еду",
+	icon: "minecraft:gold_nugget",
+	x: 3.0d,
+	y: -8.0d,
+	text: [
+		"Эти предметы сверкают, может это сьедобно?"
+	],
+	dependencies: [
+		"aaf4d9d9",
+		"4fd8f8d6",
+		"2d058896"
+	],
+	tasks: [{
+		uid: "a44c52c9",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_carrot"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9bbe809f",
+		type: "item",
+		items: [{
+			item: "minecraft:speckled_melon"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "84b9d552",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_apple"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "62a4b317",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 15
+	},
+	{
+		uid: "4d44f471",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

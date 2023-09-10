@@ -1,0 +1,29 @@
+{
+	x: -13.5d,
+	y: 11.5d,
+	dependencies: [
+		"95030a17",
+		"9af4c698"
+	],
+	tasks: [{
+		uid: "373448ea",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f641aa28",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c8e3abe8",
+		type: "random",
+		table: 1
+	}]
+}

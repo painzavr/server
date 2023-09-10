@@ -1,0 +1,24 @@
+{
+	title: "Что-то експерементальное",
+	x: -14.0d,
+	y: -2.0d,
+	text: [
+		"Руда от которой напитываешься знаниями и опытом, что-то в этом есть"
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "1d6ca260",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b5a0cac4",
+		type: "xp",
+		xp: 25
+	}]
+}

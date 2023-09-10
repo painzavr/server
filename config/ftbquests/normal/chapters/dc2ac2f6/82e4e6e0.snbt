@@ -1,0 +1,54 @@
+{
+	title: "Свежего разлива",
+	x: 7.5d,
+	y: 10.0d,
+	text: [
+		"Переплавить эсенцию это пол беды, а вот автоматизовать это уже другой вопрос"
+	],
+	dependencies: [
+		"1365f948"
+	],
+	tasks: [{
+		uid: "27c3f6bf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}]
+	},
+	{
+		uid: "f4147240",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}]
+	},
+	{
+		uid: "e5fa8b56",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_valve"
+		}]
+	}],
+	rewards: [{
+		uid: "0094c5c7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a01c6e75",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7ec69902",
+		type: "item",
+		item: "thaumcraft:plank_greatwood",
+		count: 6
+	},
+	{
+		uid: "0f1f46b9",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	}]
+}

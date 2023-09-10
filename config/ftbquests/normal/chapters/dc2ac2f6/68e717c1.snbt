@@ -1,0 +1,30 @@
+{
+	title: "Хранитель маны",
+	x: 23.08333333333333d,
+	y: -5.988095238095234d,
+	text: [
+		"Басейн что словно водой пополняется маной и позволяет хранить в себе приличное её количество"
+	],
+	dependencies: [
+		"e265da7b",
+		"9381b7c7"
+	],
+	tasks: [{
+		uid: "f13a99c8",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "6c5291a6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d9b729da",
+		type: "item",
+		item: "botania:livingrock",
+		count: 5
+	}]
+}

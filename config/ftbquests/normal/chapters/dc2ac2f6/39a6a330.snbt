@@ -1,0 +1,56 @@
+{
+	title: "Искуство зеркал",
+	x: -7.0d,
+	y: 10.0d,
+	text: [
+		"Один человек в странной одежде и длинным худым лицом. Кажеться его звали Гюнтер`О Дим, он сказал что если сооденить два зеркала можно передавать вещи куда захочешь и когда"
+	],
+	dependencies: [
+		"9aac0550"
+	],
+	tasks: [{
+		uid: "88a23607",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	},
+	{
+		uid: "31a9976c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hand_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1dcd8f3e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror_essentia"
+		}]
+	}],
+	rewards: [{
+		uid: "a64dc6db",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "f0c1b8eb",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 5
+	},
+	{
+		uid: "242340e7",
+		type: "item",
+		item: "thaumcraft:label",
+		count: 15
+	},
+	{
+		uid: "9ac21c6d",
+		type: "item",
+		item: "thaumcraft:sanity_checker"
+	}]
+}

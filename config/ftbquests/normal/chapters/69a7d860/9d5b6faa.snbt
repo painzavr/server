@@ -1,0 +1,71 @@
+{
+	title: "Защита энергией",
+	x: -12.5d,
+	y: 1.5d,
+	text: [
+		"Броня что способна трансформировать урон в высасывание энергии из самого армора"
+	],
+	dependencies: [
+		"30378dc9"
+	],
+	tasks: [{
+		uid: "9472d487",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8436eac6",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb13218d",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "56d3ae21",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d32aad95",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "18a62439",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "31aaf717",
+		type: "item",
+		item: "ic2:ingot",
+		count: 5
+	}]
+}

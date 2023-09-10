@@ -1,0 +1,37 @@
+{
+	title: "Магия...",
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"Наконец-то ты можешь начать изучать магию, не подведи там"
+	],
+	dependencies: [
+		"82503bee",
+		"9aace3df"
+	],
+	tasks: [{
+		uid: "1825d866",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bad6d5d9",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "b4b45844",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c2170970",
+		type: "random",
+		table: 0
+	}]
+}

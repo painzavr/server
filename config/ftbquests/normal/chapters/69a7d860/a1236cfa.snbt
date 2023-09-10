@@ -1,0 +1,73 @@
+{
+	title: "До дрожа костей",
+	x: -1.0d,
+	y: -7.5d,
+	text: [
+		"Механизм что может передробить даже крепчайший метал, пыль созданая в нём может помочь обьеденять 2-3, а то и 4 металов в один единый компонент"
+	],
+	dependencies: [
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "d11e921c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "3f56e76f",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "ace95689",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "f9cae68e",
+		type: "item",
+		item: "thermalfoundation:material 1 98",
+		count: 14
+	},
+	{
+		uid: "0f70a701",
+		type: "item",
+		item: "ic2:dust 1 2",
+		count: 32
+	},
+	{
+		uid: "876c56d3",
+		type: "item",
+		item: "ic2:dust 1 8",
+		count: 15
+	},
+	{
+		uid: "8ba3edb0",
+		type: "item",
+		item: "mekanism:dust 1 1",
+		count: 15
+	},
+	{
+		uid: "ebf95735",
+		type: "item",
+		item: "mekanism:otherdust",
+		count: 5
+	}]
+}

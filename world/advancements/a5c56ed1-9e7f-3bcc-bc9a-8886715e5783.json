@@ -1,0 +1,38 @@
+{
+  "mod_lavacow:mod_lavacow/root": {
+    "criteria": {
+      "tick": "2023-09-10 18:45:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2023-09-10 18:47:12 +0300"
+    },
+    "done": true
+  },
+  "tombstone:tutorial/root": {
+    "criteria": {
+      "auto": "2023-09-10 18:45:33 +0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2023-09-10 18:45:34 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "book": "2023-09-10 18:45:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2023-09-10 18:45:56 +0300"
+    },
+    "done": false
+  }
+}

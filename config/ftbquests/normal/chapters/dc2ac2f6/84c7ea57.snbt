@@ -1,0 +1,58 @@
+{
+	title: "Защитник Гайи I",
+	x: 17.13095238095238d,
+	y: -9.226190476190474d,
+	text: [
+		"Первый босс этого мода, но первый не значит слабый будте очень осторожны с ним"
+	],
+	dependencies: [
+		"f5da5cff"
+	],
+	tasks: [{
+		uid: "b8b2c961",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c07b820e",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "2034a0ef",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 9L
+	},
+	{
+		uid: "b2201117",
+		type: "kill",
+		title: "Убейте Гайю I-го уровня",
+		icon: "botania:manaresource 1 5",
+		entity: "botania:doppleganger",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a69efc79",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "1090de70",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "359953ca",
+		type: "item",
+		item: "minecraft:prismarine_shard",
+		count: 5
+	}]
+}

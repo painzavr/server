@@ -1,0 +1,29 @@
+{
+	title: "Защитник Гайи II",
+	x: 14.035714285714306d,
+	y: -10.65476190476192d,
+	text: [
+		"Более сильный аналог предыдущего босса что предоставит Вам больше проблем и мороки так что будте бдительны"
+	],
+	dependencies: [
+		"84c7ea57"
+	],
+	tasks: [{
+		uid: "0c8b747b",
+		type: "kill",
+		title: "Убейту Гайю II-го уровня",
+		icon: "botania:manaresource 1 5",
+		entity: "botania:doppleganger",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "6e35c4d5",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "f8a25e14",
+		type: "random",
+		table: 4
+	}]
+}

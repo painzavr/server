@@ -1,0 +1,30 @@
+{
+	title: "На грани совершенства",
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"Вы уже так близки к совершенности"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "df16a355",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cb86bee",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "bda4f06a",
+		type: "random",
+		table: 0
+	}]
+}

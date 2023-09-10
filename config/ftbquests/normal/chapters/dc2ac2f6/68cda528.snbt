@@ -1,0 +1,37 @@
+{
+	title: "Бездонность из метала",
+	x: -3.0d,
+	y: 2.0d,
+	text: [
+		"Это может пригодится в многих механизмах"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "091b18aa",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "92c8aaa4",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "d9ec262f",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 25
+	},
+	{
+		uid: "0c97db05",
+		type: "item",
+		item: "ironchest:iron_chest",
+		count: 3
+	}]
+}

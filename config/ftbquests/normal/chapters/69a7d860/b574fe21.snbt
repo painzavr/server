@@ -1,0 +1,45 @@
+{
+	title: "Вычеслить ветер",
+	icon: {
+		id: "ic2:wind_meter",
+		tag: {
+			charge: 10000.0d
+		}
+	},
+	x: -8.5d,
+	y: -2.0d,
+	text: [
+		"Апарат что поможет Вам узнать силу ветра для установки ветряных генераторов"
+	],
+	dependencies: [
+		"7ed92e5d",
+		"123805a1"
+	],
+	tasks: [{
+		uid: "7b1da2f9",
+		type: "item",
+		items: [{
+			id: "ic2:wind_meter",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99940a37",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "4608dd5c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "594397b7",
+		type: "item",
+		item: "ic2:crafting",
+		count: 5
+	}]
+}

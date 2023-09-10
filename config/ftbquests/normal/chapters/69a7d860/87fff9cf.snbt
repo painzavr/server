@@ -1,0 +1,72 @@
+{
+	title: "Thermal Expansion: Начало",
+	icon: "thermalfoundation:coin",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"История инженера не может сущетвовать без приборов дающих энергию - генераторов. Как же их создать?"
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "6883a6c9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 257"
+		}],
+		count: 5L
+	},
+	{
+		uid: "1c1be4a9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 256"
+		}],
+		count: 5L
+	},
+	{
+		uid: "073bd1c4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 513"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e9a2b4f1",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3feb96e4",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "45e5e6ea",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8b8839a0",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 15
+	},
+	{
+		uid: "e314cd3a",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 10
+	},
+	{
+		uid: "0e007720",
+		type: "item",
+		item: "ic2:ingot 1 6",
+		count: 15
+	}]
+}

@@ -1,0 +1,263 @@
+{
+	title: "Эпичные награды",
+	icon: "minecraft:emerald_ore",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:sack_ender"
+	},
+	{
+		item: "thermalfoundation:material 1 70",
+		count: 5
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 2
+	},
+	{
+		item: "betternether:cincinnasite_pickaxe_diamond"
+	},
+	{
+		item: "ic2:resource 1 4",
+		count: 5
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 5
+	},
+	{
+		item: "thermalfoundation:ore 1 7"
+	},
+	{
+		item: "iceandfire:dragonbone_sword_fire"
+	},
+	{
+		item: "ic2:alloy_chestplate",
+		weight: 2
+	},
+	{
+		item: "draconicevolution:draconium_dust",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "thaumcraft:causality_collapser",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 113
+			},
+			Damage: 2s
+		},
+		count: 3,
+		weight: 2
+	},
+	{
+		item: "draconicevolution:infused_obsidian",
+		count: 15,
+		weight: 2
+	},
+	{
+		item: "thermalfoundation:material 1 1024",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "xreliquary:angelic_feather",
+		weight: 2
+	},
+	{
+		item: "thermalfoundation:tool.bow_platinum",
+		weight: 2
+	},
+	{
+		item: "minecraft:beacon",
+		weight: 2
+	},
+	{
+		item: "botania:virus 1 1",
+		weight: 2
+	},
+	{
+		item: {
+			id: "ic2:rotor_carbon",
+			tag: {
+				advDmg: 0
+			}
+		},
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "thermalfoundation:material 1 164",
+		count: 15,
+		weight: 3
+	},
+	{
+		item: "thermalfoundation:ore 1 2",
+		count: 10,
+		weight: 3
+	},
+	{
+		item: "xreliquary:hero_medallion",
+		weight: 3
+	},
+	{
+		item: "xreliquary:sojourner_staff",
+		weight: 3
+	},
+	{
+		item: "xreliquary:shears_of_winter",
+		weight: 3
+	},
+	{
+		item: "backpack:backpack 1 201",
+		weight: 3
+	},
+	{
+		item: "mysticalagriculture:seed_reprocessor",
+		weight: 3
+	},
+	{
+		item: "harvestcraft:sweetpotatopieitem",
+		count: 32,
+		weight: 4
+	},
+	{
+		item: "mekanismtools:obsidianpaxel",
+		weight: 3
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 25,
+		weight: 4
+	},
+	{
+		item: "thermalfoundation:material 1 162",
+		count: 10,
+		weight: 4
+	},
+	{
+		item: "iceandfire:dread_shard",
+		count: 7,
+		weight: 4
+	},
+	{
+		item: "botania:laputashard 1 9",
+		count: 2,
+		weight: 4
+	},
+	{
+		item: "twilightforest:ore_magnet",
+		weight: 4
+	},
+	{
+		item: "ic2:crafting 1 2",
+		count: 5,
+		weight: 4
+	},
+	{
+		item: "enderio:item_material 1 20",
+		count: 14,
+		weight: 4
+	},
+	{
+		item: "minecraft:ender_chest",
+		weight: 4
+	},
+	{
+		item: "twilightforest:twilight_sapling 1 5",
+		count: 4,
+		weight: 4
+	},
+	{
+		item: "extrautils2:suncrystal",
+		weight: 4
+	},
+	{
+		item: "cyclicmagic:tool_harvest_crops",
+		weight: 5
+	},
+	{
+		item: {
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		},
+		weight: 5
+	},
+	{
+		item: "thaumcraft:curio 1 1",
+		count: 15,
+		weight: 5
+	},
+	{
+		item: "thaumcraft:nugget 1 10",
+		count: 5,
+		weight: 5
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 5,
+		weight: 5
+	},
+	{
+		item: "avaritia:resource 1 2",
+		count: 3,
+		weight: 5
+	},
+	{
+		item: "ic2:crushed 1 1",
+		count: 15,
+		weight: 5
+	},
+	{
+		item: "twilightforest:knightmetal_shield",
+		weight: 5
+	},
+	{
+		item: "xreliquary:altar",
+		count: 3,
+		weight: 5
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 3,
+		weight: 5
+	},
+	{
+		item: "ic2:sapling",
+		count: 3,
+		weight: 5
+	},
+	{
+		item: "thermalfoundation:ore 1 4",
+		count: 10,
+		weight: 5
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		},
+		weight: 5
+	},
+	{
+		item: "iceandfire:troll_weapon.axe",
+		weight: 5
+	}]
+}

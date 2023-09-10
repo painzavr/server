@@ -1,0 +1,53 @@
+{
+	title: "Слияние во всей красе",
+	x: -1.5d,
+	y: 8.5d,
+	text: [
+		"Это елемент который является незаменимым в создании предметов в моде Таймкрафт. Без него слияние предметов невозможно"
+	],
+	dependencies: [
+		"5a7775f3"
+	],
+	tasks: [{
+		uid: "b91afdd6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "fb2921c6",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "270d84b7",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "motus"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 5
+	},
+	{
+		uid: "5dfbef40",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "volatus"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Повелитель троих братьев",
+	icon: "thaumcraft:crimson_robe_helm",
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"01dc325d",
+		"20775de2"
+	],
+	tasks: [{
+		uid: "9a721405",
+		type: "kill",
+		entity: "thaumcraft:eldritchwarden",
+		value: 1L
+	},
+	{
+		uid: "512ddfc4",
+		type: "kill",
+		entity: "thaumcraft:eldritchgolem",
+		value: 1L
+	},
+	{
+		uid: "da062148",
+		type: "kill",
+		entity: "thaumcraft:cultistleader",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "161ba6f0",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "acf74a79",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "621a0892",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "c2083d02",
+		type: "random",
+		table: 3
+	}]
+}

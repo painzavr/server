@@ -1,0 +1,63 @@
+{
+	title: "Неудачное знакомство",
+	x: 24.5d,
+	y: 1.5d,
+	text: [
+		"Так получилось что переходы сквозь порталы заставляет поесть..."
+	],
+	dependencies: [
+		"1fc27e4b"
+	],
+	tasks: [{
+		uid: "14ea229b",
+		type: "kill",
+		title: "Убей оленя",
+		icon: "backpack:bound_leather",
+		entity: "twilightforest:deer",
+		value: 1L
+	},
+	{
+		uid: "5dea9904",
+		type: "kill",
+		title: "Убей кабана",
+		icon: "minecraft:rabbit_hide",
+		entity: "twilightforest:wild_boar",
+		value: 1L
+	},
+	{
+		uid: "17689c47",
+		type: "kill",
+		title: "Убей белку",
+		icon: "forestry:fruits 1 2",
+		entity: "twilightforest:squirrel",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a977d1db",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "98dab29e",
+		type: "item",
+		item: "twilightforest:cooked_venison",
+		count: 5
+	},
+	{
+		uid: "bbe2e155",
+		type: "item",
+		item: "minecraft:cooked_porkchop",
+		count: 5
+	},
+	{
+		uid: "4be8d590",
+		type: "item",
+		item: "minecraft:rabbit_foot",
+		count: 5
+	},
+	{
+		uid: "35d81be0",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Фабрики стоят фабрики",
+	x: 2.708163265306098d,
+	y: 14.395110544217687d,
+	text: [
+		"Доведем автоматизацию до автоматизации"
+	],
+	dependencies: [
+		"84500c9d"
+	],
+	tasks: [{
+		uid: "541fa467",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "447f7639",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "18633aeb",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 5
+	},
+	{
+		uid: "3157f0a5",
+		type: "item",
+		item: "minecraft:flint",
+		count: 15
+	},
+	{
+		uid: "02bcf3ab",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

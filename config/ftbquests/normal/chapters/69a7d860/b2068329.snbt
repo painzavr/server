@@ -1,0 +1,54 @@
+{
+	title: "А что если ?",
+	x: 1.3986394557823019d,
+	y: 11.514158163265293d,
+	text: [
+		"Мы будем делать кристалы, мы будем делать вещи, мы купим себе осла для селькохозяйственных работ."
+	],
+	dependencies: [
+		"9c76f12b"
+	],
+	tasks: [{
+		uid: "7e2068ce",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 0
+			}
+		}]
+	},
+	{
+		uid: "0853fca8",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 600
+			},
+			Damage: 600s
+		}]
+	},
+	{
+		uid: "d8ed3ba9",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1200
+			},
+			Damage: 1200s
+		}]
+	}],
+	rewards: [{
+		uid: "9e72837a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "71c586c4",
+		type: "item",
+		item: "appliedenergistics2:material 1 3",
+		count: 6
+	}]
+}

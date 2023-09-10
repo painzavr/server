@@ -1,0 +1,75 @@
+{
+	title: "Странное покалывание...",
+	x: -5.5d,
+	y: 5.0d,
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "0b19b743",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8d809ced",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2a1bbc99",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "0583cd10",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bdc435fe",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a0b21419",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 3
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Уничтожающая попытка",
+	x: 24.035714285714306d,
+	y: -5.22619047619046d,
+	text: [
+		"Цветок превращает горючие предметы в ману "
+	],
+	dependencies: [
+		"9381b7c7"
+	],
+	tasks: [{
+		uid: "05b74ebc",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "65d5d15f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "abb35619",
+		type: "item",
+		item: "botania:flower 1 8",
+		count: 5
+	},
+	{
+		uid: "2a89c841",
+		type: "item",
+		item: "botania:flower 1 12",
+		count: 5
+	}]
+}

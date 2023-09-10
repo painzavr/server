@@ -1,0 +1,29 @@
+{
+	title: "Медовые соты",
+	x: 4.8272108843537325d,
+	y: 13.609396258503395d,
+	text: [
+		"Мы должны автоматизировать наши ячейки, под определенные ресурсы"
+	],
+	dependencies: [
+		"03dd7ea3"
+	],
+	tasks: [{
+		uid: "216307e0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:cell_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "194b5d00",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7daf2c8f",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 17
+	}]
+}

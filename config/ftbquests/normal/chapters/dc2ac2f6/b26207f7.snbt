@@ -1,0 +1,58 @@
+{
+	title: "Жизненная энергия",
+	x: -9.0d,
+	y: 11.5d,
+	text: [
+		"Броня что качается по принцыпу, что сделал то и улучшил, чтобы сбросить прогрес прийдётся создавать новую броню"
+	],
+	dependencies: [
+		"39fd1452"
+	],
+	tasks: [{
+		uid: "6449fadf",
+		type: "item",
+		items: [{
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98f99946",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2f176ea",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d372b0a4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cd205b7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b6907fa8",
+		type: "random",
+		table: 1
+	}]
+}

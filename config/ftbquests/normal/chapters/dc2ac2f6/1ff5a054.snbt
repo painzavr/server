@@ -1,0 +1,23 @@
+{
+	title: "Пора жечь!",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Пора научится улучшать своё снаряжение и готовить пищу лучше чем просто сырая свинья"
+	],
+	dependencies: [
+		"b1db907e"
+	],
+	tasks: [{
+		uid: "41df43e9",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "967844ec",
+		type: "xp",
+		xp: 10
+	}]
+}

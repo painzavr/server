@@ -1,0 +1,35 @@
+{
+	title: "Варим, печем, выпекаем",
+	x: 6.779591836734667d,
+	y: 12.89511054421768d,
+	text: [
+		"Из добытой пыли, мы смогли спечь аппетитное стекло... Ммм"
+	],
+	dependencies: [
+		"200eca0d"
+	],
+	tasks: [{
+		uid: "fdba340f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_glass"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "147a0518",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "6a2a0b03",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		uid: "5077a642",
+		type: "random",
+		table: 0
+	}]
+}

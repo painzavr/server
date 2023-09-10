@@ -1,0 +1,36 @@
+{
+	title: "Притормози!!!",
+	x: 5.5d,
+	y: 12.0d,
+	text: [
+		"Это всё канешно круто но зачем тебе самому заражать биомы?"
+	],
+	dependencies: [
+		"d5c2970f",
+		"2074ec3e",
+		"ef0e252c"
+	],
+	tasks: [{
+		uid: "33a0036d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bottle_taint"
+		}]
+	}],
+	rewards: [{
+		uid: "7a5b7380",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "2e6d8d12",
+		type: "item",
+		item: "thaumcraft:jar_brain"
+	},
+	{
+		uid: "1d3163af",
+		type: "item",
+		item: "thaumcraft:brain",
+		count: 15
+	}]
+}

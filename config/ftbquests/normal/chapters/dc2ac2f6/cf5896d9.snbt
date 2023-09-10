@@ -1,0 +1,44 @@
+{
+	title: "Крушитель лабиринтов",
+	x: 32.5d,
+	y: 4.5d,
+	text: [
+		"Легендарная кирка которая прорубает магию лабиринта и способна ломать его основу"
+	],
+	dependencies: [
+		"b6521faa"
+	],
+	tasks: [{
+		uid: "c1fcbdf9",
+		type: "item",
+		items: [{
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 32s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 2s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17d9a2f7",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "bc456a8b",
+		type: "random",
+		table: 3
+	}]
+}

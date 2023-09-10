@@ -1,0 +1,36 @@
+{
+	title: "Особенности местной породы",
+	x: -11.0d,
+	y: -8.5d,
+	text: [
+		"Нужно извлечь несколько экземпляров местной породы для дальнейшего изучения"
+	],
+	dependencies: [
+		"afbacd70"
+	],
+	tasks: [{
+		uid: "1265f03d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "endstone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any endstone"
+				}
+			}
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ade30d01",
+		type: "xp",
+		xp: 50
+	}]
+}

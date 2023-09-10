@@ -1,0 +1,88 @@
+{
+	title: "С магией хоть куда",
+	x: -4.0d,
+	y: 11.0d,
+	text: [
+		"Штурмовая броня одна из лучших на начальной стадии игры может не стоит ею пренебрегать?"
+	],
+	dependencies: [
+		"6edfa8e3"
+	],
+	tasks: [{
+		uid: "a8553eaa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3046a84d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8b9676b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1cf8ebe9",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ab52a26d",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praemunio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 15
+	},
+	{
+		uid: "4d424092",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praecantatio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 15
+	},
+	{
+		uid: "ffe1199e",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "machina"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 10
+	}]
+}

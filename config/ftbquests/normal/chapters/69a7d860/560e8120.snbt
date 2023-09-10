@@ -1,0 +1,25 @@
+{
+	x: -2.7204081632653327d,
+	y: 17.28796768707482d,
+	dependencies: [
+		"bcc433d0",
+		"ef490396"
+	],
+	tasks: [{
+		uid: "d27dee3e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "2fa7a42a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0487af68",
+		type: "item",
+		item: "appliedenergistics2:chest"
+	}]
+}

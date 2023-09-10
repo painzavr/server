@@ -1,0 +1,40 @@
+{
+	title: "Непонятный дробитель",
+	x: 4.238095238095227d,
+	y: 3.5416666666666643d,
+	text: [
+		"Не понятно точно для чего нужно дробить слитки, но их пыль может и будет столь же полезной как и их целостный вид"
+	],
+	dependencies: [
+		"dd905e0b"
+	],
+	tasks: [{
+		uid: "be1877ce",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73fc7e00",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3f186f84",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	},
+	{
+		uid: "31fe9fd7",
+		type: "item",
+		item: "mekanism:controlcircuit",
+		count: 5
+	},
+	{
+		uid: "375bb1f9",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Запасайся энергией",
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"Энергохранилище важное звено в любой сети оборудований. Пространство для хранения является обязательным пунктом в роботе например ядерного реактора"
+	],
+	dependencies: [
+		"f5678c32",
+		"005c8083"
+	],
+	tasks: [{
+		uid: "2a9c2069",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}]
+	}],
+	rewards: [{
+		uid: "6a05f75a",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "64bebbe4",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "f8d78ee2",
+		type: "item",
+		item: {
+			id: "ic2:re_battery",
+			tag: {
+				charge: 10000.0d
+			}
+		},
+		count: 3
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Создатель цветов",
+	x: 23.0d,
+	y: -1.5d,
+	text: [
+		"Место где Вы сможете создатавать необходимые Вам цветки, а также генерировать совсем странные вещи"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "f5aa0aad",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "306ede63",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "769d2dc5",
+		type: "item",
+		item: "botania:flower",
+		count: 4
+	}]
+}

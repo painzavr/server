@@ -1,0 +1,22 @@
+{
+	title: "Найди если сможешь",
+	x: -10.5d,
+	y: -1.0d,
+	text: [
+		"В кромешной лавой пучине Ада есть строения неземного производства попытайся их отыскать"
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "936db148",
+		type: "advancement",
+		advancement: "nether/find_fortress",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "a7ff9ab3",
+		type: "xp",
+		xp: 50
+	}]
+}

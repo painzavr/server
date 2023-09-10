@@ -1,0 +1,28 @@
+{
+	title: "Трубный насос",
+	x: 2.5d,
+	y: -7.5d,
+	text: [
+		"Установи на любую трубу и всё что должно было переместится"
+	],
+	dependencies: [
+		"0b7db09b"
+	],
+	tasks: [{
+		uid: "4d487d28",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo"
+		}]
+	}],
+	rewards: [{
+		uid: "948a09d9",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "4226cf76",
+		type: "random",
+		table: 1
+	}]
+}

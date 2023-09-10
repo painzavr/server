@@ -1,0 +1,49 @@
+{
+	title: "Панели на RF",
+	x: 8.0d,
+	y: 3.910714285714292d,
+	text: [
+		"Солнце всегда будет одним из стабильнейших источников энергии"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "cfcf978a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e715f3db",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31c48ea3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "64f9b32a",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 20
+	},
+	{
+		uid: "62b35b44",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "488ff0bc",
+		type: "item",
+		item: "mekanism:polyethene 1 2",
+		count: 5
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Утроить или обогатить?",
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"Печь которая способна интересно влиять на свойства разных металов, а так же сделать его более гибким к изменениям"
+	],
+	dependencies: [
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "5e4ce3fc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "427ac80c",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "a6684644",
+		type: "item",
+		item: "thermalfoundation:material 1 866",
+		count: 12
+	},
+	{
+		uid: "b792b136",
+		type: "item",
+		item: "mekanism:speedupgrade",
+		count: 5
+	},
+	{
+		uid: "3e06eb6f",
+		type: "item",
+		item: "thermalfoundation:material 1 513",
+		count: 3
+	}]
+}

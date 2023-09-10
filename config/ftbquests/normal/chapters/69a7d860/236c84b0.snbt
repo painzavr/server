@@ -1,0 +1,29 @@
+{
+	title: "Бронзовый век III",
+	x: -11.24421768707483d,
+	y: 13.573681972789117d,
+	text: [
+		"Соединяя два метала можно получить сплав который возьмёт лучшее от обоих"
+	],
+	dependencies: [
+		"66d1b63d"
+	],
+	tasks: [{
+		uid: "1e5ccf19",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "153b0a2c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d5e2a2ab",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 5
+	}]
+}

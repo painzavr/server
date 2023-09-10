@@ -1,0 +1,40 @@
+{
+	title: "Почувствуй себя Богом",
+	x: 15.678571428571459d,
+	y: -11.119047619047628d,
+	text: [
+		"Осколок что магическим образом поднимает Ваш пока что маленький островок в небо"
+	],
+	dependencies: [
+		"84c7ea57"
+	],
+	tasks: [{
+		uid: "dd8a7c48",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "0d752150",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "db784552",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 10
+	},
+	{
+		uid: "40b2da00",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "47229a0e",
+		type: "item",
+		item: "botania:manaresource 1 9",
+		count: 5
+	}]
+}

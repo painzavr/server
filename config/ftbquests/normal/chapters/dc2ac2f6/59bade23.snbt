@@ -1,0 +1,41 @@
+{
+	title: "Лучше лучшего",
+	x: -13.5d,
+	y: 4.0d,
+	text: [
+		"Модификация двоих инструментов, поможет ли она в выживании или же нет? Не попробуешь не узнаешь"
+	],
+	dependencies: [
+		"8556ce63",
+		"f9d49862"
+	],
+	tasks: [{
+		uid: "4636c9e6",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_pickaxe_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7c9f36f",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_axe_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e22e4965",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "8285c2db",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

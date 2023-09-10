@@ -1,0 +1,29 @@
+{
+	title: "Подтягивание душ",
+	x: -10.0d,
+	y: 15.5d,
+	text: [
+		"Высасывает энергию душ из соседних чанков"
+	],
+	dependencies: [
+		"1b39c8df",
+		"38d2c42d"
+	],
+	tasks: [{
+		uid: "686b2cbd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "89d9860f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0236d394",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Пиротиумный генератор",
+	x: -4.5d,
+	y: -11.0d,
+	text: [
+		"Генератор что способен работать на катализаторе что взаемодействует с криотеумом"
+	],
+	dependencies: [
+		"27c1803b"
+	],
+	tasks: [{
+		uid: "dda69c2d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "430e9ce2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7ff7fbbb",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 12
+	},
+	{
+		uid: "14362f10",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 12
+	}]
+}

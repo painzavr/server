@@ -1,0 +1,51 @@
+{
+	title: "Одеяние из маны",
+	x: 21.22619047619048d,
+	y: -8.559523809523796d,
+	text: [
+		"Одеяние созданое из чистых слитков маны могут и не нести практическое значение напрямую как броня, но может помочь уменьшить затраты маны при испоьзовании инструментов что питаются от маны"
+	],
+	dependencies: [
+		"b36f90df",
+		"372f9812"
+	],
+	tasks: [{
+		uid: "0973554d",
+		type: "item",
+		items: [{
+			id: "botania:manasteelchest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5d0f565",
+		type: "item",
+		items: [{
+			item: "botania:manasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab507282",
+		type: "item",
+		items: [{
+			item: "botania:manasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea17c465",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "578cd9e0",
+		type: "item",
+		item: "botania:manaresource",
+		count: 10
+	}]
+}

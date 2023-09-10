@@ -1,0 +1,36 @@
+{
+	title: "Изначальное состояние",
+	x: 2.547619047619037d,
+	y: 4.125d,
+	text: [
+		"А что если соеденить булыжник и допустим уголь, то можно получить каменноугольную руду"
+	],
+	dependencies: [
+		"dd905e0b"
+	],
+	tasks: [{
+		uid: "33c64d7c",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35ed47b4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "284397f2",
+		type: "item",
+		item: "mekanism:otherdust",
+		count: 5
+	},
+	{
+		uid: "30ff555c",
+		type: "item",
+		item: "mekanism:controlcircuit 1 2",
+		count: 2
+	}]
+}

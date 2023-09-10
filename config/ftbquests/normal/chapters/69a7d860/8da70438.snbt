@@ -1,0 +1,29 @@
+{
+	title: "Да кто этот ваш Стирлинг?!",
+	x: -8.42278911564626d,
+	y: 8.85939625850343d,
+	text: [
+		"Создай свою маленькую ТЭС!"
+	],
+	dependencies: [
+		"4ff70cc5"
+	],
+	tasks: [{
+		uid: "a55ac63d",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "b45d2c15",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ff3347af",
+		type: "item",
+		item: "minecraft:coal",
+		count: 15
+	}]
+}

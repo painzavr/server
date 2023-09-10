@@ -1,0 +1,23 @@
+{
+	title: "Осведомлён значит вооружен",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"Планшет позволяющий узнать всю информацию о моде "
+	],
+	dependencies: [
+		"8d58dc52"
+	],
+	tasks: [{
+		uid: "665bd496",
+		type: "item",
+		items: [{
+			item: "draconicevolution:info_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "94f394e4",
+		type: "xp",
+		xp: 50
+	}]
+}

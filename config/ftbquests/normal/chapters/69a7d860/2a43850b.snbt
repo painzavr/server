@@ -1,0 +1,79 @@
+{
+	x: 16.5d,
+	y: 6.0d,
+	dependencies: [
+		"f5de8018",
+		"95aa5c60"
+	],
+	tasks: [{
+		uid: "70d42e40",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "459d5452",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16a00bec",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bd55d95",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3870a52c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 36,
+					Items: []
+				}
+			},
+			id: "draconicadditions:chaotic_staff_of_power"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b15e33c",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbf7e2b8",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "1c0359bb",
+		type: "item",
+		item: "avaritia:neutron_collector",
+		count: 3
+	}]
+}

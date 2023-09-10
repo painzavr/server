@@ -1,0 +1,94 @@
+{
+	title: "Схема на МОХ-стержнях",
+	x: -12.5d,
+	y: -9.5d,
+	shape: "gear",
+	text: [
+		"Обратите внимание, что реактор нужно сначала разогреть до 98%"
+	],
+	dependencies: [
+		"eb84eeb0",
+		"1515b3c4"
+	],
+	tasks: [{
+		uid: "5aaed024",
+		type: "item",
+		items: [{
+			id: "ic2:advanced_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 22L
+	},
+	{
+		uid: "99584b65",
+		type: "item",
+		items: [{
+			id: "ic2:component_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "a3b67ad1",
+		type: "item",
+		items: [{
+			item: "ic2:component_heat_vent"
+		}],
+		count: 16L
+	},
+	{
+		uid: "63a22481",
+		type: "item",
+		items: [{
+			id: "ic2:heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "01c969c2",
+		type: "item",
+		items: [{
+			id: "ic2:quad_mox_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "a902b354",
+		type: "item",
+		items: [{
+			item: "ic2:plating"
+		}]
+	}],
+	rewards: [{
+		uid: "7d448a1e",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "96fc910c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1ad7b9f2",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 15
+	},
+	{
+		uid: "c9f3d888",
+		type: "item",
+		item: "ic2:crafting 1 6",
+		count: 15
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "Пыль с выбросами",
+	x: -15.0d,
+	y: -4.5d,
+	text: [
+		"Механизм что употребляет невероятное количество энергии за свою роботу. Чтобы держать тепло на максимуме обязательно нужно подключить рычаг или просто подать редстоун сигнал"
+	],
+	dependencies: [
+		"0730e7f7"
+	],
+	tasks: [{
+		uid: "dd1ae1c2",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "c6d56e9b",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "bc814fe0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "94ee2832",
+		type: "item",
+		item: "ic2:purified",
+		count: 15
+	},
+	{
+		uid: "b51b9c2e",
+		type: "item",
+		item: "ic2:purified 1 5",
+		count: 15
+	},
+	{
+		uid: "816c8825",
+		type: "item",
+		item: "ic2:resource 1 4",
+		count: 15
+	},
+	{
+		uid: "5da0f432",
+		type: "item",
+		item: "ic2:crafting 1 9",
+		count: 14
+	}]
+}

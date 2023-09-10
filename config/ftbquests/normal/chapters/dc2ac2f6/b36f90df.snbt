@@ -1,0 +1,29 @@
+{
+	title: "Направь ману",
+	x: 21.36904761904762d,
+	y: -6.464285714285708d,
+	text: [
+		"Этот припор способен перенаправлять целые потоки маны что в свою очередь очень помагает с такой задачей как запитать басейн маны"
+	],
+	dependencies: [
+		"e265da7b"
+	],
+	tasks: [{
+		uid: "e6494aa5",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "de9b607f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9e1029b2",
+		type: "item",
+		item: "botania:livingwood",
+		count: 5
+	}]
+}

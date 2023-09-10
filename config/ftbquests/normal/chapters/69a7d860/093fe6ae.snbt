@@ -1,0 +1,46 @@
+{
+	title: "Резервуарная лихоманка",
+	x: -5.5d,
+	y: -8.0d,
+	dependencies: [
+		"87fff9cf"
+	],
+	tasks: [{
+		uid: "298efc8a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cabe04e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec57a881",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1c1b9a26",
+		type: "item",
+		item: "thermalfoundation:material 1 65",
+		count: 5
+	},
+	{
+		uid: "7aa9c29b",
+		type: "item",
+		item: "minecraft:glass",
+		count: 5
+	}]
+}

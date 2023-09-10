@@ -1,0 +1,50 @@
+{
+	title: "Начало: Avaritia",
+	icon: "avaritia:resource 1 5",
+	x: -1.0d,
+	y: 3.0d,
+	text: [
+		"Начнём же знакомство с модом что способен преобразовать Землю в пустышку..."
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "fc94b332",
+		type: "item",
+		items: [{
+			item: "avaritia:double_compressed_crafting_table"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "5b2e8b8d",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "df20b0d3",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "a22137cb",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0dcc2afa",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 10
+	},
+	{
+		uid: "f4d21a21",
+		type: "item",
+		item: "avaritia:extreme_crafting_table"
+	}]
+}

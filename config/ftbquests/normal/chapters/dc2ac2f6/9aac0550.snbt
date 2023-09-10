@@ -1,0 +1,43 @@
+{
+	title: "Искуство света",
+	x: -6.0d,
+	y: 8.5d,
+	text: [
+		"Вис энергия так же способна просачиваться даже в сами солнечные лучи"
+	],
+	dependencies: [
+		"4749caf3",
+		"ca27233c"
+	],
+	tasks: [{
+		uid: "e5a6d085",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_arcane"
+		}]
+	},
+	{
+		uid: "5b8ba80c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_fertility"
+		}]
+	},
+	{
+		uid: "f1ef767f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}],
+	rewards: [{
+		uid: "e10e2f24",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "27bfedc5",
+		type: "random",
+		table: 0
+	}]
+}

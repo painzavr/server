@@ -1,0 +1,29 @@
+{
+	x: 22.464285714285737d,
+	y: -11.940476190476193d,
+	text: [
+		"Заставляет землекрушитель копать 3х3 при активном режиме"
+	],
+	dependencies: [
+		"164ca779"
+	],
+	tasks: [{
+		uid: "64cc7d0c",
+		type: "item",
+		items: [{
+			item: "botania:temperancestone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59a17af8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8477830c",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 2
+	}]
+}

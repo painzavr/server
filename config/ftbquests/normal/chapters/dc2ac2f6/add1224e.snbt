@@ -1,0 +1,54 @@
+{
+	title: "Надень на меня латы",
+	icon: "minecraft:iron_chestplate",
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"Что-то поувесистие чем просто кожа"
+	],
+	dependencies: [
+		"9ecb86d9",
+		"82503bee"
+	],
+	tasks: [{
+		uid: "f61d6312",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ab25466",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c1e2e71e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b9237e9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6c16e65",
+		type: "xp",
+		xp: 100
+	}]
+}

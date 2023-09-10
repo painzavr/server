@@ -1,0 +1,30 @@
+{
+	title: "Террасечение",
+	x: 19.654761904761926d,
+	y: -11.5595238095238d,
+	text: [
+		"Тонкое лезвие из терра стали способное посечь почти всё в этом мире но и ещё и направить лазер террализированой маны"
+	],
+	dependencies: [
+		"37e13560"
+	],
+	tasks: [{
+		uid: "5ee0d5b3",
+		type: "item",
+		items: [{
+			item: "botania:terrasword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67e906a7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "87c49e8b",
+		type: "random",
+		table: 2
+	}]
+}

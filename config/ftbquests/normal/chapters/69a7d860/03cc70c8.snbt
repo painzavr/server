@@ -1,0 +1,46 @@
+{
+	title: "Не парся - долби",
+	icon: {
+		id: "ic2:diamond_drill",
+		tag: {
+			charge: 30000.0d
+		}
+	},
+	x: -7.0d,
+	y: 1.0d,
+	text: [
+		"Зачем попусту тратить алмазы на безполезную кирку которая просто сломаеться? Заряди даный агрегат и вперед дерзать каменные глыбы"
+	],
+	dependencies: [
+		"7ed92e5d",
+		"49c2b60f",
+		"4ad9db00"
+	],
+	tasks: [{
+		uid: "64e1154b",
+		type: "item",
+		items: [{
+			id: "ic2:diamond_drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d690efa1",
+		type: "xp",
+		xp: 57
+	},
+	{
+		uid: "e176c04b",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	},
+	{
+		uid: "2336ab51",
+		type: "random",
+		table: 0
+	}]
+}

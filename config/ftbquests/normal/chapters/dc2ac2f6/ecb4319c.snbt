@@ -1,0 +1,39 @@
+{
+	title: "Водная методика",
+	x: 24.226190476190496d,
+	y: -3.9404761904761756d,
+	text: [
+		"Растение что производин ману от питания водой что будет расположена возле самого цветка"
+	],
+	dependencies: [
+		"9381b7c7"
+	],
+	tasks: [{
+		uid: "4221c3df",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "724fcee8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b4ceeb7d",
+		type: "item",
+		item: "botania:flower 1 11",
+		count: 5
+	},
+	{
+		uid: "b02fef4c",
+		type: "item",
+		item: "botania:petal 1 9",
+		count: 10
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Лови пока не убежала",
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"Автоматическая рыбалка, не нужно стоить непонятные багованые структуры когда есть обыкновенный блок который будет делать всю роботу сам"
+	],
+	dependencies: [
+		"774f180c"
+	],
+	tasks: [{
+		uid: "bd96cec4",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "6ff52873",
+		type: "xp",
+		xp: 52
+	},
+	{
+		uid: "669a732d",
+		type: "random",
+		table: 1
+	}]
+}

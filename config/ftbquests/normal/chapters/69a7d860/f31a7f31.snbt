@@ -1,0 +1,29 @@
+{
+	title: "«Бесплатная» энергия IV",
+	x: -18.4108843537415d,
+	y: 9.990348639455775d,
+	text: [
+		"Энергия прямиком из «ниоткуда»! Это ли не чудо?!"
+	],
+	dependencies: [
+		"5b903a6e"
+	],
+	tasks: [{
+		uid: "75984873",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "daf073bb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3ceff2cc",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 4
+	}]
+}

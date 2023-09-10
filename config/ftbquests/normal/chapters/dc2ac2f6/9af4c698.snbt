@@ -1,0 +1,31 @@
+{
+	title: "Взгляд в душу",
+	x: -16.5d,
+	y: 11.5d,
+	text: [
+		"Посмитрите на альтарь и узнайте его уровень и наполненость, очень важная вещь для улучшений своего алтаря"
+	],
+	dependencies: [
+		"95030a17",
+		"6b75fb97"
+	],
+	tasks: [{
+		uid: "10fb9331",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c65dbd9",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c916b6c7",
+		type: "random",
+		table: 0
+	}]
+}

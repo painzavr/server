@@ -1,0 +1,64 @@
+{
+	title: "Броня терранита",
+	x: 18.60714285714289d,
+	y: -11.464285714285705d,
+	text: [
+		"Броня даёт отличные бафы для исследователя этого мода"
+	],
+	dependencies: [
+		"37e13560"
+	],
+	tasks: [{
+		uid: "711c33be",
+		type: "item",
+		items: [{
+			id: "botania:terrasteelhelm",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7deda956",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a518f9c3",
+		type: "item",
+		items: [{
+			item: "botania:terrasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "431b8b05",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c1cf02b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "295518b5",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 15
+	},
+	{
+		uid: "b92d596c",
+		type: "random",
+		table: 3
+	}]
+}

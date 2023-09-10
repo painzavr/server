@@ -1,0 +1,49 @@
+{
+	title: "Пресуй и перекручивай",
+	x: 5.5d,
+	y: -7.5d,
+	text: [
+		"Невероятная сила пресования которая может заставить уголь превратится в алмаз"
+	],
+	dependencies: [
+		"80a9928e"
+	],
+	tasks: [{
+		uid: "ed75cd43",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "d4b896cb",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "3359b6e6",
+		type: "item",
+		item: "thermalfoundation:material 1 261",
+		count: 2
+	},
+	{
+		uid: "c67430d6",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Книга что знает всё",
+	x: 21.5d,
+	y: -3.0d,
+	text: [
+		"В этой книге описан весь мод Ботания, а также позволяет Вам лучше изучить этот мир "
+	],
+	dependencies: [
+		"b45a9ceb"
+	],
+	tasks: [{
+		uid: "5c1ea485",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81177f79",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bed17f5a",
+		type: "item",
+		item: "botania:petal 1 2",
+		count: 5
+	},
+	{
+		uid: "4a6b76f2",
+		type: "item",
+		item: "botania:petal 1 15",
+		count: 5
+	}]
+}

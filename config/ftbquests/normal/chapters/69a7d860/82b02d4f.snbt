@@ -1,0 +1,35 @@
+{
+	title: "Приготовь сахар и семена",
+	x: -10.42278911564626d,
+	y: 10.502253401360576d,
+	text: [
+		"Конечный продукт точно не разочарует"
+	],
+	dependencies: [
+		"8da70438"
+	],
+	tasks: [{
+		uid: "02c15a73",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "da26a480",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "c2174a34",
+		type: "item",
+		item: "minecraft:sugar",
+		count: 5
+	},
+	{
+		uid: "34f5c8ba",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 10
+	}]
+}

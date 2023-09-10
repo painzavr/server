@@ -1,0 +1,35 @@
+{
+	title: "Новые приключения",
+	icon: "twilightforest:miniature_structure",
+	x: 22.5d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"Впереди Вас ждёт увлекательный мир сумрачного леса. Новые боссы, руды, загадки и ещё много много всего"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "0fdd4c38",
+		type: "dimension",
+		title: "Посетите Сумрачный лес",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "e4494c94",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bd51072f",
+		type: "item",
+		item: "twilightforest:raven_feather"
+	},
+	{
+		uid: "4090aff8",
+		type: "item",
+		item: "twilightforest:transformation_powder",
+		count: 3
+	}]
+}

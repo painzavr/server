@@ -1,0 +1,35 @@
+{
+	title: "Адские похождения",
+	icon: "minecraft:netherrack",
+	x: -14.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"Жар тут ужасен, хуже многих мест на земле. Всё в огне, а голову забивают печальные мысли и безысходство"
+	],
+	dependencies: [
+		"e92f988e"
+	],
+	tasks: [{
+		uid: "56aca7e9",
+		type: "dimension",
+		title: "Посетите Ад",
+		dim: -1
+	},
+	{
+		uid: "a0679f6e",
+		type: "xp",
+		value: 30L,
+		points: false
+	}],
+	rewards: [{
+		uid: "341c0bfe",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ae2034a5",
+		type: "random",
+		table: 3
+	}]
+}

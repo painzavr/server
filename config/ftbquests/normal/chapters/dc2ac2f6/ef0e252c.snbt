@@ -1,0 +1,29 @@
+{
+	title: "Таумий делает дело",
+	x: 6.5d,
+	y: 11.0d,
+	text: [
+		"Эта печь должна быстрее работать или же больше заражать? Нужно немного поработать над этим"
+	],
+	dependencies: [
+		"f057e63a"
+	],
+	tasks: [{
+		uid: "50d97652",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "90183774",
+		type: "item",
+		item: "thaumcraft:nugget 1 10",
+		count: 5
+	},
+	{
+		uid: "c60a8330",
+		type: "xp",
+		xp: 50
+	}]
+}

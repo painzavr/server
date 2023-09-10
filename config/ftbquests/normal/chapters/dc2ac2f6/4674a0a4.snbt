@@ -1,0 +1,33 @@
+{
+	title: "Не из мира сего",
+	icon: "minecraft:ender_pearl",
+	x: -6.0d,
+	y: -6.0d,
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "4639756e",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L
+	},
+	{
+		uid: "79f71960",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0a17457d",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "1dfd209c",
+		type: "random",
+		table: 1
+	}]
+}

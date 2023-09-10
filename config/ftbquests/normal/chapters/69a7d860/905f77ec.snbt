@@ -1,0 +1,41 @@
+{
+	title: "МФ-что...",
+	x: -15.0d,
+	y: -0.5d,
+	text: [
+		"Лучшее хранилище энергии в даной модификации, лучше просто не сыскать"
+	],
+	dependencies: [
+		"d44f9dff",
+		"30378dc9"
+	],
+	tasks: [{
+		uid: "805c321e",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 75s
+		}]
+	}],
+	rewards: [{
+		uid: "4eb52aef",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "67f84dec",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1d3ad735",
+		type: "item",
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		},
+		count: 2
+	}]
+}

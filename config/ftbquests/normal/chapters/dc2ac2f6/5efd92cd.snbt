@@ -1,0 +1,43 @@
+{
+	title: "Набор юного драконоведа",
+	x: 14.36904761904762d,
+	y: -0.6547619047618909d,
+	text: [
+		"При помощи этих вещей Вы сможете вырастить своего собственного дракона"
+	],
+	dependencies: [
+		"44adfcd2"
+	],
+	tasks: [{
+		uid: "21f38912",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e2dd3b4",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "726fd75e",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eba85c5e",
+		type: "xp",
+		xp: 100
+	}]
+}

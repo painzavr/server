@@ -1,0 +1,39 @@
+{
+	title: "Сдвиг в понятиях",
+	x: -6.0d,
+	y: 3.5d,
+	text: [
+		"Эти предметы есть улучшеными версиями обычных инстурментов, но делают они небычную роботу"
+	],
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "8f98929d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.excavator_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a53cab45",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07f300a5",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "bedc274f",
+		type: "random",
+		table: 0
+	}]
+}

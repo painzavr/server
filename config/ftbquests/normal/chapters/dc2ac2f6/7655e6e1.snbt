@@ -1,0 +1,52 @@
+{
+	title: "Мастер кулинарии",
+	x: -3.5d,
+	y: -10.5d,
+	text: [
+		"После сложных созданий и длинных крафтов и выращивания наконецто вершина совершенства"
+	],
+	dependencies: [
+		"19599a7e",
+		"c192112d"
+	],
+	tasks: [{
+		uid: "8c6b5877",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "04c506f6",
+		type: "item",
+		items: [{
+			item: "betternether:stalagnate_bowl_apple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "e2d18516",
+		type: "item",
+		items: [{
+			item: "betternether:stalagnate_bowl_mushroom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0023fe95",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "4eb3bcf3",
+		type: "random",
+		table: 3
+	}]
+}

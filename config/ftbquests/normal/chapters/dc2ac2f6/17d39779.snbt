@@ -1,0 +1,29 @@
+{
+	title: "Возвращение к началу",
+	x: 14.750000000000014d,
+	y: -5.75d,
+	text: [
+		"Удерживая семя Вы чувствуете как земля уходит из под Ваших ног и Вас переносит на знакомое Вам место - спавн"
+	],
+	dependencies: [
+		"8f4e4eb4"
+	],
+	tasks: [{
+		uid: "43d30f7a",
+		type: "item",
+		items: [{
+			item: "botania:worldseed"
+		}]
+	}],
+	rewards: [{
+		uid: "06d0cd6c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "522920a8",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

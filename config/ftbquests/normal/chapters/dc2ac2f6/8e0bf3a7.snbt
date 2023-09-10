@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Фараон",
+	x: 13.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5eb7e82b",
+		type: "kill",
+		title: "Убей Фараона",
+		icon: "atum:scarab",
+		entity: "atum:pharaoh",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "4cfa572e",
+		type: "random",
+		auto: "enabled",
+		table: 4
+	}]
+}

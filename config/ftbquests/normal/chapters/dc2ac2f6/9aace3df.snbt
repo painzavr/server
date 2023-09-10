@@ -1,0 +1,28 @@
+{
+	title: "Волшебная пыль",
+	x: -3.0d,
+	y: 4.5d,
+	text: [
+		"После сна я получил странную книгу интересно что же будет если использовать эту пыль на книжной полке?"
+	],
+	dependencies: [
+		"965cf4ec"
+	],
+	tasks: [{
+		uid: "403430e8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "5e9e910b",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "fdd47c52",
+		type: "random",
+		table: 0
+	}]
+}

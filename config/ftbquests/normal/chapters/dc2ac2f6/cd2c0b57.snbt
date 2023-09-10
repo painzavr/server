@@ -1,0 +1,29 @@
+{
+	title: "Метал королей",
+	x: -8.5d,
+	y: 1.0d,
+	text: [
+		"Этот метал малоэфективен в инструментах или защите но он имеет неплохую проводимость магии"
+	],
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "229901ce",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7cf72db7",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "fde6097e",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 5
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Бочонок так бочонок",
+	x: -25.0d,
+	y: 1.0d,
+	text: [
+		"Может вместить столько жидкости что хватит на потоп всего мира за 1 раз"
+	],
+	dependencies: [
+		"28bdfbe8"
+	],
+	tasks: [{
+		uid: "6736b55e",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 134s
+		}]
+	}],
+	rewards: [{
+		uid: "77cfb0bc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b96da6a5",
+		type: "item",
+		item: "ic2:crafting 1 4",
+		count: 4
+	}]
+}

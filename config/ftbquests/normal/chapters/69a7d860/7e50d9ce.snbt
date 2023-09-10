@@ -1,0 +1,28 @@
+{
+	title: "Броневой генератор",
+	x: 15.0d,
+	y: -2.0d,
+	text: [
+		"Генератор что работает на броне которую он сжигает внутри себя и генерирует энергию"
+	],
+	dependencies: [
+		"42ccdd06"
+	],
+	tasks: [{
+		uid: "f8acd819",
+		type: "item",
+		items: [{
+			item: "draconicadditions:armor_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "8a8e9cc1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "14295f04",
+		type: "random",
+		table: 1
+	}]
+}

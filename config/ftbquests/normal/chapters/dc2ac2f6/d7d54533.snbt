@@ -1,0 +1,29 @@
+{
+	title: "Очаровательное достижение",
+	icon: "minecraft:paper",
+	x: -13.0d,
+	y: 5.5d,
+	text: [
+		"Сколько времени Вы бы не потратили на этот квест но Вы это сделали поздравляю Вас"
+	],
+	dependencies: [
+		"c04546be"
+	],
+	tasks: [{
+		uid: "6fc1fdfe",
+		type: "stat",
+		icon: "minecraft:end_crystal",
+		stat: "stat.itemEnchanted",
+		value: 100
+	}],
+	rewards: [{
+		uid: "29a2eb8d",
+		type: "xp_levels",
+		xp_levels: 150
+	},
+	{
+		uid: "d878718b",
+		type: "random",
+		table: 2
+	}]
+}

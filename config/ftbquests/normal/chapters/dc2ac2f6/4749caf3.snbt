@@ -1,0 +1,40 @@
+{
+	title: "Исследуй и создавай",
+	x: -3.0d,
+	y: 8.0d,
+	text: [
+		"Технологии которые показывают уровень вис-энергии в Вашем регионе, а второй предмет позволит автоматически создавать простые предметы"
+	],
+	dependencies: [
+		"c8c291e9"
+	],
+	tasks: [{
+		uid: "ae63ab07",
+		type: "item",
+		items: [{
+			item: "thaumcraft:dioptra"
+		}]
+	},
+	{
+		uid: "1741a4f7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pattern_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "e0a35a75",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "2ca97e24",
+		type: "item",
+		item: "thaumcraft:vis_resonator"
+	},
+	{
+		uid: "7d5e4b73",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Приготовь сахар и семена II",
+	x: -12.815646258503406d,
+	y: 10.895110544217701d,
+	text: [
+		"Конечный продукт точно не разочарует"
+	],
+	dependencies: [
+		"82b02d4f"
+	],
+	tasks: [{
+		uid: "54cae8ff",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "94f1c597",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dc058f94",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 3
+	}]
+}

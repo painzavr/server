@@ -1,0 +1,40 @@
+{
+	title: "Портативный зарядник",
+	x: 11.0d,
+	y: 1.5d,
+	text: [
+		"Заряжайте свои предметы прямо из инвенторя, сколько бы Вы не тратили энергии на предметах она просто не закончится"
+	],
+	dependencies: [
+		"b782c69a",
+		"fe22cce2",
+		"9977b249"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "768472fa",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3350beed",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ec5a61e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2123d64f",
+		type: "random",
+		table: 2
+	}]
+}

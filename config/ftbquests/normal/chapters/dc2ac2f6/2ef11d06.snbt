@@ -1,0 +1,29 @@
+{
+	title: "Потрошитель гигантов",
+	x: 24.0d,
+	y: 4.5d,
+	text: [
+		"Убийство ради высшей цели... Не такой высокой как рост этой твари но его кирка Вам бы пригодилась"
+	],
+	dependencies: [
+		"bd0742a3"
+	],
+	tasks: [{
+		uid: "1837672e",
+		type: "kill",
+		title: "Убейте Гиганта",
+		icon: "minecraft:stone_pickaxe",
+		entity: "twilightforest:giant_miner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d5c5ee4a",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "14ac5a86",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Шаблюка из энергии",
+	x: -13.5d,
+	y: 0.5d,
+	text: [
+		"Весомый урон за посредственную скорость атаки, но у всего естьсвоя цена"
+	],
+	dependencies: [
+		"30378dc9"
+	],
+	tasks: [{
+		uid: "69ababa8",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5b5197a",
+		type: "xp",
+		xp: 25
+	}]
+}

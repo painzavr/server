@@ -1,0 +1,36 @@
+{
+	title: "Огнестой",
+	x: 27.345238095238116d,
+	y: -8.690476190476197d,
+	text: [
+		"Позволяет Вам плавать в лаве и не получать от этого какой либо вред"
+	],
+	dependencies: [
+		"62e4ac75"
+	],
+	tasks: [{
+		uid: "f260a277",
+		type: "item",
+		items: [{
+			item: "botania:superlavapendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7126ab2d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fbf2402b",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 3
+	},
+	{
+		uid: "7fbe70d5",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Путеводитель",
+	x: 0.0d,
+	y: 10.5d,
+	text: [
+		"Эти странные кристалы имеют определенные физические свойства."
+	],
+	dependencies: [
+		"15eb6923"
+	],
+	tasks: [{
+		uid: "7ea59286",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "90a57d8c",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "6cfb3ff4",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 4
+	},
+	{
+		uid: "1a5a461e",
+		type: "random",
+		table: 0
+	}]
+}

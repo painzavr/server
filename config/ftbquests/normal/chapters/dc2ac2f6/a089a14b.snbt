@@ -1,0 +1,66 @@
+{
+	title: "Известняковый арсенал",
+	x: 16.5d,
+	y: 0.0d,
+	text: [
+		"Известняковые инструменты не должны отличатся чем-то от каменных так что не делайте на них большую ставку"
+	],
+	dependencies: [
+		"0b83356e"
+	],
+	tasks: [{
+		uid: "288624ac",
+		type: "item",
+		items: [{
+			item: "atum:limestone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e191c62d",
+		type: "item",
+		items: [{
+			item: "atum:limestone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef1cc701",
+		type: "item",
+		items: [{
+			item: "atum:limestone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0db4d93d",
+		type: "item",
+		items: [{
+			item: "atum:limestone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8a94740",
+		type: "item",
+		items: [{
+			item: "atum:limestone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a16965d7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "5dc41607",
+		type: "random",
+		table: 1
+	}]
+}

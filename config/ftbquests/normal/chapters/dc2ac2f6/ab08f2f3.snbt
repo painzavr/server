@@ -1,0 +1,22 @@
+{
+	title: "Пора лечить голову",
+	x: -16.5d,
+	y: -3.5d,
+	text: [
+		"Сколько крестьян были поражены вирусом о чем было поведано одним из рядовых жителей деревни"
+	],
+	dependencies: [
+		"d81458fb"
+	],
+	tasks: [{
+		uid: "8c17fca8",
+		type: "advancement",
+		advancement: "story/cure_zombie_villager",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "d77d363b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Крипер",
+	x: 5.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "41d6ef97",
+		type: "kill",
+		title: "Убей крипера",
+		icon: "minecraft:skull 1 4",
+		entity: "minecraft:creeper",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "91605099",
+		type: "random",
+		auto: "enabled",
+		table: 0
+	}]
+}

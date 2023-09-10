@@ -1,0 +1,51 @@
+{
+	title: "Новая стадия лука",
+	x: -4.5d,
+	y: 6.0d,
+	text: [
+		"Турель что будет убивать всех на своём пути ну или в своем радиусе"
+	],
+	dependencies: [
+		"c8c291e9"
+	],
+	tasks: [{
+		uid: "c32e7ee4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret"
+		}]
+	}],
+	rewards: [{
+		uid: "93872625",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "36729296",
+		type: "item",
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "04dcd615",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 32
+	},
+	{
+		uid: "24547472",
+		type: "item",
+		item: "thaumcraft:mechanism_simple",
+		count: 3
+	},
+	{
+		uid: "f5356679",
+		type: "item",
+		item: "thaumcraft:morphic_resonator"
+	}]
+}

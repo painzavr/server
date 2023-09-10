@@ -1,0 +1,32 @@
+{
+	title: "Ты это смог!!!",
+	icon: "advanced_solar_panels:crafting 1 10",
+	x: -21.5d,
+	y: 1.0d,
+	dependencies: [
+		"61b98f69",
+		"9cd08d48",
+		"9c809b49",
+		"e92cfcf7"
+	],
+	tasks: [{
+		uid: "1da9017b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f9100f9b",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "9d0bbb3e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "404e6879",
+		type: "item",
+		item: "ic2:misc_resource 1 1",
+		count: 6
+	}]
+}

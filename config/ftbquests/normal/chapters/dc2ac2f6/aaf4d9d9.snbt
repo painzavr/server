@@ -1,0 +1,25 @@
+{
+	title: "Арбузный солдат",
+	icon: "minecraft:melon",
+	x: 1.0d,
+	y: -9.0d,
+	text: [
+		"«Когда попробуешь его, то понимаешь, чем питаются ангелы» - Марк Твен"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "7239a458",
+		type: "item",
+		items: [{
+			item: "minecraft:melon"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7b071b8f",
+		type: "xp",
+		xp: 20
+	}]
+}

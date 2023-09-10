@@ -1,0 +1,39 @@
+{
+	title: "Подавай воду",
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"Сколько угля туда не ложи, а для отдачи нужна вода"
+	],
+	dependencies: [
+		"87fff9cf"
+	],
+	tasks: [{
+		uid: "cd321324",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "727ecad6",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "078874bd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "940a27d9",
+		type: "item",
+		item: "thermalfoundation:material 1 656"
+	}]
+}

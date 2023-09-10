@@ -1,0 +1,48 @@
+{
+	title: "Повысим ставки",
+	x: 2.5d,
+	y: -4.0d,
+	text: [
+		"Бури пока не сядет инструмент, а может ты хочешь получать больше ресурсов? Да пожалуйста зачаруй бур и наслаждайся"
+	],
+	dependencies: [
+		"774f180c"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "390df451",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 120000,
+				Mode: 2
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74c37b0c",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 120000,
+				Mode: 2
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fa2b99f",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "7473ccc4",
+		type: "random",
+		table: 1
+	}]
+}

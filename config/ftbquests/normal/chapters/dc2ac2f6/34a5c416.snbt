@@ -1,0 +1,48 @@
+{
+	title: "Продвинутый пользователь",
+	x: 5.5d,
+	y: 5.5d,
+	text: [
+		"После длительных подготовок и вычеслений было решение создать улучшеную версию линзы ",
+		"Способную пропускать больше вис"
+	],
+	dependencies: [
+		"5d2f4e5f",
+		"eebcde4e"
+	],
+	tasks: [{
+		uid: "93bb7cab",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "894b7394",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7d74e295",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "vacuos"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 10
+	},
+	{
+		uid: "594b10b9",
+		type: "item",
+		item: "thaumcraft:shimmerleaf",
+		count: 5
+	}]
+}

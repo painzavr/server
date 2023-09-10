@@ -1,0 +1,33 @@
+{
+	title: "Адепт школы зачарования",
+	x: -11.5d,
+	y: 4.5d,
+	text: [
+		"Вы постигли высоких успехов в даной области что не может не радовать так держать"
+	],
+	dependencies: [
+		"f6f3930a",
+		"f9d49862"
+	],
+	tasks: [{
+		uid: "3802737c",
+		type: "stat",
+		title: "Зачаровать предметы",
+		icon: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		},
+		stat: "stat.itemEnchanted",
+		value: 5
+	}],
+	rewards: [{
+		uid: "5f3a2b84",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

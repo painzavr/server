@@ -1,0 +1,35 @@
+{
+	title: "Гибридность и техничность",
+	x: -19.5d,
+	y: 5.5d,
+	text: [
+		"Так как это предпоследняя панель её выхлоп уже впечатляет своими цыфрами"
+	],
+	dependencies: [
+		"28bdfbe8",
+		"6de7d2a1"
+	],
+	tasks: [{
+		uid: "a6bf0fb0",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:machines 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "31d2d889",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "39a2d784",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0ba8b709",
+		type: "item",
+		item: "ic2:crafting 1 4",
+		count: 2
+	}]
+}

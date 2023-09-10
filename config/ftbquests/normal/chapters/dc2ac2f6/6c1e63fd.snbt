@@ -1,0 +1,31 @@
+{
+	title: "Жезл столба огня",
+	x: 23.916666666666686d,
+	y: -2.738095238095241d,
+	text: [
+		"Создаёт круг что заставлает гореть всё что входит, было и есть в круге"
+	],
+	dependencies: [
+		"b45a9ceb"
+	],
+	tasks: [{
+		uid: "a58152dc",
+		type: "item",
+		items: [{
+			item: "botania:firerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b816927",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f60a8ca0",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		count: 3
+	}]
+}

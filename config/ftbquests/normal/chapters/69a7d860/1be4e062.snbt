@@ -1,0 +1,24 @@
+{
+	title: "Энергетический переворот",
+	x: -7.5d,
+	y: -5.5d,
+	dependencies: [
+		"03e895f0",
+		"ac5ad0ab"
+	],
+	tasks: [{
+		uid: "16396288",
+		type: "ic2_energy",
+		value: 1000000L
+	}],
+	rewards: [{
+		uid: "c0bca97b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c4482091",
+		type: "random",
+		table: 1
+	}]
+}

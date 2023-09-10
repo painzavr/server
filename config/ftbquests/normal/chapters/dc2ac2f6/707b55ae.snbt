@@ -1,0 +1,41 @@
+{
+	title: "Екология начальный курс",
+	x: 7.5d,
+	y: 12.0d,
+	text: [
+		"Создания, слияние, алхимия всё это выбрасывает очень много гнилой энергии в атмосферу. Нужно попытаться уменьшить влияние газов на атмосферу"
+	],
+	dependencies: [
+		"82e4e6e0"
+	],
+	tasks: [{
+		uid: "b6167943",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	},
+	{
+		uid: "ae36179a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_aux"
+		}]
+	}],
+	rewards: [{
+		uid: "2487f3ba",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bc44a140",
+		type: "item",
+		item: "thaumcraft:bellows"
+	},
+	{
+		uid: "48413b42",
+		type: "item",
+		item: "thaumcraft:mechanism_simple",
+		count: 3
+	}]
+}

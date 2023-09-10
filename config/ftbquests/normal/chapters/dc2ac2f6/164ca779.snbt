@@ -1,0 +1,33 @@
+{
+	x: 20.75000000000003d,
+	y: -11.273809523809515d,
+	text: [
+		"Название этой кирки говорит само за себя что буквольно отображает предназначение этой кирки"
+	],
+	dependencies: [
+		"37e13560"
+	],
+	tasks: [{
+		uid: "470f5eab",
+		type: "item",
+		items: [{
+			id: "botania:terrapick",
+			tag: {
+				mana: 9999
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08a6b41d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9409166a",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 3
+	}]
+}

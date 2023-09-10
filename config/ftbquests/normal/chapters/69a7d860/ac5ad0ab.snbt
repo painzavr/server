@@ -1,0 +1,23 @@
+{
+	title: "Первичная ступень",
+	x: -5.5d,
+	y: -3.0d,
+	dependencies: [
+		"4ad9db00"
+	],
+	tasks: [{
+		uid: "289a7576",
+		type: "ic2_energy",
+		value: 100000L
+	}],
+	rewards: [{
+		uid: "ac07d1ab",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d462a49f",
+		type: "random",
+		table: 0
+	}]
+}

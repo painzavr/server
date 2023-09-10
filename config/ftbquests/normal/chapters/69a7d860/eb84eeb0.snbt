@@ -1,0 +1,36 @@
+{
+	title: "Топливо передачи МОХ",
+	x: -11.5d,
+	y: -7.0d,
+	dependencies: [
+		"983246d4",
+		"835c146b"
+	],
+	tasks: [{
+		uid: "a0470eeb",
+		type: "item",
+		items: [{
+			id: "ic2:quad_mox_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "3ea080f5",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "f21b5ea9",
+		type: "item",
+		item: "ic2:nuclear 1 7",
+		count: 5
+	},
+	{
+		uid: "4faa06de",
+		type: "random",
+		table: 2
+	}]
+}

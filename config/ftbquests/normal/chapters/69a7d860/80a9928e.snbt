@@ -1,0 +1,60 @@
+{
+	title: "Поглоти RF полностью",
+	x: 3.0d,
+	y: -5.5d,
+	text: [
+		"Даная приблуда позволит тебе легко заряжать свои инструменты, буры и т.д."
+	],
+	dependencies: [
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "d5cc836e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}]
+	},
+	{
+		uid: "4b317a59",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1000000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18164b28",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "c3de79d8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "26ed4d7a",
+		type: "item",
+		item: "thermalfoundation:material 1 259",
+		count: 4
+	}]
+}

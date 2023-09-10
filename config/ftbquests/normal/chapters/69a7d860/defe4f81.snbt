@@ -1,0 +1,35 @@
+{
+	title: "Фундаментальная жижа",
+	x: -12.5d,
+	y: -3.5d,
+	text: [
+		"Необходимый компонент для создания укреплённого камня, что способен выдержать нереальные нагрузки"
+	],
+	dependencies: [
+		"0730e7f7"
+	],
+	tasks: [{
+		uid: "504bc3e4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2construction_foam",
+					Amount: 1000
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "75f856dc",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "af14e8e7",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Бесконечная звезда",
+	x: -4.380952380952365d,
+	y: 7.964285714285722d,
+	text: [
+		"Эта сингулярность порождение всего того что может вместить в себя самая сжатая частичка ядра Земли"
+	],
+	dependencies: [
+		"fa613d99",
+		"eca25701",
+		"24bb56d0"
+	],
+	tasks: [{
+		uid: "8acb9d7b",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8fccb0ee",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "2acda1b9",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 3
+	},
+	{
+		uid: "05728e89",
+		type: "random",
+		table: 4
+	}]
+}

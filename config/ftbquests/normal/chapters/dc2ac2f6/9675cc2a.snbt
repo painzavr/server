@@ -1,0 +1,30 @@
+{
+	title: "До последней капли...",
+	x: -14.0d,
+	y: 13.5d,
+	text: [
+		"Оставляет Вам 5 сердец здоровья но в замен заправляет себя кровью и потом позволяет засунуть их в алтарь крови"
+	],
+	dependencies: [
+		"a9fec197"
+	],
+	tasks: [{
+		uid: "19e10c8b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:pack_self_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c810f6bd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f073767d",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Нейроновый генератор",
+	x: 8.5d,
+	y: 5.5d,
+	text: [
+		"Обязательный механизм для роботи ядерного теплового реактора"
+	],
+	dependencies: [
+		"51a5a6e7"
+	],
+	tasks: [{
+		uid: "767ac05d",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce0d7841",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "436ee57f",
+		type: "item",
+		item: "mekanism:controlcircuit 1 2",
+		count: 2
+	}]
+}

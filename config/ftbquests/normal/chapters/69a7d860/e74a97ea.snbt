@@ -1,0 +1,64 @@
+{
+	title: "Не ебу я не механик",
+	x: 2.3333333333333286d,
+	y: 5.720238095238095d,
+	text: [
+		"Улучшеная версия печки"
+	],
+	dependencies: [
+		"9002522b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e8f0cdd3",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3075d7b2",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd1ef7cf",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a882d492",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e065e028",
+		type: "item",
+		item: "mekanism:controlcircuit 1 2",
+		count: 5
+	},
+	{
+		uid: "cd70a2fb",
+		type: "random",
+		table: 1
+	}]
+}

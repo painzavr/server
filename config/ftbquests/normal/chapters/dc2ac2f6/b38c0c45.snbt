@@ -1,0 +1,48 @@
+{
+	title: "Макс давай слэмится под Кишлыча",
+	icon: "minecraft:skull 1 5",
+	x: -13.0d,
+	y: -7.0d,
+	text: [
+		"После долгого сражения ты смог извергнуть этого монстра былого мира назад в пустоту но неужели это конец?"
+	],
+	dependencies: [
+		"afbacd70"
+	],
+	tasks: [{
+		uid: "8e2a57f6",
+		type: "kill",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	},
+	{
+		uid: "8e96095e",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	},
+	{
+		uid: "f61303ac",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_breath"
+		}]
+	}],
+	rewards: [{
+		uid: "5e6f00fc",
+		type: "xp_levels",
+		xp_levels: 75
+	},
+	{
+		uid: "c20dd11d",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5a12954a",
+		type: "item",
+		item: "draconicevolution:dragon_heart"
+	}]
+}

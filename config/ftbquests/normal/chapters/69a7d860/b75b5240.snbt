@@ -1,0 +1,31 @@
+{
+	title: "Бесконечность не предел",
+	x: -0.7918367346938737d,
+	y: 14.371301020408154d,
+	text: [
+		"Мы должны усорвешенствовать методы хранения ресурсов с помощью этих процесоров."
+	],
+	dependencies: [
+		"84500c9d"
+	],
+	tasks: [{
+		uid: "9dd11323",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "9e1fa8ef",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "342e97d9",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

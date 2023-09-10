@@ -1,0 +1,26 @@
+{
+	title: "Адепт мореплавонья",
+	x: 30.5d,
+	y: 0.0d,
+	dependencies: [
+		"96e5c8ec"
+	],
+	tasks: [{
+		uid: "12e0ea57",
+		type: "stat",
+		title: "Проплыви на лодке",
+		icon: "minecraft:boat",
+		stat: "stat.boatOneCm",
+		value: 500000
+	}],
+	rewards: [{
+		uid: "d1946d45",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "eeab25f7",
+		type: "random",
+		table: 1
+	}]
+}

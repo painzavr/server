@@ -1,0 +1,37 @@
+{
+	title: "Пора в шахту!",
+	icon: "minecraft:wooden_pickaxe",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Все с чего-то начинают, тут таже история."
+	],
+	dependencies: [
+		"23e69b57"
+	],
+	tasks: [{
+		uid: "d06f8661",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50710701",
+		type: "item",
+		item: "minecraft:torch",
+		count: 3
+	},
+	{
+		uid: "76b281b6",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "a6020ddf",
+		type: "random",
+		table: 0
+	}]
+}

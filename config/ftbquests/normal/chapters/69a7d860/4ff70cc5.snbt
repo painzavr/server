@@ -1,0 +1,35 @@
+{
+	title: "Начало: Ender IO",
+	icon: "enderio:item_material 1 73",
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"Это так называемый базис"
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "3ef7fd17",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "37681fdb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "40c1edd2",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	},
+	{
+		uid: "3b7e497f",
+		type: "random",
+		table: 0
+	}]
+}

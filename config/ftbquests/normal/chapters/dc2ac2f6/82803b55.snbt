@@ -1,0 +1,59 @@
+{
+	title: "Я абсолют!",
+	x: -10.0d,
+	y: 3.5d,
+	text: [
+		"Эта броня кажется может защетить меня от всего на свете, или нет..."
+	],
+	dependencies: [
+		"f5bd577d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "358d602a",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f72902d5",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85f48595",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4bc703b2",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82bf4cb2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ca5a83a1",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

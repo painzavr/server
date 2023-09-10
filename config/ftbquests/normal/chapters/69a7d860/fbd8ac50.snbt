@@ -1,0 +1,28 @@
+{
+	title: "Коля железяка",
+	x: -9.0d,
+	y: 1.0d,
+	text: [
+		"Машина что заменяет щипцы, молот и кусачки."
+	],
+	dependencies: [
+		"03cc70c8"
+	],
+	tasks: [{
+		uid: "f81234eb",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "1cdcc136",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "eea6450a",
+		type: "random",
+		table: 0
+	}]
+}

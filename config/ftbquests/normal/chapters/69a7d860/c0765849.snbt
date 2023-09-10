@@ -1,0 +1,29 @@
+{
+	title: "Это должно быть больно...",
+	x: -10.887074829931976d,
+	y: 8.716539115646292d,
+	text: [
+		"Осторожнее с доверием, сержант, близкие ранят больнее всего"
+	],
+	dependencies: [
+		"8da70438"
+	],
+	tasks: [{
+		uid: "f4113ee9",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "057623e5",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "85dea7a7",
+		type: "item",
+		item: "enderio:item_material 1 74",
+		count: 5
+	}]
+}

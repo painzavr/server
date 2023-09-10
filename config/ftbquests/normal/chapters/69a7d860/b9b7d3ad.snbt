@@ -1,0 +1,35 @@
+{
+	title: "Полетели!",
+	x: -14.07755102040818d,
+	y: 12.561777210884344d,
+	text: [
+		"Без ракеты это, разве что, пойдёт в генератор внутреннего сгорания"
+	],
+	dependencies: [
+		"5f6a120e"
+	],
+	tasks: [{
+		uid: "a8ed4095",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7cad9c61",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c2b433e7",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 5
+	}]
+}

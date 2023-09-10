@@ -1,0 +1,63 @@
+{
+	title: "С чего же начать?",
+	x: -0.5d,
+	y: 4.0d,
+	text: [
+		"Для продвижения в моде необходимо иметь даные инструменты"
+	],
+	dependencies: [
+		"20775de2"
+	],
+	tasks: [{
+		uid: "af9622fd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d39ddc5f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:research_table"
+		}]
+	},
+	{
+		uid: "ae2d05e5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "1ea13fc7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "29eea304",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "c5090d35",
+		type: "item",
+		item: "thaumcraft:quicksilver",
+		count: 15
+	},
+	{
+		uid: "7b67f09d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7ba58600",
+		type: "item",
+		item: "minecraft:paper",
+		count: 25
+	}]
+}

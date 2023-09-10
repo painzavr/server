@@ -1,0 +1,34 @@
+{
+	title: "Мало виса не бывает",
+	x: 5.0d,
+	y: 7.0d,
+	text: [
+		"Для каждого создания предмета в магическом верстаке нужна вис энергия так что было бы неплохо найти способ пополнять её в средство создания"
+	],
+	dependencies: [
+		"5d2f4e5f"
+	],
+	tasks: [{
+		uid: "a07116d2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "d9118957",
+		type: "item",
+		item: "thaumcraft:baubles"
+	},
+	{
+		uid: "1c33ed5f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0b7b5942",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 5
+	}]
+}

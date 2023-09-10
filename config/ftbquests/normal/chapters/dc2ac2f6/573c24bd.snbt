@@ -1,0 +1,24 @@
+{
+	title: "Красный овощ",
+	x: -2.5d,
+	y: -9.0d,
+	text: [
+		"Прекрасный ингридиент подходит для хорошего супа"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "db1309fa",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "28811037",
+		type: "xp",
+		xp: 20
+	}]
+}

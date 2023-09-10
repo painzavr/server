@@ -1,0 +1,34 @@
+{
+	title: "Финал обновлений",
+	x: 1.5d,
+	y: -12.0d,
+	text: [
+		"Последняя из возможных пластин обновления, что даёт найбольшую прибавку к эфективности"
+	],
+	dependencies: [
+		"3d94cd06"
+	],
+	tasks: [{
+		uid: "f385d1a4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "2ead1d0e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0df75ad4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9405190c",
+		type: "item",
+		item: "thermalfoundation:material 1 70",
+		count: 3
+	}]
+}

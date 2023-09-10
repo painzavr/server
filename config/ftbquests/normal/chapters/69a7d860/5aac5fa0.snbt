@@ -1,0 +1,39 @@
+{
+	title: "Джулиус Роберт Оппенгеймер",
+	x: -16.5d,
+	y: -10.5d,
+	text: [
+		"Немыслимый размах учёных фантазий что зацементирован в истории мира под клеймом смерти. Создание бомбы кладёт на Вас огромную ношу - используйте с умом"
+	],
+	dependencies: [
+		"1515b3c4"
+	],
+	tasks: [{
+		uid: "41c12a49",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "1f7d1b1b",
+		type: "xp",
+		team_reward: false,
+		xp: 1000
+	},
+	{
+		uid: "a281c970",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "6a5a0af9",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "bda61191",
+		type: "random",
+		table: 4
+	}]
+}

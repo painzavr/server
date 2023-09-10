@@ -1,0 +1,28 @@
+{
+	title: "Создатель из материи",
+	x: -19.0d,
+	y: 2.0d,
+	text: [
+		"Все что нужно: материя, жаблон и энергия и предмет у Вас в руках"
+	],
+	dependencies: [
+		"342162d6"
+	],
+	tasks: [{
+		uid: "db5698ab",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	}],
+	rewards: [{
+		uid: "43e59464",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3cb1e23b",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Рушительная сила ветра",
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"Лопасти что запускают в действие ротор генератора"
+	],
+	dependencies: [
+		"123805a1",
+		"b574fe21"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "b55973e9",
+		type: "item",
+		items: [{
+			id: "ic2:rotor_bronze",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4270a476",
+		type: "item",
+		items: [{
+			id: "ic2:rotor_steel",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f3db9c7",
+		type: "item",
+		items: [{
+			id: "ic2:rotor_carbon",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e662fe71",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "085e0471",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Пожалуй хватит",
+	icon: "minecraft:bone",
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"Есть много надоедливых вещей в мире этой игры - одна из них"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "5b37c499",
+		type: "kill",
+		icon: "minecraft:skull",
+		entity: "minecraft:skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c9395f26",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "3fa5d284",
+		type: "item",
+		item: "minecraft:bone",
+		count: 3
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Лучшая трата",
+	x: -11.5d,
+	y: 3.0d,
+	text: [
+		"Этот инструмент прослужит ещё долго можно ли его как-то усилить пока не понятно"
+	],
+	dependencies: [
+		"f5bd577d"
+	],
+	tasks: [{
+		uid: "0f1cc9d5",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31561dd5",
+		type: "xp",
+		xp: 15
+	},
+	{
+		uid: "97929666",
+		type: "random",
+		table: 2
+	}]
+}

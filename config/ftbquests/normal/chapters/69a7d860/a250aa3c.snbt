@@ -1,0 +1,34 @@
+{
+	title: "Солнечный сгусток",
+	x: -22.0d,
+	y: -2.5d,
+	text: [
+		"Чистая кончентрация солнечного камня, как не странно имеет свойство впитывать энергию из солничных лучей"
+	],
+	dependencies: [
+		"caa9c1b4"
+	],
+	tasks: [{
+		uid: "e030c304",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:crafting"
+		}]
+	}],
+	rewards: [{
+		uid: "dc525e4b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "122ab2b3",
+		type: "item",
+		item: "advanced_solar_panels:crafting 1 4",
+		count: 5
+	},
+	{
+		uid: "2865516e",
+		type: "random",
+		table: 2
+	}]
+}

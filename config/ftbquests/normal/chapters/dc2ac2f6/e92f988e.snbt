@@ -1,0 +1,29 @@
+{
+	title: "Крепче стали",
+	x: -13.0d,
+	y: 2.0d,
+	text: [
+		"Затвердевшая горная порода, порождение огня и воды создало зловещий на удивление прочный елемент который таит в себе ещё очень много секретов"
+	],
+	dependencies: [
+		"f9d49862"
+	],
+	tasks: [{
+		uid: "ab0171be",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d133e016",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "a7da7a9b",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	}]
+}

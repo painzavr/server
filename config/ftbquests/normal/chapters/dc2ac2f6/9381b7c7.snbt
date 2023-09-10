@@ -1,0 +1,38 @@
+{
+	title: "Жизнетворящий цветок",
+	x: 22.654761904761898d,
+	y: -3.3690476190476133d,
+	text: [
+		"Поместите цвето в центр круга из камня или древесины и получите их жезненную версию"
+	],
+	dependencies: [
+		"b45a9ceb"
+	],
+	tasks: [{
+		uid: "f1a86598",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "99778bbd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b114afdd",
+		type: "item",
+		item: "botania:livingrock",
+		count: 8
+	},
+	{
+		uid: "507b359e",
+		type: "item",
+		item: "botania:livingwood",
+		count: 8
+	}]
+}

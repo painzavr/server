@@ -1,0 +1,39 @@
+{
+	title: "Артефакты древних времён",
+	x: 26.0d,
+	y: 4.5d,
+	text: [
+		"В холмах начерченых на карте были сундуки, которые были охраняемыми но нету ничего невозможного в этом мире так что теперь это Ваше"
+	],
+	dependencies: [
+		"66fea394"
+	],
+	tasks: [{
+		uid: "b9f79511",
+		type: "item",
+		items: [{
+			item: "twilightforest:peacock_fan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c644a077",
+		type: "item",
+		items: [{
+			item: "twilightforest:ore_magnet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6baf353b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d814b05e",
+		type: "random",
+		table: 1
+	}]
+}

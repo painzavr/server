@@ -1,0 +1,35 @@
+{
+	title: "Компресия во всей красе",
+	x: -7.5d,
+	y: -0.5d,
+	text: [
+		"Во многих крафтах незаменимыми есть материал композитного характера, но никак кроме как сжать его не получить"
+	],
+	dependencies: [
+		"dad50678",
+		"4ad9db00"
+	],
+	tasks: [{
+		uid: "13ff0f73",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}],
+	rewards: [{
+		uid: "1ee89c71",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "deeb406c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7b43f3c1",
+		type: "item",
+		item: "ic2:crushed 1 4",
+		count: 4
+	}]
+}

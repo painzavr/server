@@ -1,0 +1,41 @@
+{
+	title: "Редстоуновый генератор",
+	x: 1.0d,
+	y: -10.0d,
+	text: [
+		"Генератор который работает на максимальных оборотах и питаеться всего лишь редстоуном, а большего и не надо"
+	],
+	dependencies: [
+		"0b7db09b"
+	],
+	tasks: [{
+		uid: "dd07b14c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "4f924625",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "60cd6d55",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 5
+	},
+	{
+		uid: "6d1707d6",
+		type: "random",
+		table: 2
+	}]
+}

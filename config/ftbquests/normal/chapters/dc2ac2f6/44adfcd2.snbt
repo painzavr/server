@@ -1,0 +1,38 @@
+{
+	title: "Теоретические знания",
+	x: 15.464285714285722d,
+	y: -2.0357142857142776d,
+	text: [
+		"Соединайте манускипты с созданой книгой и открывайте новые знания об этом мире и его жителях"
+	],
+	dependencies: [
+		"062da6d3"
+	],
+	tasks: [{
+		uid: "632b6a9e",
+		type: "item",
+		items: [{
+			item: "iceandfire:lectern"
+		}]
+	},
+	{
+		uid: "40409b68",
+		type: "item",
+		items: [{
+			item: "iceandfire:bestiary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6093e284",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "37f0f929",
+		type: "item",
+		item: "iceandfire:manuscript",
+		count: 5
+	}]
+}

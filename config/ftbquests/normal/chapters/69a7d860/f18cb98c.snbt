@@ -1,0 +1,47 @@
+{
+	title: "Усиливающий момент",
+	x: 4.5d,
+	y: -4.5d,
+	text: [
+		"Усилив бур, получаешь крупный функционал с расширеным энергозапасом"
+	],
+	dependencies: [
+		"8267f0cf"
+	],
+	tasks: [{
+		uid: "34eb2a93",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 240000,
+				Mode: 2
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d89fa975",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a111a464",
+		type: "item",
+		item: "thermalfoundation:material 1 66",
+		count: 3
+	},
+	{
+		uid: "a6830fa5",
+		type: "item",
+		item: "thermalfoundation:material 1 1",
+		count: 3
+	},
+	{
+		uid: "9d993e10",
+		type: "item",
+		item: "thermalfoundation:material 1 2053",
+		count: 5
+	}]
+}

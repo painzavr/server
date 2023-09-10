@@ -1,0 +1,30 @@
+{
+	title: "Первая руна",
+	x: 24.60714285714286d,
+	y: -8.654761904761898d,
+	text: [
+		"Эта руна служит основой для некоторых других рун что будут созданы в дальнейшем"
+	],
+	dependencies: [
+		"62e4ac75",
+		"372f9812"
+	],
+	tasks: [{
+		uid: "a1c7e980",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "05c7854e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c7ba94af",
+		type: "item",
+		item: "botania:manaresource",
+		count: 15
+	}]
+}

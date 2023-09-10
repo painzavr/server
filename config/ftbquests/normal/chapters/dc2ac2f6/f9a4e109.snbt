@@ -1,0 +1,41 @@
+{
+	title: "Легенда о бессмертном тотеме",
+	icon: "minecraft:totem_of_undying",
+	x: -6.0d,
+	y: -7.0d,
+	text: [
+		"Картографы разных деревень толкую о каком-то мистическом особняке где пруд пруди паганых илледжеров, но есть там и полезная вещица"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "43e4320d",
+		type: "advancement",
+		advancement: "adventure/totem_of_undying",
+		criterion: ""
+	},
+	{
+		uid: "2d010737",
+		type: "kill",
+		title: "Убей закленателя",
+		entity: "minecraft:evocation_illager",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "949eb435",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "78903912",
+		type: "item",
+		item: "minecraft:totem_of_undying",
+		count: 2
+	},
+	{
+		uid: "c9eeb7b0",
+		type: "random",
+		table: 2
+	}]
+}

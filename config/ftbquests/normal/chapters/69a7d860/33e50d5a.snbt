@@ -1,0 +1,44 @@
+{
+	title: "Чародейская механизация",
+	x: 7.0d,
+	y: -7.5d,
+	text: [
+		"Как много ты сможешь создать себе именно нужных тебе книг?"
+	],
+	dependencies: [
+		"bff19f33"
+	],
+	tasks: [{
+		uid: "0f75acc2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 13s
+		}]
+	}],
+	rewards: [{
+		uid: "6d995d8c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "59e54ecf",
+		type: "item",
+		item: "thermalfoundation:material 1 513",
+		count: 3
+	}]
+}

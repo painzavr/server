@@ -1,0 +1,37 @@
+{
+	title: "Пора делать муку",
+	x: 17.0d,
+	y: 2.0d,
+	text: [
+		"Ручная мельница позволяет делать муку из двухзерновой пшеницы"
+	],
+	dependencies: [
+		"0b83356e"
+	],
+	tasks: [{
+		uid: "6d5d0209",
+		type: "item",
+		items: [{
+			item: "atum:quern"
+		}]
+	},
+	{
+		uid: "7727df8d",
+		type: "item",
+		items: [{
+			item: "atum:emmer_dough"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "e23dc57a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6dabb707",
+		type: "item",
+		item: "atum:emmer_flour",
+		count: 15
+	}]
+}

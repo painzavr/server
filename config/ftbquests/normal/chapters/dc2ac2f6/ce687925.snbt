@@ -1,0 +1,33 @@
+{
+	title: "За опыт да, за опыт да",
+	x: 25.630952380952408d,
+	y: -5.928571428571445d,
+	text: [
+		"Цветок что конвертирует опыт в ману, но самое главное что опыт должен быть у Вас иначе ничего не сработает"
+	],
+	dependencies: [
+		"ecb4319c",
+		"a4b38976"
+	],
+	tasks: [{
+		uid: "fa221893",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "acf4ac2d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "73e68130",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 5
+	}]
+}

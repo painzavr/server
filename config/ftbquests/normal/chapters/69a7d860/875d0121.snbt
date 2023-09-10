@@ -1,0 +1,23 @@
+{
+	title: "Иммесив рекорд",
+	x: -11.0d,
+	y: -12.0d,
+	dependencies: [
+		"5990d9b4"
+	],
+	tasks: [{
+		uid: "81832176",
+		type: "ic2_energy",
+		value: 1500000000L
+	}],
+	rewards: [{
+		uid: "9ffda44b",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "94dcb06c",
+		type: "random",
+		table: 4
+	}]
+}

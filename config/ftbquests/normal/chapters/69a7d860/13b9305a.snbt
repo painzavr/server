@@ -1,0 +1,44 @@
+{
+	title: "Зачем утруждатся?",
+	x: 10.5d,
+	y: -4.5d,
+	text: [
+		"Эти кристалы способны отдавать энергию без вторичного связывающегося кристала входа/выхода"
+	],
+	dependencies: [
+		"6dab6a8f",
+		"a24758a7",
+		"0bae4455"
+	],
+	tasks: [{
+		uid: "8ffed6cf",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 6"
+		}]
+	},
+	{
+		uid: "af8df7ad",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 7"
+		}]
+	},
+	{
+		uid: "4976ed9d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "201c86dd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2d7954b4",
+		type: "random",
+		table: 1
+	}]
+}

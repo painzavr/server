@@ -1,0 +1,36 @@
+{
+	title: "Начало: Mekanism",
+	icon: "mekanism:atomicalloy",
+	x: 1.607142857142847d,
+	y: 1.1964285714285765d,
+	text: [
+		"Генератор на тепловой тяге будет усиливать свою пасивную выроботку энергии за счёт розлитой вокруг него лавы"
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "a5d4d089",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c63db40",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9d0311ff",
+		type: "item",
+		item: "thermalfoundation:material 1 64",
+		count: 5
+	},
+	{
+		uid: "88ce8a1a",
+		type: "random",
+		table: 0
+	}]
+}

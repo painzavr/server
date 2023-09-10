@@ -1,0 +1,64 @@
+{
+	title: "Коллекционер",
+	x: -0.5537414965986471d,
+	y: 11.847491496598636d,
+	text: [
+		"С помощью компаса мы  смогли обнаружить метериоты внутри который хранились странные формы."
+	],
+	dependencies: [
+		"9ed57317"
+	],
+	tasks: [{
+		uid: "365f41ca",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "1330c4b9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "38904486",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	},
+	{
+		uid: "af32e353",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			tag: {},
+			Damage: 21s
+		}]
+	}],
+	rewards: [{
+		uid: "b927ae39",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c4906e6d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 32
+	},
+	{
+		uid: "753f2ad3",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 5
+	},
+	{
+		uid: "53d0afd5",
+		type: "item",
+		item: "minecraft:slime_ball",
+		count: 4
+	}]
+}

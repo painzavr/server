@@ -1,0 +1,24 @@
+{
+	title: "Почти американский пирог",
+	x: -1.5d,
+	y: -11.5d,
+	text: [
+		"Хорошое блюдо, особенно когда его много"
+	],
+	dependencies: [
+		"88777385",
+		"53ab66dc"
+	],
+	tasks: [{
+		uid: "6bdcd4ab",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_pie"
+		}]
+	}],
+	rewards: [{
+		uid: "efe345a1",
+		type: "xp",
+		xp: 25
+	}]
+}

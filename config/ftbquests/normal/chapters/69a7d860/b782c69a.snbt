@@ -1,0 +1,35 @@
+{
+	title: "Зарадный механизм",
+	x: 10.0d,
+	y: 0.5d,
+	text: [
+		"Станция для подзарядки инструментов и брони, также можно заряжать переносные носители энергии"
+	],
+	dependencies: [
+		"7a1a3efa",
+		"0bae4455"
+	],
+	tasks: [{
+		uid: "99bd8352",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "29dc50d7",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "e6e9c9c1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "380b6172",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 5
+	}]
+}

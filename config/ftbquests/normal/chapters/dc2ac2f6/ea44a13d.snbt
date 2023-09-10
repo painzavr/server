@@ -1,0 +1,31 @@
+{
+	title: "И слепому можно",
+	x: 23.0d,
+	y: 8.5d,
+	text: [
+		"Лук что сам выберает свою цель. Сколько он может сделать пользы так и вреда навести немало, но босса финального убивать надо"
+	],
+	dependencies: [
+		"998a52ba"
+	],
+	optional: true,
+	tasks: [{
+		uid: "98e6f703",
+		type: "item",
+		items: [{
+			item: "twilightforest:seeker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e6e56db",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4ab9940e",
+		type: "random",
+		table: 2
+	}]
+}

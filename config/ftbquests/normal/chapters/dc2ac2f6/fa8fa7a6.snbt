@@ -1,0 +1,31 @@
+{
+	title: "Плита формирования",
+	x: 22.51190476190476d,
+	y: -10.130952380952369d,
+	text: [
+		"На этой плите Вы наконецто сможете создавать более мощьные слитки с терра-энергии"
+	],
+	dependencies: [
+		"372f9812",
+		"97b6ec10",
+		"2f528239"
+	],
+	tasks: [{
+		uid: "01617ae3",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "df33fcf7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "802a05b0",
+		type: "item",
+		item: "minecraft:lapis_block",
+		count: 3
+	}]
+}

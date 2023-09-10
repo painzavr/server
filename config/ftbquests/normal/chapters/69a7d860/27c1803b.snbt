@@ -1,0 +1,50 @@
+{
+	title: "Хладогент и его друзья",
+	x: -3.0d,
+	y: -10.0d,
+	text: [
+		"Во время роботы генераторов выделяется огромное количество тепла, это может плохо сказатся на Вас и на окружающей вас среде"
+	],
+	dependencies: [
+		"093fe6ae",
+		"ad0508e3"
+	],
+	tasks: [{
+		uid: "900a847a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}],
+		count: 32L
+	},
+	{
+		uid: "85a56ff9",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6131ae2e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a572ab31",
+		type: "item",
+		item: "thermalfoundation:material 1 892",
+		count: 32
+	},
+	{
+		uid: "334afa4e",
+		type: "item",
+		item: "thermalfoundation:material 1 512",
+		count: 5
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 19.55952380952381d,
+	y: -6.273809523809518d,
+	text: [
+		"Искры ровно как и распостранители маны способны передавать манну но делать это в раза 3 быстрее"
+	],
+	dependencies: [
+		"b36f90df"
+	],
+	tasks: [{
+		uid: "7c52f17d",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}]
+	}],
+	rewards: [{
+		uid: "ef167ed7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "25aa49c9",
+		type: "item",
+		item: "botania:spark"
+	},
+	{
+		uid: "49400ce8",
+		type: "random",
+		table: 1
+	}]
+}

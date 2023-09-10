@@ -1,0 +1,35 @@
+{
+	title: "Насытить слитки",
+	x: 3.5357142857142776d,
+	y: 1.767857142857146d,
+	text: [
+		"В этом механизме можно сделать не только сталь, а и базовые микросхемы что очень помогут в дальнейшем выживании"
+	],
+	dependencies: [
+		"1e3ef806"
+	],
+	tasks: [{
+		uid: "30823fbb",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afd2eec0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8666f1e4",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 3
+	},
+	{
+		uid: "57f1ad1b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Фермерству нет предела",
+	icon: "minecraft:apple",
+	x: 1.0d,
+	y: -6.0d,
+	text: [
+		"Сколько дерева не руби, а яблок хочется. Вот он шанс поесть этот замечательный фрукт"
+	],
+	dependencies: [
+		"48207684",
+		"d6e3d59b"
+	],
+	tasks: [{
+		uid: "863818a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "8fa692bb",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "540afee4",
+		type: "item",
+		item: "minecraft:apple",
+		count: 15
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Сохрани энергию II",
+	x: -4.839455782312932d,
+	y: 13.89511054421768d,
+	text: [
+		"Возможно их можно объединить в цельную структуру?"
+	],
+	dependencies: [
+		"b89192c5"
+	],
+	tasks: [{
+		uid: "858b8157",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3dd08f02",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "099f19e0",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 5
+	},
+	{
+		uid: "cdba9e75",
+		type: "item",
+		item: "enderio:block_cap_bank 1 1"
+	}]
+}

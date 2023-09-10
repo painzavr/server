@@ -1,0 +1,43 @@
+{
+	title: "Горное дело лучше всего!",
+	icon: "minecraft:stone",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"Кирка? -Есть. Пора копать шахту, НО помни главное правило не копай под себя"
+	],
+	dependencies: [
+		"6b8d471d"
+	],
+	tasks: [{
+		uid: "5c6da9bf",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "098015bf",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "dc07be2a",
+		type: "item",
+		item: "minecraft:stone",
+		count: 3
+	}]
+}

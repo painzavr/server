@@ -1,0 +1,31 @@
+{
+	title: "Мостовая балка",
+	x: 27.72619047619051d,
+	y: -4.976190476190482d,
+	text: [
+		"Жезл что создает в воздухе мост на некоторое время что позволит Вам перейти на другую сторону или же поможет создать эльфийское стекло"
+	],
+	dependencies: [
+		"0e97af83"
+	],
+	tasks: [{
+		uid: "9fe586a9",
+		type: "item",
+		items: [{
+			item: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bbe5e40",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4901a7c0",
+		type: "item",
+		item: "botania:manaresource 1 9",
+		count: 3
+	}]
+}

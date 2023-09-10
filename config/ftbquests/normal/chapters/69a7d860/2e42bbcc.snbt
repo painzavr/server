@@ -1,0 +1,31 @@
+{
+	x: 6.13095238095238d,
+	y: 2.636904761904752d,
+	dependencies: [
+		"dd905e0b"
+	],
+	tasks: [{
+		uid: "e3aaef92",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "470db4e8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ff62a976",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "5ba19062",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 5
+	}]
+}

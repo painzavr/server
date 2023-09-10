@@ -1,0 +1,28 @@
+{
+	title: "Сушарка для предметов",
+	x: 17.0d,
+	y: -1.5d,
+	text: [
+		"Поместите туда предметы что имеют в себе заряд и они будут опустошены за считаные секунды"
+	],
+	dependencies: [
+		"7e50d9ce"
+	],
+	tasks: [{
+		uid: "40704543",
+		type: "item",
+		items: [{
+			item: "draconicadditions:item_drainer"
+		}]
+	}],
+	rewards: [{
+		uid: "c043fdc2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "272e2326",
+		type: "item",
+		item: "draconicevolution:awakened_core"
+	}]
+}

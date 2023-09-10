@@ -1,0 +1,42 @@
+{
+	title: "Лавовая тяга",
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"Насколько прекрасен генератор что роботаетлучше прежнего но для него нужен обезательный компонент - лава"
+	],
+	dependencies: [
+		"f5678c32"
+	],
+	tasks: [{
+		uid: "e6769fc3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "81681685",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0e1508ff",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "41fdd4ea",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		},
+		count: 5
+	}]
+}

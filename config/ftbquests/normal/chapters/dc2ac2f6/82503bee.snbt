@@ -1,0 +1,35 @@
+{
+	title: "Куй железо, пока не украли",
+	x: -6.0d,
+	y: 0.5d,
+	text: [
+		"После камня есть только один путь... "
+	],
+	dependencies: [
+		"40ba98d5"
+	],
+	tasks: [{
+		uid: "7517dc91",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "51c04653",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "4343d955",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	},
+	{
+		uid: "b62113ac",
+		type: "random",
+		table: 1
+	}]
+}

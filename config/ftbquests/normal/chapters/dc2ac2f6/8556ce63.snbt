@@ -1,0 +1,24 @@
+{
+	title: "Цинто что?",
+	x: -14.5d,
+	y: 2.5d,
+	text: [
+		"Новая руда ада которая поможет улучшить некоторые алмазные инструменты"
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "944d845d",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "74599345",
+		type: "xp",
+		xp: 25
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "МФСУ-уровень",
+	x: -9.0d,
+	y: -7.5d,
+	dependencies: [
+		"1be4e062"
+	],
+	tasks: [{
+		uid: "e9ff076e",
+		type: "ic2_energy",
+		value: 40000000L
+	}],
+	rewards: [{
+		uid: "96959288",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "88a08cb5",
+		type: "random",
+		table: 2
+	}]
+}

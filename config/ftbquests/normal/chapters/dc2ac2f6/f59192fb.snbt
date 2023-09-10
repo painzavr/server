@@ -1,0 +1,30 @@
+{
+	title: "Пора в битву!",
+	x: -3.5d,
+	y: -4.5d,
+	text: [
+		"Меч - отличное средство для самозащиты, но и для нападения."
+	],
+	dependencies: [
+		"23e69b57"
+	],
+	tasks: [{
+		uid: "09503694",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bca97167",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "b5d0cffc",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	x: -25.5d,
+	y: -1.0d,
+	dependencies: [
+		"28bdfbe8"
+	],
+	tasks: [{
+		uid: "d7cbfbab",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eda47d87",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b154c58",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8de6f9da",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96d8d74f",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "b0142065",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "162fa4a0",
+		type: "item",
+		item: "ic2:misc_resource 1 2",
+		count: 15
+	}]
+}

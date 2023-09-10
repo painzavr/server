@@ -1,0 +1,29 @@
+{
+	title: "Радужный баран",
+	x: 28.5d,
+	y: 2.0d,
+	text: [
+		"Ходят слухи что в лесах Твайлайт Фореста бродит величественный баран который будет не против Вашей шерсти. Окутайте его всеми цветами шерсти и получите награды от сего творения"
+	],
+	dependencies: [
+		"8f30f4cb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "83bd6eb0",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "9b6c6db0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "20f72b7f",
+		type: "random",
+		table: 3
+	}]
+}

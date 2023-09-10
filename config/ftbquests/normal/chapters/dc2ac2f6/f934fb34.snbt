@@ -1,0 +1,26 @@
+{
+	title: "Неполноценный полёт",
+	x: -13.0d,
+	y: -9.0d,
+	text: [
+		"Корабль что бороздит пустоты мира Края имеет множество секретов"
+	],
+	dependencies: [
+		"b38c0c45",
+		"d0fd6278"
+	],
+	tasks: [{
+		uid: "e6e1fc73",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d4a177a",
+		type: "xp",
+		xp: 100
+	}]
+}

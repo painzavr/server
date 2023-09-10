@@ -1,0 +1,26 @@
+{
+	title: "Первая ступень",
+	x: -12.0d,
+	y: 10.5d,
+	dependencies: [
+		"95030a17"
+	],
+	tasks: [{
+		uid: "3b6473db",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "ad065907",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1cc1a8bd",
+		type: "random",
+		table: 0
+	}]
+}

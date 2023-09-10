@@ -1,0 +1,40 @@
+{
+	title: "Атомный крушитель",
+	x: 5.095238095238088d,
+	y: 7.577380952380949d,
+	text: [
+		"Молот что имеет множество как и полезных так и бесполезных "
+	],
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "8347b77b",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ecafbab8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f2328e65",
+		type: "item",
+		item: "mekanism:atomicalloy"
+	},
+	{
+		uid: "5dc2bfcb",
+		type: "item",
+		item: "mekanism:ingot"
+	},
+	{
+		uid: "d477b571",
+		type: "random",
+		table: 1
+	}]
+}

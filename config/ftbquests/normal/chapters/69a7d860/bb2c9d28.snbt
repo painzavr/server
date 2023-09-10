@@ -1,0 +1,29 @@
+{
+	title: "Улучшение механизма II",
+	x: -6.92278911564626d,
+	y: 12.895110544217694d,
+	text: [
+		"Теперь механизм будет работать быстрее"
+	],
+	dependencies: [
+		"ed1d97d1"
+	],
+	tasks: [{
+		uid: "1e8c2d92",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "af958461",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "8d6bd9c5",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 5
+	}]
+}

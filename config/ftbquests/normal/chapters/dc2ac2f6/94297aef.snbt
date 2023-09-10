@@ -1,0 +1,41 @@
+{
+	title: "Странные руны",
+	x: 17.0d,
+	y: -1.0d,
+	text: [
+		"После добычи нескольких предметов Вы можете вымыть их в воде и получить очищеный вариант "
+	],
+	dependencies: [
+		"0b83356e"
+	],
+	tasks: [{
+		uid: "c5df28a7",
+		type: "item",
+		items: [{
+			item: "atum:bone_ore"
+		}]
+	},
+	{
+		uid: "3de1a59b",
+		type: "item",
+		items: [{
+			item: "atum:relic_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "9bc87ae5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9c4d2072",
+		type: "item",
+		item: "atum:coin_dirty",
+		count: 15
+	},
+	{
+		uid: "65fe6673",
+		type: "random",
+		table: 0
+	}]
+}

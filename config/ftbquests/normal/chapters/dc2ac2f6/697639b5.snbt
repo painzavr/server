@@ -1,0 +1,36 @@
+{
+	title: "Оно живое!!!",
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"Создание формы жизни может быть очень сложным процесом... Или нет"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "6c6faef1",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}]
+	},
+	{
+		uid: "69d03097",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b0d22827",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "0aaf254a",
+		type: "random",
+		table: 2
+	}]
+}

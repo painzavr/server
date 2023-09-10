@@ -1,0 +1,37 @@
+{
+	title: "Наростающая сила",
+	x: 17.17857142857143d,
+	y: -11.321428571428566d,
+	text: [
+		"То что поможет Вам не задумыватся о том что такое пересоздание одного цветка кучу раз"
+	],
+	dependencies: [
+		"84c7ea57",
+		"37e13560"
+	],
+	tasks: [{
+		uid: "4c0f0a24",
+		type: "item",
+		items: [{
+			item: "botania:overgrowthseed"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "97f942a1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b514e0e4",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 4
+	},
+	{
+		uid: "cd1a9e09",
+		type: "item",
+		item: "botania:manaresource 1 9",
+		count: 2
+	}]
+}

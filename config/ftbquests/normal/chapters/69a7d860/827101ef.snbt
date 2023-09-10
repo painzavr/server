@@ -1,0 +1,38 @@
+{
+	title: "Буритель с иридиевой прокладкой",
+	x: -23.5d,
+	y: -2.0d,
+	text: [
+		"Бур что есть собственно один из лучших представителей стреди своих аналогов мода IC2 "
+	],
+	dependencies: [
+		"28bdfbe8"
+	],
+	tasks: [{
+		uid: "a5cc10bb",
+		type: "item",
+		items: [{
+			id: "ic2:iridium_drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3170ac06",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "c1ef6e83",
+		type: "choice",
+		table: 2
+	},
+	{
+		uid: "6472ef41",
+		type: "item",
+		item: "ic2:misc_resource 1 2",
+		count: 15
+	}]
+}

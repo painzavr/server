@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre-1.8\bin\java" -Xms8G -Xmx8G -jar server.jar nogui

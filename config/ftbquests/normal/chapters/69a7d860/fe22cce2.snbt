@@ -1,0 +1,61 @@
+{
+	title: "Чешуя виверны",
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"b782c69a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d20261d6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3c67db4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c2b2c35",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "014e422c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc7a16bc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9fe6bf03",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 5
+	},
+	{
+		uid: "6a6e405f",
+		type: "random",
+		table: 2
+	}]
+}

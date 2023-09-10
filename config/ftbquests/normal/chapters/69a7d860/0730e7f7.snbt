@@ -1,0 +1,40 @@
+{
+	title: "Наполним колбы",
+	x: -15.0d,
+	y: -2.5d,
+	text: [
+		"Способность улучшать свои механизмы есть базовой основой игры. Этот апарат позволит создавать хладогент необходимый для создания ускорителей и трансформаторов напряжения"
+	],
+	dependencies: [
+		"905f77ec"
+	],
+	tasks: [{
+		uid: "dea25f2b",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 42"
+		}]
+	}],
+	rewards: [{
+		uid: "3ee67216",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "76448716",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ic2coolant",
+				Amount: 1000
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "560738c4",
+		type: "random",
+		table: 0
+	}]
+}

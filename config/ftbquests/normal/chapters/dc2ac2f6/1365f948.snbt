@@ -1,0 +1,35 @@
+{
+	title: "Улучшеный нитор",
+	x: 5.5d,
+	y: 9.0d,
+	text: [
+		"Нужно быть поокурантее с этой штукой"
+	],
+	dependencies: [
+		"f057e63a"
+	],
+	tasks: [{
+		uid: "0233be1a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "2a28cb3b",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "b278788c",
+		type: "item",
+		item: "minecraft:coal",
+		count: 15
+	},
+	{
+		uid: "d818d612",
+		type: "item",
+		item: "thaumcraft:nitor_red",
+		count: 3
+	}]
+}

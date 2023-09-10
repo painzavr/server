@@ -1,0 +1,26 @@
+{
+	title: "Лучшая защита - щит",
+	icon: "minecraft:shield",
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"Ничто так не защитит тебя от стрел и взрывов на раннем этапе так хорошо как щит"
+	],
+	dependencies: [
+		"f59192fb"
+	],
+	tasks: [{
+		uid: "dea68ae0",
+		type: "item",
+		items: [{
+			item: "minecraft:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57b08145",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Повысь качество",
+	x: 1.5238095238095184d,
+	y: 4.505952380952394d,
+	text: [
+		"Повышает скорость роботы механизма, энергоёмкость или же уберает шум от роботы этого же апарата"
+	],
+	dependencies: [
+		"dd905e0b"
+	],
+	tasks: [{
+		uid: "224f023b",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}]
+	},
+	{
+		uid: "ad9bf2ab",
+		type: "item",
+		items: [{
+			item: "mekanism:energyupgrade"
+		}]
+	},
+	{
+		uid: "788294db",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "6ce8be20",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8d2c2edc",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "23ca9066",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 5
+	}]
+}

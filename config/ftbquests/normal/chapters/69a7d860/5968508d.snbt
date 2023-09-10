@@ -1,0 +1,35 @@
+{
+	title: "Дроби это...",
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"Предмет что позволит Вам в самом начале удвоить свои ресурсы, что ускорит Ваше развитие в столь опасном мире"
+	],
+	dependencies: [
+		"f5678c32",
+		"ec2e2f9d"
+	],
+	tasks: [{
+		uid: "908e882c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "dd2452e4",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "47dee6d9",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "840d4390",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

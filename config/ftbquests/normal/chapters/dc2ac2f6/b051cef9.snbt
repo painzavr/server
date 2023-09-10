@@ -1,0 +1,27 @@
+{
+	title: "Повышаем концентрацию крови IV",
+	x: -14.5d,
+	y: 15.0d,
+	dependencies: [
+		"cb46aec6",
+		"5d42fa96"
+	],
+	tasks: [{
+		uid: "9e631afa",
+		type: "item",
+		items: [{
+			item: "bloodmagic:path 1 6"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "0990b10b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dc8a90e8",
+		type: "random",
+		table: 1
+	}]
+}

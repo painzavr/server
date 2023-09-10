@@ -1,0 +1,33 @@
+{
+	title: "Сбор урожая",
+	x: 0.672448979591806d,
+	y: 19.00225340136054d,
+	text: [
+		"Мы в маленьком шаге от большого шага."
+	],
+	dependencies: [
+		"78504d97"
+	],
+	tasks: [{
+		uid: "1838a180",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "ba108d58",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "32cf22d3",
+		type: "item",
+		item: "appliedenergistics2:part 1 260"
+	},
+	{
+		uid: "9b9dc8aa",
+		type: "item",
+		item: "appliedenergistics2:part 1 240"
+	}]
+}

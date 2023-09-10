@@ -1,0 +1,30 @@
+{
+	title: "Весёлая ферма!",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"Пора научится добывать себе пропитание используя фермерство"
+	],
+	dependencies: [
+		"23e69b57"
+	],
+	tasks: [{
+		uid: "ee18fc45",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9d260b3",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "e5e456d2",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "Электричество даёт жизнь",
+	x: 4.0d,
+	y: -7.5d,
+	text: [
+		"Механизм который позволяет Вам при помощи фито-гро выращивать почти любое растение у Вас в механизме"
+	],
+	dependencies: [
+		"80a9928e"
+	],
+	tasks: [{
+		uid: "957afa28",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "892c8fa4",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "c53fed8b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "38620e29",
+		type: "item",
+		item: "thermalfoundation:material 1 66",
+		count: 3
+	}]
+}

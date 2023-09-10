@@ -1,0 +1,55 @@
+{
+	title: "Творцы будущего",
+	x: 0.9224489795918345d,
+	y: 13.89511054421768d,
+	text: [
+		"Мы получили первые процесоры для нашего развития. Пентиум 4..Вот оноооо БУДУЩЕЕЕ."
+	],
+	dependencies: [
+		"6c30ff70"
+	],
+	tasks: [{
+		uid: "a685f3bc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 22"
+		}]
+	},
+	{
+		uid: "5fcf2151",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}]
+	},
+	{
+		uid: "c8a26c5d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "d6d60c03",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0a53dc03",
+		type: "item",
+		item: "appliedenergistics2:material 1 5",
+		count: 5
+	},
+	{
+		uid: "d49e72e9",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 5
+	},
+	{
+		uid: "ba468c23",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 10
+	}]
+}

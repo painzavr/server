@@ -1,0 +1,25 @@
+{
+	title: "Промыть и хватит",
+	x: -11.0d,
+	y: 3.0d,
+	dependencies: [
+		"fbd8ac50"
+	],
+	tasks: [{
+		uid: "f615972d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "5cf6b3a5",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "626c300b",
+		type: "random",
+		table: 0
+	}]
+}

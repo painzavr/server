@@ -1,0 +1,42 @@
+{
+	title: "Соковыжималка по крупному",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"Поставь возле природного источника древесины, что даст тебе сок дерева который будет полезен в крафтах даной модификации"
+	],
+	dependencies: [
+		"774f180c"
+	],
+	tasks: [{
+		uid: "f231dfc3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "ead548d9",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "8298e5a7",
+		type: "random",
+		table: 1
+	}]
+}

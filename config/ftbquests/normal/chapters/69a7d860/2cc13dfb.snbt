@@ -1,0 +1,38 @@
+{
+	title: "Легалайз на телепорт",
+	x: 12.5d,
+	y: -2.5d,
+	text: [
+		"Привяжите точку куда нужно телепортироватсяа потом просто положите на пьедестал "
+	],
+	dependencies: [
+		"42ccdd06",
+		"2da12f12"
+	],
+	tasks: [{
+		uid: "ca3c4848",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator_pedestal"
+		}]
+	},
+	{
+		uid: "ee0944e8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2cce45f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "409f0a17",
+		type: "item",
+		item: "draconicevolution:dislocator"
+	}]
+}

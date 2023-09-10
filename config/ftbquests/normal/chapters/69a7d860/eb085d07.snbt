@@ -1,0 +1,65 @@
+{
+	x: -2.6190476190476133d,
+	y: 10.392857142857153d,
+	dependencies: [
+		"fde9cfcc"
+	],
+	tasks: [{
+		uid: "f76c42f2",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "33913dcc",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a03b8621",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd7f9975",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96b48ef1",
+		type: "xp_levels",
+		xp_levels: 1000
+	},
+	{
+		uid: "fa7398e9",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "cb1591fa",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 32
+	},
+	{
+		uid: "6a5df27e",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 64
+	}]
+}

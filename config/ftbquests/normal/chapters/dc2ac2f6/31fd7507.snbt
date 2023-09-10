@@ -1,0 +1,50 @@
+{
+	title: "Три кольца что правят всеми",
+	x: -1.0d,
+	y: 11.5d,
+	text: [
+		"Три кольца что правят всеми наконец воссоеденились в руках единого волшебника"
+	],
+	dependencies: [
+		"f68719c5"
+	],
+	tasks: [{
+		uid: "33bc7390",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13d11828",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10b47ac2",
+		type: "item",
+		item: "thaumcraft:baubles 1 3"
+	},
+	{
+		uid: "5122600e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f434f414",
+		type: "random",
+		table: 1
+	}]
+}

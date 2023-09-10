@@ -1,0 +1,24 @@
+{
+	title: "Маленькая но удаленькая",
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Вот и она сумка которая изрядно поднимет твою переносимость предметов"
+	],
+	dependencies: [
+		"c591bd15"
+	],
+	tasks: [{
+		uid: "60a33fea",
+		type: "item",
+		items: [{
+			item: "backpack:backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "210e8bb5",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Морозная повелительница",
+	x: 24.5d,
+	y: 7.5d,
+	text: [
+		"Пред-финальный босс мира Твай Лайта, когда же она уже усмирит свой хлад помогите же ей"
+	],
+	dependencies: [
+		"39cca214"
+	],
+	tasks: [{
+		uid: "14cd2276",
+		type: "kill",
+		title: "Убей Снежную королеву",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8ff81449",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "eef2d49d",
+		type: "random",
+		table: 4
+	}]
+}

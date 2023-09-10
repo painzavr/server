@@ -1,0 +1,55 @@
+{
+	title: "Повысить ставки",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"Создайте улучшеные для инжекторы для повышения уровня слияния для более сложных крафтов"
+	],
+	dependencies: [
+		"b07e3679"
+	],
+	tasks: [{
+		uid: "3a8be8b4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "adaf9a4c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}],
+		count: 10L
+	},
+	{
+		uid: "a349238c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "77b2b4ee",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "bac1c251",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "8f516a4b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "39802310",
+		type: "random",
+		table: 2
+	}]
+}

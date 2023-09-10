@@ -1,0 +1,30 @@
+{
+	title: "Новая жизнь для старого дракона",
+	x: -15.0d,
+	y: -7.0d,
+	text: [
+		"После долгих изучений яйца дракона Вы смогли обуздать ту силу которая была заключена в нём."
+	],
+	dependencies: [
+		"b38c0c45"
+	],
+	tasks: [{
+		uid: "05a29685",
+		type: "item",
+		items: [{
+			item: "minecraft:end_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "44119436",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5ccd4234",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 8
+	}]
+}

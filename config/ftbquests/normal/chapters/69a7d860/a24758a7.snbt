@@ -1,0 +1,33 @@
+{
+	title: "Максимальность достижима",
+	x: 10.5d,
+	y: -7.0d,
+	dependencies: [
+		"6dab6a8f"
+	],
+	tasks: [{
+		uid: "c2f9738a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "54f2c7f3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "99f2f037",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2b5630af",
+		type: "random",
+		table: 3
+	}]
+}

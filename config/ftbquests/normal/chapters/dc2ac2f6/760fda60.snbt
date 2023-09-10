@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Визер-скелет",
+	x: 8.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1adf3366",
+		type: "kill",
+		title: "Убей визер-скелета",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither_skeleton",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "3c2be698",
+		type: "random",
+		auto: "enabled",
+		table: 2
+	}]
+}

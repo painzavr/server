@@ -1,0 +1,133 @@
+{
+	title: "Инструментария мага",
+	x: -4.5d,
+	y: 9.5d,
+	text: [
+		"Эти вещи в какой-то мене лучше чем ванильный вариант"
+	],
+	dependencies: [
+		"6edfa8e3"
+	],
+	tasks: [{
+		uid: "71a0e592",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2e7b034",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3791a946",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1be52cc8",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_shovel",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30bacdf4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:elemental_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "585aba62",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "25a0f70d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cf2d8870",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 15
+	},
+	{
+		uid: "643822dd",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praemunio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 5
+	},
+	{
+		uid: "e7ea07e4",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 5
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Горячо!",
+	x: -13.029931972789129d,
+	y: 13.561777210884344d,
+	text: [
+		"Осторожно, не урони!"
+	],
+	dependencies: [
+		"5f6a120e"
+	],
+	tasks: [{
+		uid: "82b3da07",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fire_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82d46093",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d281c50c",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 5
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	title: "Дробитель дерева",
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"Аналогичная функция дробителя, но направленая на дерево за одним маленьким исключением - досок выдаётся в 6 раз больше. Так же эта штука может превращать дупустим тыкву в странную жижу может это пригодится потом?"
+	],
+	dependencies: [
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "5ce1e584",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "a7fd1708",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "96d46725",
+		type: "item",
+		item: "thermalfoundation:material 1 257",
+		count: 3
+	},
+	{
+		uid: "dfae60ba",
+		type: "item",
+		item: "thermalfoundation:material 1 256",
+		count: 2
+	},
+	{
+		uid: "20065339",
+		type: "random",
+		table: 0
+	}]
+}

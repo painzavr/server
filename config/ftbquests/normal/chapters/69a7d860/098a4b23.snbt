@@ -1,0 +1,36 @@
+{
+	title: "Все собрать, ничего не потерять",
+	x: 6.7319727891156305d,
+	y: 16.037967687074826d,
+	text: [
+		"Чтобы не терять излишки энергии поместим её в этот кубический куб."
+	],
+	dependencies: [
+		"a3db9de8"
+	],
+	tasks: [{
+		uid: "11b3a309",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "902868fa",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "0beee3db",
+		type: "item",
+		item: "appliedenergistics2:material 1 8",
+		count: 4
+	},
+	{
+		uid: "22f60e0f",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 2
+	}]
+}

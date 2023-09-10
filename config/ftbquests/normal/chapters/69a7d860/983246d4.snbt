@@ -1,0 +1,39 @@
+{
+	title: "Урановое топливо",
+	x: -13.5d,
+	y: -5.5d,
+	text: [
+		"Материалы, которые используются в ядерных реакторах для осуществления управляемой цепной ядерной реакции деления, а самое главное что позже можно будет переработать уран в МОХ топливо"
+	],
+	dependencies: [
+		"0730e7f7"
+	],
+	tasks: [{
+		uid: "c293ad92",
+		type: "item",
+		items: [{
+			id: "ic2:quad_uranium_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "60f1f9e6",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "4b4b9eab",
+		type: "item",
+		item: "thermalfoundation:material 1 320",
+		count: 4
+	},
+	{
+		uid: "d9011e9d",
+		type: "item",
+		item: "ic2:nuclear 1 7",
+		count: 6
+	}]
+}

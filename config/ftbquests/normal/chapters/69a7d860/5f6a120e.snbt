@@ -1,0 +1,36 @@
+{
+	title: "ВО!",
+	icon: "harvestcraft:ironbrewitem",
+	x: -11.696598639455793d,
+	y: 11.799872448979585d,
+	text: [
+		"Это мы любим"
+	],
+	dependencies: [
+		"82b02d4f"
+	],
+	tasks: [{
+		uid: "a2be0ccc",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hootch",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1eb5e4b1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "98857588",
+		type: "item",
+		item: "harvestcraft:rootbeerfloatitem",
+		count: 5
+	}]
+}

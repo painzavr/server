@@ -1,0 +1,34 @@
+{
+	title: "У меня стали... Ковать не перековать",
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"Пора соеденять предметы, а может и что-то большее"
+	],
+	dependencies: [
+		"82503bee"
+	],
+	tasks: [{
+		uid: "b7b7613d",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "edc0c164",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c0b2f6f9",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	},
+	{
+		uid: "9068bb2d",
+		type: "random",
+		table: 2
+	}]
+}

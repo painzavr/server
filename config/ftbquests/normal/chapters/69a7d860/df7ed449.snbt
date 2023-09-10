@@ -1,0 +1,43 @@
+{
+	title: "Магма, лава, энергия",
+	x: -1.5d,
+	y: -9.5d,
+	text: [
+		"Запитал лавой? Отлично, энергия пошла, а значит RF будет в достатке"
+	],
+	dependencies: [
+		"a1236cfa",
+		"ad0508e3"
+	],
+	tasks: [{
+		uid: "368bf12e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "05ff784c",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "44465f5c",
+		type: "item",
+		item: "thermalfoundation:material 1 69",
+		count: 5
+	},
+	{
+		uid: "8251c373",
+		type: "item",
+		item: "thermalfoundation:material 1 100",
+		count: 3
+	}]
+}

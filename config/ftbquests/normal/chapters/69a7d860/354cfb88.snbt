@@ -1,0 +1,18 @@
+{
+	title: "Электроплавление",
+	x: -9.92278911564626d,
+	y: 11.287967687074861d,
+	text: [
+		"Теперь плавление занимает меньше времени"
+	],
+	dependencies: [
+		"8da70438"
+	],
+	tasks: [{
+		uid: "5c404378",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	}]
+}

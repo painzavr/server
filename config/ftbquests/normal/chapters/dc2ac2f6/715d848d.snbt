@@ -1,0 +1,41 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"Во время путишествий Вы могли наткнутся на неизвестные ранее Вам формы жизни. Это обычные крестьяне которые живут в своих домах их село может быть охраняемым при помощи железного голем. Но как он туда попал или кто его построил..."
+	],
+	dependencies: [
+		"c4d10f5e"
+	],
+	tasks: [{
+		uid: "c7e029b3",
+		type: "stat",
+		title: "Пора поговорить с этой формой жизни",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		},
+		stat: "stat.talkedToVillager",
+		value: 1
+	}],
+	rewards: [{
+		uid: "31b90089",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "18079074",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 10
+	},
+	{
+		uid: "ff8bf288",
+		type: "random",
+		table: 1
+	}]
+}

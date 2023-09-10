@@ -1,0 +1,39 @@
+{
+	title: "Переносная энергия",
+	x: -11.5d,
+	y: -0.5d,
+	text: [
+		"Улучшеная версия старого ранца. Само собой способность переносить больше энергии присутствует в этом агрегате"
+	],
+	dependencies: [
+		"03e895f0",
+		"123805a1"
+	],
+	tasks: [{
+		uid: "9b57f4cf",
+		type: "item",
+		items: [{
+			id: "ic2:energy_pack",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6399f580",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "51c1239d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "3d4ef0e6",
+		type: "item",
+		item: "ic2:crafting 1 3",
+		count: 10
+	}]
+}

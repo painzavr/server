@@ -1,0 +1,31 @@
+{
+	x: 6.428571428571431d,
+	y: 8.148809523809526d,
+	dependencies: [
+		"9002522b"
+	],
+	tasks: [{
+		uid: "722a3cc0",
+		type: "item",
+		items: [{
+			item: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8c5a8ba",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0f25bb82",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d6fa1b5d",
+		type: "item",
+		item: "mekanism:energytablet"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Слиток мировой материи",
+	x: -3.5d,
+	y: 5.0d,
+	dependencies: [
+		"40997a7c"
+	],
+	tasks: [{
+		uid: "4e152368",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "fd395adc",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f015c753",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 5
+	},
+	{
+		uid: "b91166f4",
+		type: "random",
+		table: 4
+	}]
+}

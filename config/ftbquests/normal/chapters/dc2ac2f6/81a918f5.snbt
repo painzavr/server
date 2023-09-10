@@ -1,0 +1,24 @@
+{
+	title: "Истинный перолюб",
+	x: 2.5d,
+	y: -9.5d,
+	text: [
+		"Вы же умеете делать ферму на курицах, верно?"
+	],
+	dependencies: [
+		"88777385"
+	],
+	tasks: [{
+		uid: "72d80b80",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "912a2f97",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

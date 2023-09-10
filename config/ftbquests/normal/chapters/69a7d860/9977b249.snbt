@@ -1,0 +1,97 @@
+{
+	title: "Эра Виверн",
+	x: 9.5d,
+	y: 2.0d,
+	text: [
+		"Инструменты достойные своего названия, по урону и мощи могут сравнится рави что только с мифической бронёй из незерита, которого так и не удалось найти"
+	],
+	dependencies: [
+		"7a1a3efa",
+		"b782c69a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "46918ab1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2710b1c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1decad7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9317db74",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a858c266",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72b64fa1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c45c6eb9",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e156c153",
+		type: "item",
+		item: "draconicevolution:wyvern_core"
+	},
+	{
+		uid: "57341dd0",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 3
+	}]
+}

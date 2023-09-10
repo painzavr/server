@@ -1,0 +1,36 @@
+{
+	title: "Безконтактная связь",
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		"При помощи эого прибора можно связать между собой кристалы для передачи энергии от одного источника к необходимому хранилищу"
+	],
+	dependencies: [
+		"f315a504"
+	],
+	tasks: [{
+		uid: "4109c47e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crystal_binder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4410cde3",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "40a8d719",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e5fb3aea",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 4
+	}]
+}

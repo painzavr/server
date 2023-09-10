@@ -1,0 +1,42 @@
+{
+	title: "База шаблонов",
+	x: 2.422448979591806d,
+	y: 18.46653911564625d,
+	text: [
+		"Мы должны научить машины делать то что нам надо."
+	],
+	dependencies: [
+		"dc0fdd5e"
+	],
+	tasks: [{
+		uid: "1c50da50",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "2fc82c31",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0ba18529",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 32
+	},
+	{
+		uid: "641e1ffb",
+		type: "item",
+		item: "appliedenergistics2:quartz_glass",
+		count: 9
+	},
+	{
+		uid: "ad4d47a4",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 5
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Уравнитель",
+	x: 27.72619047619051d,
+	y: -6.1190476190476275d,
+	text: [
+		"Поднимает уровень ландшафта на тот что равен Вашему"
+	],
+	dependencies: [
+		"0e97af83"
+	],
+	tasks: [{
+		uid: "9b6b6961",
+		type: "item",
+		items: [{
+			item: "botania:terraformrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0700254c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6c0abc4f",
+		type: "item",
+		item: "botania:manaresource 1 4"
+	}]
+}

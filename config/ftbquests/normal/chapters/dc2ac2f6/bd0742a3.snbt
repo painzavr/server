@@ -1,0 +1,38 @@
+{
+	title: "Джек и бобовый стебель",
+	x: 23.5d,
+	y: 6.0d,
+	text: [
+		"Фи-фай-фо-фам дух британца чую там. Мёртвый он или живой, попадёт на завтрак мой",
+		"В последней локации под островами гигантов есть пещеры, сломай маленькие обсидиановые коробки и посади бобы"
+	],
+	dependencies: [
+		"998a52ba"
+	],
+	tasks: [{
+		uid: "373981ed",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_beans"
+		}]
+	},
+	{
+		uid: "6cc7983e",
+		type: "item",
+		items: [{
+			item: "twilightforest:uberous_soil"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7f438a10",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4406aaff",
+		type: "random",
+		table: 2
+	}]
+}

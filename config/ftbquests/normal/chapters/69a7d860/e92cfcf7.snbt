@@ -1,0 +1,36 @@
+{
+	title: "Сканирующий елемент",
+	x: -19.0d,
+	y: 0.5d,
+	text: [
+		"Отсканируйте шаблон предмета для создания в репликаторе"
+	],
+	dependencies: [
+		"342162d6"
+	],
+	tasks: [{
+		uid: "c73bd14b",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	}],
+	rewards: [{
+		uid: "6576a242",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a8361ed9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "139a0f0a",
+		type: "item",
+		item: {
+			id: "ic2:crystal_memory",
+			tag: {}
+		}
+	}]
+}

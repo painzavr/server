@@ -1,0 +1,54 @@
+{
+	title: "Истинная магия",
+	x: 1.0d,
+	y: 11.0d,
+	text: [
+		"Броня лучше которой не сыскать в этом мире"
+	],
+	dependencies: [
+		"ff28b832"
+	],
+	tasks: [{
+		uid: "027e0e06",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2a6e0d2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5b7e27d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46da439a",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "ebfea280",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dda6508a",
+		type: "item",
+		item: "thaumcraft:metal_void",
+		count: 10
+	}]
+}

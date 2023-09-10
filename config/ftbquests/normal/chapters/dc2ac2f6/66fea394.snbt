@@ -1,0 +1,24 @@
+{
+	title: "Древнейший навигатор",
+	x: 25.0d,
+	y: 3.0d,
+	text: [
+		"Карта что покажет Вам где Ваши главные враги находятся. Скорее на встречу приключениям"
+	],
+	dependencies: [
+		"ea306b3a",
+		"34907c9e"
+	],
+	tasks: [{
+		uid: "d71cf7e6",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "8a020ea6",
+		type: "xp",
+		xp: 50
+	}]
+}

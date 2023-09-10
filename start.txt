@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre-1.8\bin\java" -Xms4G -Xmx4G -jar server.jar nogui

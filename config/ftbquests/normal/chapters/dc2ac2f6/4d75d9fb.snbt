@@ -1,0 +1,20 @@
+{
+	title: "Заказ: Огненный дракон",
+	x: 11.0d,
+	y: 19.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a702dc74",
+		type: "kill",
+		title: "Убей огненого дракона",
+		icon: "iceandfire:dragon_skull",
+		entity: "iceandfire:firedragon",
+		value: 40L
+	}],
+	rewards: [{
+		uid: "91d6b1a7",
+		type: "random",
+		auto: "enabled",
+		table: 4
+	}]
+}

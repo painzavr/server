@@ -1,0 +1,42 @@
+{
+	title: "Когдан мрак заступит Солнце",
+	x: 4.5d,
+	y: -6.5d,
+	text: [
+		"Ярчайший свет из глубин самого мира, а точнее из самих чертогов Ада"
+	],
+	dependencies: [
+		"3222d8d0"
+	],
+	tasks: [{
+		uid: "b51a9aad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "glowstone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any glowstone"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "67833160",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 32
+	},
+	{
+		uid: "1e61720f",
+		type: "xp",
+		xp: 15
+	}]
+}

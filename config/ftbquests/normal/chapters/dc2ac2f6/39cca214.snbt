@@ -1,0 +1,35 @@
+{
+	title: "Легенда о Биг Футте",
+	x: 26.5d,
+	y: 7.5d,
+	text: [
+		"Это не Биг Футт, а всего лишь его копия. Можно сказать что они являються существами одного вида но будь акуратнее с этим малым "
+	],
+	dependencies: [
+		"5b8bc843"
+	],
+	tasks: [{
+		uid: "a1b19acc",
+		type: "kill",
+		title: "Убей Альфа-Йети",
+		icon: "twilightforest:alpha_fur",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e6330814",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cbabeee7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f3b0de3c",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 15
+	}]
+}

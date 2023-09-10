@@ -1,0 +1,29 @@
+{
+	title: "Убийство ради легенды",
+	icon: "atum:halo_of_ra",
+	x: 15.845238095238088d,
+	y: 1.2023809523809703d,
+	text: [
+		"В пирамидах есть ещё очень много интересных предметов что могут появиться у Вас в колекции"
+	],
+	dependencies: [
+		"0b83356e"
+	],
+	tasks: [{
+		uid: "d0c9877b",
+		type: "kill",
+		icon: "atum:halo_of_ra",
+		entity: "atum:pharaoh",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c1351081",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "196301b7",
+		type: "random",
+		table: 4
+	}]
+}

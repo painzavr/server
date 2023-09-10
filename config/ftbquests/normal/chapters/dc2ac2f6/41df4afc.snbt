@@ -1,0 +1,69 @@
+{
+	title: "Искуство плащей",
+	x: 26.67857142857146d,
+	y: -9.547619047619051d,
+	text: [
+		"Плащ благодейтеля блокирует урон что наносит Вам враждебное существо",
+		"Плащ греха отражает равнозначный урон Вашемо обидчику",
+		"Плащ равновесия делит урон поравну между Вами и врагом"
+	],
+	dependencies: [
+		"62e4ac75"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cc4e6edd",
+		type: "item",
+		items: [{
+			item: "botania:holycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed2c322f",
+		type: "item",
+		items: [{
+			item: "botania:unholycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41aa1263",
+		type: "item",
+		items: [{
+			item: "botania:balancecloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27b2e86c",
+		type: "item",
+		items: [{
+			id: "botania:invisibilitycloak",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65b38b49",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "252997b5",
+		type: "item",
+		item: {
+			id: "botania:manaring",
+			tag: {}
+		}
+	},
+	{
+		uid: "b1b0f375",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,75 @@
+{
+	x: -8.0d,
+	y: 16.0d,
+	text: [
+		"Эти камни на прямую влияют на то, какую броню Вы получите когда активируете кристал умной брони"
+	],
+	dependencies: [
+		"1b39c8df",
+		"cdade5fa",
+		"8c867505"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "813c05e2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "corrosive"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15fc8ee2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "destructive"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8effc14f",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "vengeful"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d97ac75",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "steadfast"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bec7bd91",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "924dc150",
+		type: "random",
+		table: 1
+	}]
+}

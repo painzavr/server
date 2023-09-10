@@ -1,0 +1,34 @@
+{
+	title: "Синаловый наполнитель",
+	x: 6.5d,
+	y: -4.5d,
+	text: [
+		"Синал на чудо крепкий метал который способен переживать оборачивающий момент продвинутого ротора"
+	],
+	dependencies: [
+		"f18cb98c"
+	],
+	tasks: [{
+		uid: "a18968e6",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44e32a20",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "085f38aa",
+		type: "random",
+		table: 2
+	}]
+}

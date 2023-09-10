@@ -1,0 +1,64 @@
+{
+	title: "Бижутерный магнат",
+	x: -1.5d,
+	y: 10.0d,
+	text: [
+		"Кольца, брелки, пояса всё это можно носить?"
+	],
+	dependencies: [
+		"5126b0de"
+	],
+	tasks: [{
+		uid: "44b237f1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloud_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b4c286e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:charm_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03f8ef3b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c345e507",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0121924b",
+		type: "item",
+		item: "ic2:crafting 1 19",
+		count: 3
+	},
+	{
+		uid: "184f3b2b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9c50c44f",
+		type: "item",
+		item: "thaumcraft:baubles 1 6"
+	},
+	{
+		uid: "b759b17e",
+		type: "item",
+		item: "thaumcraft:focus_2"
+	}]
+}

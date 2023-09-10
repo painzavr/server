@@ -1,0 +1,41 @@
+{
+	title: "Продолжение мать учения",
+	x: 1.9224489795918203d,
+	y: 15.716539115646249d,
+	text: [
+		"Оптимизация рабочего пространства и потоков."
+	],
+	dependencies: [
+		"a9aee2ca"
+	],
+	tasks: [{
+		uid: "f3b1f7b8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	},
+	{
+		uid: "9598fff4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 440"
+		}]
+	}],
+	rewards: [{
+		uid: "9bfed0a4",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "40325d61",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	},
+	{
+		uid: "fc444302",
+		type: "random",
+		table: 0
+	}]
+}

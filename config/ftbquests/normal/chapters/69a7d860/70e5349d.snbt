@@ -1,0 +1,29 @@
+{
+	title: "Контроль..КОНТРОЛЬ",
+	x: 1.065306122448959d,
+	y: 17.252253401360534d,
+	text: [
+		"Нам надо увеличить потоки.Войти в поток."
+	],
+	dependencies: [
+		"a9aee2ca"
+	],
+	tasks: [{
+		uid: "722170d4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "42e9904f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4634bb29",
+		type: "item",
+		item: "appliedenergistics2:material 1 12",
+		count: 5
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Защита змея",
+	x: 27.0d,
+	y: 3.5d,
+	text: [
+		"Броня из чешуи поверженой змеи поможет переживать множество источников урона"
+	],
+	dependencies: [
+		"c5477bba"
+	],
+	tasks: [{
+		uid: "fa37c363",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_chestplate",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b63b92d",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_leggings",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80401734",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e80abf09",
+		type: "random",
+		table: 0
+	}]
+}

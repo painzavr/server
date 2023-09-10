@@ -1,0 +1,42 @@
+{
+	title: "Усиль свои знания",
+	x: 28.535714285714306d,
+	y: -2.785714285714292d,
+	text: [
+		"Для увеличения количества знаний нужно произвести ритуал так что приступим "
+	],
+	dependencies: [
+		"b45a9ceb"
+	],
+	tasks: [{
+		uid: "a38a9a32",
+		type: "item",
+		items: [{
+			item: "extrabotany:pedestal"
+		}]
+	},
+	{
+		uid: "6ee08ee8",
+		type: "item",
+		items: [{
+			item: "extrabotany:nightmarefuel"
+		}]
+	},
+	{
+		uid: "4863d778",
+		type: "item",
+		items: [{
+			item: "extrabotany:spiritfuel"
+		}]
+	}],
+	rewards: [{
+		uid: "c418b2c0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fe1bf081",
+		type: "item",
+		item: "extrabotany:manareader"
+	}]
+}

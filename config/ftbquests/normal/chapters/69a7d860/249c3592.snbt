@@ -1,0 +1,42 @@
+{
+	title: "Языческие обряды",
+	x: 4.398639455782316d,
+	y: 10.799872448979585d,
+	text: [
+		"Дьявольским методом, мы смогли изменить природу кристала с помощью других ресурсов. Не по православному это все..."
+	],
+	dependencies: [
+		"9c76f12b"
+	],
+	tasks: [{
+		uid: "3186ff1e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7ab5de2e",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "e0d4585c",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	},
+	{
+		uid: "5f471e76",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		uid: "7e54c646",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 8
+	}]
+}

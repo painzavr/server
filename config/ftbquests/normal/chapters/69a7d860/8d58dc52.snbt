@@ -1,0 +1,44 @@
+{
+	title: "Начало: Draconic Evolution",
+	icon: "draconicevolution:dragon_heart",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"Мистическая пыль что может встречатся как и в обычном мире так и в аду и в Энде. Наибольшая концентраци руды прилагается на Энд так как тут можно будет найти целый метиорит даной руды"
+	],
+	dependencies: [
+		"75946673"
+	],
+	tasks: [{
+		uid: "4a9c1448",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}],
+		count: 15L
+	},
+	{
+		uid: "aace2727",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "9ee26a46",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c009cc35",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "398c0af9",
+		type: "item",
+		item: "draconicevolution:draconium_dust",
+		count: 10
+	}]
+}

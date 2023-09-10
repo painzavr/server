@@ -1,0 +1,30 @@
+{
+	title: "Яблоко Адама",
+	x: -13.0d,
+	y: -1.0d,
+	text: [
+		"В Аду есть много соблазн но этот походит ещё из давних времен создания мира сего"
+	],
+	dependencies: [
+		"cf266aaa"
+	],
+	tasks: [{
+		uid: "706e0337",
+		type: "item",
+		items: [{
+			item: "betternether:black_apple"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c946d9d0",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "15c261c2",
+		type: "item",
+		item: "minecraft:golden_apple"
+	}]
+}

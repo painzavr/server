@@ -1,0 +1,55 @@
+{
+	title: "Повелительница пустоты",
+	icon: "extrabotany:judahoath",
+	x: 10.267857142857153d,
+	y: -12.398809523809522d,
+	text: [
+		"Ещё одна версия Гайи максимальной сложности, этот босс только для самых обезбашенных"
+	],
+	dependencies: [
+		"b973e3d6",
+		"12d5f12b"
+	],
+	tasks: [{
+		uid: "f5712615",
+		type: "kill",
+		title: "Убейте Повелительницу пустоты",
+		icon: "extrabotany:nightmarefuel",
+		entity: "extrabotany:voidherrscher",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9bb46cba",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "899a83e5",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "8fff7a99",
+		type: "item",
+		item: "extrabotany:material 1 5",
+		count: 5
+	},
+	{
+		uid: "9935ba3b",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 189
+			},
+			Damage: 3s
+		},
+		count: 10
+	},
+	{
+		uid: "0a558749",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 3
+	}]
+}

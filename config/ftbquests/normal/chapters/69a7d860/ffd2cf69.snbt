@@ -1,0 +1,32 @@
+{
+	title: "Пустотная мусорка",
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		"Бездонная мусорка, всё что нужно так это доставить в неё предметы которые нужно удалить и всё. Не требует ни энергии ни усилий"
+	],
+	dependencies: [
+		"fa62d33d"
+	],
+	tasks: [{
+		uid: "9b794093",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 1s
+		}]
+	}]
+}

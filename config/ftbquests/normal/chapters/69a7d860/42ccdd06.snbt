@@ -1,0 +1,28 @@
+{
+	title: "Стабилизация и повторное преминение",
+	x: 12.5d,
+	y: -1.0d,
+	text: [
+		"Сколько спавнер не крути а починить его можно тольк опри помощи ядра. Подойдёт любое ядро но чем выше качество тем быстрее будут появлятся мобы"
+	],
+	dependencies: [
+		"0bae4455"
+	],
+	tasks: [{
+		uid: "d48be67a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "7315a4ca",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1d578f00",
+		type: "item",
+		item: "draconicevolution:wyvern_core"
+	}]
+}

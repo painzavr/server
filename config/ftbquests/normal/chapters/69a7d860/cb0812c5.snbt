@@ -1,0 +1,45 @@
+{
+	title: "Бездонное хранение",
+	x: 13.0d,
+	y: 2.0d,
+	dependencies: [
+		"74e89dbf"
+	],
+	tasks: [{
+		uid: "cd40acb5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "c9af5ebb",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "73f15890",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dc1aa561",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "61992069",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 15
+	},
+	{
+		uid: "f780d452",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 15
+	}]
+}

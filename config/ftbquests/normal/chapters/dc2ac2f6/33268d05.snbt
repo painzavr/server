@@ -1,0 +1,38 @@
+{
+	title: "Бедный Йорик",
+	icon: "minecraft:skull 1 1",
+	x: -9.5d,
+	y: -3.0d,
+	text: [
+		"В крепости не так уж и много мобов, но некоторые из них довольно сильные и имеют очень полезные предметы в виде дропа"
+	],
+	dependencies: [
+		"4c84f712"
+	],
+	tasks: [{
+		uid: "e8581ce7",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d4383c54",
+		type: "kill",
+		icon: "minecraft:iron_sword",
+		entity: "minecraft:wither_skeleton",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "0e4922c6",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "ed461b37",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 2
+	}]
+}

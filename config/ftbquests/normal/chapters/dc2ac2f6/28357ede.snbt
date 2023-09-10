@@ -1,0 +1,23 @@
+{
+	title: "Начинающий турист",
+	x: 20.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d3f2de0d",
+		type: "stat",
+		title: "Пробежи блоков",
+		icon: "thaumcraft:traveller_boots",
+		stat: "stat.sprintOneCm",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "7913c7a3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c37f1f96",
+		type: "random",
+		table: 0
+	}]
+}

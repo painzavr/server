@@ -1,0 +1,20 @@
+{
+	title: "Пора орать огород",
+	x: 15.0d,
+	y: 2.5d,
+	text: [
+		"Зарпяги в плуг коня или мула, или ещё кого-то кто способен тянуть этот агрегат, заправьего мотыгами и вперёд!"
+	],
+	dependencies: [
+		"b16b5b1b"
+	],
+	tasks: [{
+		uid: "f94f2a46",
+		type: "item",
+		items: [{
+			item: "astikorcarts:plowcart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

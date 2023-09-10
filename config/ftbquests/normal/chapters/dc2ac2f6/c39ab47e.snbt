@@ -1,0 +1,35 @@
+{
+	title: "Кластеризация",
+	x: 7.0d,
+	y: 8.5d,
+	text: [
+		"Чистый метал при плавке способен выдать вдвое больше слитков"
+	],
+	dependencies: [
+		"1365f948"
+	],
+	tasks: [{
+		uid: "ad289c49",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cluster"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "e27c0505",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4bc8e75b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 10
+	},
+	{
+		uid: "778fbe50",
+		type: "random",
+		table: 0
+	}]
+}

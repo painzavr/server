@@ -1,0 +1,44 @@
+{
+	title: "Переносная зарядная станция",
+	icon: {
+		id: "ic2:batpack",
+		tag: {
+			charge: 60000.0d
+		}
+	},
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"Ранец что будет питать бур созданый ранее, если Вы немного опережаете прогрес то Вы знаете что с этим делать"
+	],
+	dependencies: [
+		"03cc70c8"
+	],
+	tasks: [{
+		uid: "d01548b6",
+		type: "item",
+		items: [{
+			id: "ic2:batpack",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2139d821",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "c545d205",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4d4f54f6",
+		type: "item",
+		item: "ic2:crafting 1 1",
+		count: 3
+	}]
+}

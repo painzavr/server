@@ -1,0 +1,31 @@
+{
+	title: "Алтарь крови",
+	x: -14.0d,
+	y: 9.5d,
+	text: [
+		"Основа мода, на нём держится добрая половина крафтов в этом моде, а также позволяет выливать собраную кровь"
+	],
+	dependencies: [
+		"de8e4bee",
+		"d9c58d7c",
+		"dfb68c6f",
+		"b9a14bcc"
+	],
+	tasks: [{
+		uid: "4563b1c8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "3b42bea9",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2764f5d7",
+		type: "random",
+		table: 1
+	}]
+}

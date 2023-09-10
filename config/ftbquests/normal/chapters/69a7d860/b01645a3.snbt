@@ -1,0 +1,79 @@
+{
+	title: "Генератор на топливе",
+	x: -0.5d,
+	y: -11.0d,
+	text: [
+		"Топливный генератор способен в лучшем варианте выдавать за 1 ведро топлива давать 1 500 000 RF энергии"
+	],
+	dependencies: [
+		"27c1803b",
+		"7cdb4335",
+		"df7ed449"
+	],
+	tasks: [{
+		uid: "150d3586",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "c43f9462",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28a233b2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8e4a774a",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "4c1ae9b5",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "refined_fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

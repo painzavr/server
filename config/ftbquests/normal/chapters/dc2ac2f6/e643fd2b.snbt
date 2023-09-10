@@ -1,0 +1,40 @@
+{
+	title: "Пора в лес!",
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"Пора начинать с того что делал каждый в своём первом прохождении, за дело!?"
+	],
+	dependencies: [
+		"c4d10f5e"
+	],
+	tasks: [{
+		uid: "90944619",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0a5edac7",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "2ba5d257",
+		type: "item",
+		item: "minecraft:log",
+		count: 4
+	}]
+}

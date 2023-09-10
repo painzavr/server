@@ -1,0 +1,41 @@
+{
+	title: "Провода? Или же нет...",
+	x: 8.0d,
+	y: -2.0d,
+	text: [
+		"Кристалы что могут бить связаны при помощи ключа созаного ранее, передают энергию от одного места в другое. Дистанцию передачи можно увеличить при помощи промежуточного кристала"
+	],
+	dependencies: [
+		"7a1a3efa"
+	],
+	tasks: [{
+		uid: "7114cd3c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 3"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ada38109",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "10ffc522",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1550e613",
+		type: "item",
+		item: "draconicevolution:wyvern_energy_core"
+	},
+	{
+		uid: "b1084ed9",
+		type: "random",
+		table: 1
+	}]
+}

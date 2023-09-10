@@ -1,0 +1,24 @@
+{
+	title: "Волшебный ключик",
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		"Гаечный ключ, усы, комбинезон и вот ты уже дядя Богдан"
+	],
+	dependencies: [
+		"87fff9cf"
+	],
+	tasks: [{
+		uid: "9e835332",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4150a065",
+		type: "xp",
+		xp: 50
+	}]
+}

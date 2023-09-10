@@ -1,0 +1,42 @@
+{
+	title: "Мониторинг всего",
+	x: -1.0418367346939021d,
+	y: 16.859396258503388d,
+	text: [
+		"Класификация и логистика, следующий наши задачи для будущего развития."
+	],
+	dependencies: [
+		"a9aee2ca"
+	],
+	tasks: [{
+		uid: "c7c5dcb2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 420"
+		}]
+	},
+	{
+		uid: "b22b8e43",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 400"
+		}]
+	}],
+	rewards: [{
+		uid: "5b33027b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "472f56f4",
+		type: "item",
+		item: "appliedenergistics2:material 1 43",
+		count: 2
+	},
+	{
+		uid: "e772a141",
+		type: "item",
+		item: "appliedenergistics2:material 1 24",
+		count: 3
+	}]
+}

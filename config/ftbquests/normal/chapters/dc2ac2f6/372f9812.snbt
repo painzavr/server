@@ -1,0 +1,76 @@
+{
+	title: "Носитель маны",
+	x: 23.22619047619048d,
+	y: -7.797619047619037d,
+	text: [
+		"Бросьте этот предмет в басейн маны и запитайте его при помощи того что было в басейне"
+	],
+	dependencies: [
+		"68e717c1"
+	],
+	tasks: [{
+		uid: "1129a2a2",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5675dc1",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "2f71bd69",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "f72485a3",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e0f3bb89",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "aae7cef2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "255599a1",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 3
+	},
+	{
+		uid: "41ab6403",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	},
+	{
+		uid: "f89d2ca8",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

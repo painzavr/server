@@ -1,0 +1,44 @@
+{
+	title: "Стабилизированое ядро хаоса и ритуал активации",
+	x: 17.5d,
+	y: 4.5d,
+	text: [
+		"Из заряженого обсидиана нужно построить \"алтарь\" и при помощи 4-х пробуждённых блока активировать Ваши инструменты хаоса"
+	],
+	dependencies: [
+		"f5de8018"
+	],
+	tasks: [{
+		uid: "493e7281",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaos_stabilizer_core"
+		}]
+	},
+	{
+		uid: "76f04b6a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:infused_obsidian"
+		}],
+		count: 32L
+	},
+	{
+		uid: "dd52be48",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "065ca0ad",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "38ef774a",
+		type: "random",
+		table: 3
+	}]
+}

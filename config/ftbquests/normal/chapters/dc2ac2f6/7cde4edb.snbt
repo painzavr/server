@@ -1,0 +1,31 @@
+{
+	title: "Генератор маны",
+	x: 25.630952380952408d,
+	y: -9.452380952380956d,
+	text: [
+		"Пасивно генерирует Вам ману пока Вы будете носить это кольцо"
+	],
+	dependencies: [
+		"62e4ac75"
+	],
+	tasks: [{
+		uid: "9612dc82",
+		type: "item",
+		items: [{
+			item: "botania:auraring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f64463fd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dedae754",
+		type: "item",
+		item: "botania:manaresource",
+		count: 3
+	}]
+}

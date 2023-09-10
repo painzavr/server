@@ -1,0 +1,30 @@
+{
+	title: "Жизнь - порождение крови",
+	x: -15.0d,
+	y: 12.5d,
+	text: [
+		"Убил моба = получил кровь"
+	],
+	dependencies: [
+		"a9fec197"
+	],
+	tasks: [{
+		uid: "13cc0625",
+		type: "item",
+		items: [{
+			item: "bloodmagic:pack_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e900f07e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ee087e23",
+		type: "random",
+		table: 0
+	}]
+}

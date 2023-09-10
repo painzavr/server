@@ -1,0 +1,29 @@
+{
+	title: "Дело мастера боится",
+	icon: "minecraft:crafting_table",
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"Для подальшего выживания никак без средства создания предметов, да?"
+	],
+	dependencies: [
+		"fe2c14ff"
+	],
+	tasks: [{
+		uid: "3f267192",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "06179f61",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "3d23241b",
+		type: "random",
+		table: 0
+	}]
+}

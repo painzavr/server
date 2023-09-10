@@ -1,0 +1,24 @@
+{
+	title: "Голова Джека",
+	x: -1.5d,
+	y: -10.0d,
+	text: [
+		"Неплохая идея вырезать узор на Хеллоувин"
+	],
+	dependencies: [
+		"48207684"
+	],
+	tasks: [{
+		uid: "38ed88d8",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "2512248b",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Адская печь",
+	icon: "betternether:cincinnasite_forge",
+	x: -4.5d,
+	y: 7.5d,
+	text: [
+		"Адская печ великого ученого которая горит вечно "
+	],
+	dependencies: [
+		"c8c291e9"
+	],
+	tasks: [{
+		uid: "befc9732",
+		type: "item",
+		items: [{
+			item: "thaumcraft:triple_meat_treat"
+		}],
+		count: 5L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8d0004e0",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "dbde92ca",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 1",
+		count: 5
+	},
+	{
+		uid: "06ca753c",
+		type: "item",
+		item: "thaumcraft:baubles 1 1"
+	}]
+}

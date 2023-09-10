@@ -1,0 +1,37 @@
+{
+	title: "Жещина от которой стоит...",
+	x: 20.892857142857167d,
+	y: -1.7976190476190368d,
+	text: [
+		"...стоит закрывать глаза, а что ещё? Если не одеть повязку можно умереть лишь от одного взгляда"
+	],
+	dependencies: [
+		"28357ede"
+	],
+	tasks: [{
+		uid: "d90b0c5b",
+		type: "kill",
+		icon: "iceandfire:gorgon_head",
+		entity: "iceandfire:gorgon",
+		value: 1L
+	},
+	{
+		uid: "7c5e3576",
+		type: "item",
+		items: [{
+			item: "iceandfire:blindfold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5870e63d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fbe977cb",
+		type: "random",
+		table: 4
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Кристализация душ",
+	x: -9.0d,
+	y: 14.0d,
+	text: [
+		"При помощи энергии создаёт кристалы которые резонируют в руках"
+	],
+	dependencies: [
+		"a4c05a8c"
+	],
+	tasks: [{
+		uid: "7cca54ef",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "0b1a06a4",
+		type: "xp",
+		xp: 100
+	}]
+}

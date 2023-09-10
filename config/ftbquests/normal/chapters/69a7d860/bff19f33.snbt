@@ -1,0 +1,31 @@
+{
+	title: "Сохрани свои познания",
+	x: 5.5d,
+	y: -6.0d,
+	text: [
+		"Книга которая способна сохранять в себе знания, а потом применять их в создании необходимых зачарований"
+	],
+	dependencies: [
+		"80a9928e"
+	],
+	tasks: [{
+		uid: "80d72143",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f912ca3",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1743a52b",
+		type: "item",
+		item: "minecraft:enchanting_table"
+	}]
+}

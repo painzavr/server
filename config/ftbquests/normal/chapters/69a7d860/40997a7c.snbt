@@ -1,0 +1,34 @@
+{
+	title: "Мировая соковыжималка",
+	x: -2.5d,
+	y: 3.5d,
+	text: [
+		"Со временем Вы сможете получить лишь малую часть мировой материи что в будущем Вам будет казатся всего лишь мелкой пещинкой в целом безграничном мире"
+	],
+	dependencies: [
+		"2dd002a3"
+	],
+	tasks: [{
+		uid: "67c3c4cd",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "84859d47",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5b021f06",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9e166985",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 7
+	}]
+}

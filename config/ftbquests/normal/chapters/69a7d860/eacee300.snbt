@@ -1,0 +1,28 @@
+{
+	title: "Умное управление",
+	x: 6.61292517006801d,
+	y: 17.65701530612244d,
+	text: [
+		"Контроль наших приборов самое важное в технологическом развитии."
+	],
+	dependencies: [
+		"ec05c5ee"
+	],
+	tasks: [{
+		uid: "7c3de881",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "54c82454",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "d5b45c1a",
+		type: "item",
+		item: "thaumcraft:brain"
+	}]
+}

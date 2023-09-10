@@ -1,0 +1,62 @@
+{
+	title: "Пора что-то поменять",
+	x: -14.5d,
+	y: -4.0d,
+	text: [
+		"Обычные зелья малоэфективны но есть множество способов как их усилить или как минимум продлить их действие"
+	],
+	dependencies: [
+		"f0c31a0e"
+	],
+	tasks: [{
+		uid: "d42dbd52",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}],
+		count: 10L
+	},
+	{
+		uid: "49d50a2f",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 10L
+	},
+	{
+		uid: "e4368925",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 10L
+	},
+	{
+		uid: "f40d5608",
+		type: "item",
+		items: [{
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f5deb27",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "0fc1a7a4",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		}
+	}]
+}

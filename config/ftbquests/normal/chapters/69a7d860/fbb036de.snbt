@@ -1,0 +1,38 @@
+{
+	title: "Разделяй и властвуй",
+	x: 3.1367346938775285d,
+	y: 20.0498724489796d,
+	text: [
+		"Использование 100% силы нашего завода для наших нужд"
+	],
+	dependencies: [
+		"de2ea6a2",
+		"cbefdb09",
+		"eacee300",
+		"78504d97"
+	],
+	tasks: [{
+		uid: "e9a821c8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "ae341ad3",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "87f3ec6b",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	},
+	{
+		uid: "04c3aa0e",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 5
+	}]
+}

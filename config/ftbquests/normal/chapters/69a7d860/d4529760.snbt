@@ -1,0 +1,35 @@
+{
+	title: "Разлить по блокам",
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"Помогает поестить жидкий цемент в железные каркасы "
+	],
+	dependencies: [
+		"defe4f81"
+	],
+	tasks: [{
+		uid: "1fb9c310",
+		type: "item",
+		items: [{
+			item: "ic2:foam_sprayer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68b405fa",
+		type: "xp",
+		xp: 75
+	},
+	{
+		uid: "a5c2f890",
+		type: "item",
+		item: "ic2:scaffold 1 2",
+		count: 15
+	},
+	{
+		uid: "b5a789cd",
+		type: "random",
+		table: 0
+	}]
+}

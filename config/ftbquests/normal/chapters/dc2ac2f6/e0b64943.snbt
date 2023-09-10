@@ -1,0 +1,30 @@
+{
+	title: "Оранжевый орех",
+	x: -7.5d,
+	y: 5.0d,
+	text: [
+		"Янтарный свет так и искажает бытиё в глазах при просмотре сквозь его призму"
+	],
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "2ceace03",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amber"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "e415d5d5",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "a07e0012",
+		type: "item",
+		item: "thaumcraft:amber_block",
+		count: 3
+	}]
+}

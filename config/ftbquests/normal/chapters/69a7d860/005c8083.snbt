@@ -1,0 +1,41 @@
+{
+	title: "Выжать досуха",
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"Апарат способен удваивать резину из латекса, пока этот механизм приметивенно может в будущем получится его улучшить?"
+	],
+	dependencies: [
+		"f5678c32"
+	],
+	tasks: [{
+		uid: "9f44ba8d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 45"
+		}]
+	}],
+	rewards: [{
+		uid: "4ff9949d",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "67a72db7",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "89adadb0",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
+		},
+		count: 3
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Туда суда",
+	x: 0.3510204081632651d,
+	y: 15.466539115646249d,
+	text: [
+		"Мы нуждаемся в передачи ресурсов на дальные растояния."
+	],
+	dependencies: [
+		"b75b5240"
+	],
+	tasks: [{
+		uid: "7dbe2165",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	},
+	{
+		uid: "e53c6e5b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	}],
+	rewards: [{
+		uid: "f6bf561d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "18bc5750",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	}]
+}

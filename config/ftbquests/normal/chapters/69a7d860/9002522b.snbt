@@ -1,0 +1,43 @@
+{
+	title: "Куб увеличеной вместипости",
+	x: 4.5d,
+	y: 5.0d,
+	text: [
+		"Продвигайтесь дальше по ступени эволюции и увеличивайте вместимость Вашего куба с энергией"
+	],
+	dependencies: [
+		"94a550e6",
+		"3405951e",
+		"d00bdbb7",
+		"f6f5bdab",
+		"2e42bbcc",
+		"619ca5f3"
+	],
+	tasks: [{
+		uid: "ac9a43e3",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ed4c9a7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a152d329",
+		type: "item",
+		item: "mekanism:energytablet",
+		count: 2
+	},
+	{
+		uid: "340724ec",
+		type: "random",
+		table: 0
+	}]
+}

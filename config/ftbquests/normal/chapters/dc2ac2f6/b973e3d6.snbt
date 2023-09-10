@@ -1,0 +1,48 @@
+{
+	title: "Третий страж...",
+	icon: "botania:gaiahead",
+	x: 11.678571428571459d,
+	y: -10.83333333333335d,
+	text: [
+		"Финальная и наиболее сильная форма Гайи которую не то что убить его то и заспавнить не очень просто "
+	],
+	dependencies: [
+		"02c30ed8"
+	],
+	tasks: [{
+		uid: "c7bcaafd",
+		type: "kill",
+		title: "Убейте Гайю III",
+		icon: "botania:pylon 1 2",
+		entity: "extrabotany:gaiaiii",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "65a6d8f1",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "ee930a24",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "9253c087",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 189
+			},
+			Damage: 3s
+		},
+		count: 10
+	},
+	{
+		uid: "66eb4910",
+		type: "item",
+		item: "avaritia:resource 1 5",
+		count: 6
+	}]
+}

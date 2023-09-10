@@ -1,0 +1,29 @@
+{
+	title: "Механическое начало",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"Эта пыль очень странно пульсирует, может ли она передавать или хранить енергию?"
+	],
+	dependencies: [
+		"3633bb78"
+	],
+	tasks: [{
+		uid: "22aec88b",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "b0e55529",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "3cbba55b",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 15
+	}]
+}

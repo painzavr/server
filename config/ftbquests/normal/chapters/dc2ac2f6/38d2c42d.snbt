@@ -1,0 +1,30 @@
+{
+	title: "Измерение ауры",
+	x: -11.0d,
+	y: 14.0d,
+	text: [
+		"После высвобождения энергии в атмосферу всегда можно будет узнать её количество при помощи даного апарата"
+	],
+	dependencies: [
+		"a4c05a8c"
+	],
+	tasks: [{
+		uid: "a67bd63d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_will_gauge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5a2bd2c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9d8231aa",
+		type: "random",
+		table: 1
+	}]
+}

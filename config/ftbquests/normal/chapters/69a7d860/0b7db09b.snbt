@@ -1,0 +1,50 @@
+{
+	title: "И без угля жечь можно",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		"Обычная каменная печь но в представлении от Thermal Expansion. Просто запитай её єнергией и наслаждайся"
+	],
+	dependencies: [
+		"cee41c00",
+		"a1236cfa",
+		"48fe42a5"
+	],
+	tasks: [{
+		uid: "3e1b9a20",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c7fed0ae",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "29403405",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "eb3a0d92",
+		type: "item",
+		item: "thermalfoundation:material 1 892",
+		count: 35
+	}]
+}

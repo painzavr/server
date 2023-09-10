@@ -1,0 +1,35 @@
+{
+	title: "Больше, быстрее, лучше...",
+	x: 14.98809523809527d,
+	y: -7.273809523809518d,
+	text: [
+		"Этот распостранитель в разы лучше предыдущего уровня так как этот работает почти вдвое быстрее"
+	],
+	dependencies: [
+		"fe29358b",
+		"8f4e4eb4"
+	],
+	tasks: [{
+		uid: "85d43301",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eb041300",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f94dc4ff",
+		type: "item",
+		item: "botania:manaresource 1 7"
+	},
+	{
+		uid: "df2b4b38",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 25
+	}]
+}

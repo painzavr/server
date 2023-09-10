@@ -1,0 +1,29 @@
+{
+	title: "За то не руками II",
+	x: -8.744217687074823d,
+	y: 12.930824829931979d,
+	text: [
+		"Это НАМНОГО лучше чем молотить деревянной рукоятью"
+	],
+	dependencies: [
+		"c41a9255"
+	],
+	tasks: [{
+		uid: "f1fb985e",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "1911b954",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4c46d539",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 5
+	}]
+}

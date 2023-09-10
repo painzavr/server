@@ -1,0 +1,31 @@
+{
+	title: "Абсолютизм не заразен",
+	x: 6.5d,
+	y: 7.0d,
+	text: [
+		"Финальная версия фокусировки энергии в рукавице любого мага, но стоит ли она того и какую силу в себе она таит?"
+	],
+	dependencies: [
+		"6f5aff2c",
+		"34a5c416"
+	],
+	tasks: [{
+		uid: "c5a44af7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "753b8dd8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e76c0f64",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2"
+	}]
+}

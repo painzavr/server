@@ -1,0 +1,28 @@
+{
+	title: "Сохрани энергию",
+	x: -5.791836734693888d,
+	y: 12.418920068027205d,
+	text: [
+		"Возможно их можно объединить в цельную структуру?"
+	],
+	dependencies: [
+		"ed1d97d1"
+	],
+	tasks: [{
+		uid: "aaf7689b",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fce22b2c",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "cb1cce30",
+		type: "item",
+		item: "enderio:block_cap_bank 1 1"
+	}]
+}

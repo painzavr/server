@@ -1,0 +1,46 @@
+{
+	title: "Дробитель миров",
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		"Инструмент совмещает в себе и лопату, и кирку, и меч главное как-то его создать"
+	],
+	dependencies: [
+		"ff28b832"
+	],
+	tasks: [{
+		uid: "a129c81b",
+		type: "item",
+		items: [{
+			id: "thaumcraft:primal_crusher",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				},
+				{
+					lvl: 1s,
+					id: 4s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3ad4490",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b658c3b4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6ce80d94",
+		type: "item",
+		item: "minecraft:golden_apple 1 1",
+		count: 5
+	}]
+}

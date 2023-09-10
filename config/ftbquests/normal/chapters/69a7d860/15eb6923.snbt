@@ -1,0 +1,35 @@
+{
+	title: "Космические технологии",
+	x: 1.5076530612245023d,
+	y: 10.048469387755105d,
+	text: [
+		"При работе в шахте были обнаруженные странные заряженные кристалы кварца. Возможно мы сможем использовать их для своей выгоды ?"
+	],
+	dependencies: [
+		"a060bb22"
+	],
+	tasks: [{
+		uid: "9b30301c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6ce87ad0",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "77529ffb",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		uid: "3d72bd89",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Бездонный хранитель маны",
+	x: 29.17857142857146d,
+	y: -4.285714285714299d,
+	text: [
+		"Пусть крафт и не из дешёвых но уго вместимость поражает воображение"
+	],
+	dependencies: [
+		"1b198c25",
+		"6b75fcf3"
+	],
+	tasks: [{
+		uid: "d00d707f",
+		type: "item",
+		items: [{
+			item: "extrabotany:manabarrel"
+		}]
+	}],
+	rewards: [{
+		uid: "f2e09b30",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bba8e37c",
+		type: "item",
+		item: "botania:manaresource 1 14",
+		count: 15
+	}]
+}

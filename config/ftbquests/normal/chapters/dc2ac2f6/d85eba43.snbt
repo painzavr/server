@@ -1,0 +1,31 @@
+{
+	title: "Иллья POE: Edition",
+	x: 27.250000000000014d,
+	y: -3.690476190476197d,
+	text: [
+		"Посох способен атаковать как ведьма в всем известной игре PoE"
+	],
+	dependencies: [
+		"0e97af83"
+	],
+	tasks: [{
+		uid: "bc9268f2",
+		type: "item",
+		items: [{
+			item: "botania:missilerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b7a6923",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0d85ddb6",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 4
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Достойная сделка",
+	icon: "minecraft:iron_nugget",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"После длительного общения все дошли вывода, что можно не просто существовать в мире и гармонии с крестьянами, а так же торговать с ними"
+	],
+	dependencies: [
+		"715d848d"
+	],
+	tasks: [{
+		uid: "b33adca5",
+		type: "stat",
+		title: "Поторгуйтесь с одиним из крестьян",
+		icon: "minecraft:gold_nugget",
+		stat: "stat.tradedWithVillager",
+		value: 1
+	}],
+	rewards: [{
+		uid: "d8f3c458",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "ebc13d22",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 5
+	}]
+}

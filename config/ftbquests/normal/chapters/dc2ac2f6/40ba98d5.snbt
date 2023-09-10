@@ -1,0 +1,67 @@
+{
+	title: "Камень лучше!",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"Палки дам, камень тоже ДАМ. Пора повысить уровень своих предметов"
+	],
+	dependencies: [
+		"b1db907e"
+	],
+	tasks: [{
+		uid: "d327b38f",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ded6e4e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01d1936b",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b047a922",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "911d9792",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "901559f4",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "3c6df75b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "924eb782",
+		type: "random",
+		table: 0
+	}]
+}

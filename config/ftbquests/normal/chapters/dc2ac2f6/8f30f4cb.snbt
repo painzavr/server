@@ -1,0 +1,29 @@
+{
+	title: "Властелин мёртвых",
+	x: 29.0d,
+	y: 4.0d,
+	text: [
+		"Древнее существо Лич, что властвовал в своём замке, но его час настал пора покнчить с ним на веки"
+	],
+	dependencies: [
+		"c5477bba"
+	],
+	tasks: [{
+		uid: "f8a6b070",
+		type: "kill",
+		title: "Убейте Лича",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2182cd90",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d1d034c5",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Непростой эксперемента",
+	icon: "minecraft:ender_eye",
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Пора наконец соеденить два непростых елементов"
+	],
+	dependencies: [
+		"5bcd9e4b"
+	],
+	tasks: [{
+		uid: "31778cc8",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 12L
+	},
+	{
+		uid: "5ab6ad82",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "2ac18a4f",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 12
+	},
+	{
+		uid: "f5e72591",
+		type: "xp",
+		xp: 25
+	}]
+}
